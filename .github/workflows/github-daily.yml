@@ -1,0 +1,70 @@
+name: GitHub Daily Trending
+
+on:
+  schedule:
+    # UTC 00:00 = 北京时间每天 08:00
+    - cron: "0 0 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-daily
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    name: 抓取热榜并发布报告
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: 安装依赖
+        run: pip install -r requirements.txt
+
+      - name: 抓取 Trending 数据
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/fetch_trending.py
+
+      - name: 渲染 HTML 报告
+        run: python scripts/render_report.py
+
+      - name: 上传 Pages 产物
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: github-daily/
+
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: 推送群机器人
+        env:
+          WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
+          DINGTALK_WEBHOOK: ${{ secrets.DINGTALK_WEBHOOK }}
+          REPORT_URL: ${{ steps.deployment.outputs.page_url }}
+        run: python scripts/notify.py
+
+      - name: 归档数据与报告到仓库
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ github-daily/
+          if git diff --staged --quiet; then
+            echo "无变化，跳过提交"
+          else
+            git commit -m "chore: daily trending $(TZ='Asia/Shanghai' date +%F)"
+            git push
+          fi

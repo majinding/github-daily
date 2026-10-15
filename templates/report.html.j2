@@ -1,0 +1,70 @@
+{% extends "base.html.j2" %}
+{% block title %}GitHub 每日热榜 · {{ report_date }}{% endblock %}
+{% block content %}
+<header>
+  <div class="site-head">
+    <h1>GitHub 每日热榜</h1>
+    <span class="date-badge">{{ report_date }}</span>
+  </div>
+  <p class="head-note">
+    数据窗口：约过去 24 小时（来源 <a href="{{ source_url }}">GitHub Trending · Daily</a>） ·
+    项目描述为仓库英文原文，未翻译 · 生成时间：{{ generated_at }}
+  </p>
+</header>
+
+<section class="stats">
+  <div class="stat"><div class="num">{{ repo_count }}</div><div class="label">上榜项目</div></div>
+  <div class="stat"><div class="num">{{ total_stars_today | thousands }}</div><div class="label">新增 Star 合计</div></div>
+  <div class="stat"><div class="num">{{ lang_stats | length }}</div><div class="label">涉及语言</div></div>
+  <div class="stat"><div class="num">#1</div><div class="label">今日榜首：{{ top_repo_name }}</div></div>
+</section>
+
+{% if lang_stats %}
+<section class="langbar">
+  <div class="bar">
+    {% for lang in lang_stats %}
+    <div class="seg" style="width: {{ lang.pct }}%; background: {{ lang.color }};" title="{{ lang.name }} {{ lang.count }} 个"></div>
+    {% endfor %}
+  </div>
+  <div class="legend">
+    {% for lang in lang_stats %}
+    <span><span class="dot" style="background: {{ lang.color }};"></span>{{ lang.name }} · {{ lang.count }}</span>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<section class="repo-list">
+  {% for r in repos %}
+  <article class="repo{% if r.rank <= 3 %} top{% endif %}">
+    <div class="rank">{{ "%02d" | format(r.rank) }}</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="{{ r.url }}">{{ r.full_name }}</a></div>
+      <p class="desc">{{ r.description or "（仓库未提供描述）" }}</p>
+      <div class="meta">
+        {% if r.language %}<span class="lang"><span class="dot" style="background: {{ r.language_color }};"></span>{{ r.language }}</span>{% endif %}
+        <span class="stars">★ {{ r.stars | thousands }}</span>
+        {% if r.stars_today %}<span class="today">+{{ r.stars_today | thousands }} today</span>{% endif %}
+        {% if r.forks %}<span>⑂ {{ r.forks | thousands }}</span>{% endif %}
+        {% if r.open_issues %}<span>◉ {{ r.open_issues | thousands }} open issues</span>{% endif %}
+        {% if r.license %}<span>{{ r.license }}</span>{% endif %}
+        {% if r.homepage %}<span><a href="{{ r.homepage }}">主页</a></span>{% endif %}
+      </div>
+      {% if r.topics %}
+      <div class="topics">{% for t in r.topics[:6] %}<span>#{{ t }}</span>{% endfor %}</div>
+      {% endif %}
+    </div>
+  </article>
+  {% endfor %}
+</section>
+
+<footer class="site-foot">
+  <div>由 GitHub Actions 每日 08:00（北京时间）自动生成 · 榜单数量以 GitHub Trending 实际返回为准</div>
+  {% if archive %}
+  <div class="archive">往期回顾：
+    {% for item in archive %}<a href="{{ base_path }}/{{ item.href }}">{{ item.date }}</a>{% endfor %}
+    <a href="{{ base_path }}/archive/">全部归档</a>
+  </div>
+  {% endif %}
+</footer>
+{% endblock %}

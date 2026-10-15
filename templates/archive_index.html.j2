@@ -1,0 +1,20 @@
+{% extends "base.html.j2" %}
+{% block title %}归档 · GitHub 每日热榜{% endblock %}
+{% block content %}
+<header>
+  <div class="site-head">
+    <h1>历史归档</h1>
+    <span class="date-badge">{{ archive | length }} 期</span>
+  </div>
+  <p class="head-note">所有每日热榜报告存档 · <a href="../index.html">返回最新一期</a></p>
+</header>
+
+<ul class="page-list">
+  {% for item in archive %}
+  <li>
+    <a href="./{{ item.date }}.html">{{ item.date }}</a>
+    <span class="count">{{ item.count }} 个项目</span>
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}

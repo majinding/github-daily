@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GitHub 每日热榜 · 2026-10-15</title>
+<style>
+:root {
+  --bg: #f6f8fa; --card: #ffffff; --text: #1f2328; --muted: #59636e;
+  --border: #d1d9e0; --accent: #0969da; --star: #9a6700; --today: #cf222e;
+  --chip: #eff2f5; --code: #ddf4ff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117; --card: #161b22; --text: #e6edf3; --muted: #9198a1;
+    --border: #30363d; --accent: #4493f8; --star: #d4a72c; --today: #f85149;
+    --chip: #21262d; --code: #121d2f;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  line-height: 1.6;
+}
+.wrap { max-width: 880px; margin: 0 auto; padding: 28px 18px 60px; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.site-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px 14px; margin-bottom: 6px; }
+.site-head h1 { font-size: 1.5rem; margin: 0; letter-spacing: .5px; }
+.date-badge {
+  background: var(--code); color: var(--accent); border: 1px solid var(--border);
+  border-radius: 999px; padding: 2px 12px; font-size: .85rem; font-weight: 600;
+}
+.head-note { color: var(--muted); font-size: .82rem; margin: 0 0 22px; }
+
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 14px; }
+.stat {
+  background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+  padding: 12px 16px;
+}
+.stat .num { font-size: 1.35rem; font-weight: 700; }
+.stat .label { font-size: .78rem; color: var(--muted); }
+
+.langbar {
+  background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+  padding: 14px 16px; margin-bottom: 26px;
+}
+.langbar .bar { display: flex; height: 10px; border-radius: 6px; overflow: hidden; margin-bottom: 10px; }
+.langbar .seg { height: 100%; }
+.langbar .legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: .78rem; color: var(--muted); }
+.langbar .legend .dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 5px; vertical-align: baseline; }
+
+.repo {
+  display: flex; gap: 16px; background: var(--card); border: 1px solid var(--border);
+  border-radius: 12px; padding: 16px 18px; margin-bottom: 14px;
+}
+.repo:hover { border-color: var(--accent); }
+.rank {
+  font-size: 1.5rem; font-weight: 800; color: var(--muted); min-width: 44px;
+  text-align: center; font-variant-numeric: tabular-nums; padding-top: 2px;
+}
+.repo.top .rank { color: var(--today); }
+.repo-body { flex: 1; min-width: 0; }
+.repo-title { font-size: 1.05rem; font-weight: 700; word-break: break-all; }
+.repo-title a { color: var(--text); }
+.repo-title a:hover { color: var(--accent); }
+.desc { margin: 6px 0 10px; color: var(--muted); font-size: .92rem; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: .82rem; color: var(--muted); align-items: center; }
+.meta .lang .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 5px; }
+.meta .today { color: var(--today); font-weight: 700; }
+.meta .stars { color: var(--star); font-weight: 600; }
+.topics { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 6px; }
+.topics span {
+  background: var(--chip); border-radius: 999px; padding: 1px 10px;
+  font-size: .74rem; color: var(--muted);
+}
+
+.site-foot { margin-top: 34px; padding-top: 18px; border-top: 1px solid var(--border); color: var(--muted); font-size: .82rem; }
+.site-foot .archive { margin-top: 8px; }
+.site-foot .archive a { margin-right: 12px; white-space: nowrap; }
+
+.page-list { list-style: none; margin: 0; padding: 0; }
+.page-list li {
+  background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+  padding: 12px 16px; margin-bottom: 10px; display: flex; justify-content: space-between;
+}
+.page-list li a { font-weight: 600; }
+.page-list li .count { color: var(--muted); font-size: .82rem; }
+</style>
+</head>
+<body>
+<main class="wrap">
+
+<header>
+  <div class="site-head">
+    <h1>GitHub 每日热榜</h1>
+    <span class="date-badge">2026-10-15</span>
+  </div>
+  <p class="head-note">
+    数据窗口：约过去 24 小时（来源 <a href="https://github.com/trending?since=daily">GitHub Trending · Daily</a>） ·
+    项目描述为仓库英文原文，未翻译 · 生成时间：2026-10-15 17:54:00 (UTC+8)
+  </p>
+</header>
+
+<section class="stats">
+  <div class="stat"><div class="num">12</div><div class="label">上榜项目</div></div>
+  <div class="stat"><div class="num">51,827</div><div class="label">新增 Star 合计</div></div>
+  <div class="stat"><div class="num">8</div><div class="label">涉及语言</div></div>
+  <div class="stat"><div class="num">#1</div><div class="label">今日榜首：morluto/rea</div></div>
+</section>
+
+
+<section class="langbar">
+  <div class="bar">
+    
+    <div class="seg" style="width: 33.3%; background: #3572A5;" title="Python 4 个"></div>
+    
+    <div class="seg" style="width: 16.7%; background: #3178c6;" title="TypeScript 2 个"></div>
+    
+    <div class="seg" style="width: 8.3%; background: #178600;" title="C# 1 个"></div>
+    
+    <div class="seg" style="width: 8.3%; background: #00ADD8;" title="Go 1 个"></div>
+    
+    <div class="seg" style="width: 8.3%; background: #b07219;" title="Java 1 个"></div>
+    
+    <div class="seg" style="width: 8.3%; background: #dea584;" title="Rust 1 个"></div>
+    
+    <div class="seg" style="width: 8.3%; background: #89e051;" title="Shell 1 个"></div>
+    
+    <div class="seg" style="width: 8.3%; background: #F05138;" title="Swift 1 个"></div>
+    
+  </div>
+  <div class="legend">
+    
+    <span><span class="dot" style="background: #3572A5;"></span>Python · 4</span>
+    
+    <span><span class="dot" style="background: #3178c6;"></span>TypeScript · 2</span>
+    
+    <span><span class="dot" style="background: #178600;"></span>C# · 1</span>
+    
+    <span><span class="dot" style="background: #00ADD8;"></span>Go · 1</span>
+    
+    <span><span class="dot" style="background: #b07219;"></span>Java · 1</span>
+    
+    <span><span class="dot" style="background: #dea584;"></span>Rust · 1</span>
+    
+    <span><span class="dot" style="background: #89e051;"></span>Shell · 1</span>
+    
+    <span><span class="dot" style="background: #F05138;"></span>Swift · 1</span>
+    
+  </div>
+</section>
+
+
+<section class="repo-list">
+  
+  <article class="repo top">
+    <div class="rank">01</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/morluto/rea">morluto/rea</a></div>
+      <p class="desc">Reverse engineer anything with agents, from app behavior down to native binaries.</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #3178c6;"></span>TypeScript</span>
+        <span class="stars">★ 255,711</span>
+        <span class="today">+41,034 today</span>
+        <span>⑂ 64,247</span>
+        <span>◉ 924 open issues</span>
+        <span>MIT</span>
+        <span><a href="https://rea.tools">主页</a></span>
+      </div>
+      
+      <div class="topics"><span>#agent-skills</span><span>#ai-agents</span><span>#binary-analysis</span><span>#claude-code</span><span>#cli</span><span>#codex</span></div>
+      
+    </div>
+  </article>
+  
+  <article class="repo top">
+    <div class="rank">02</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/debpalash/VoiceStudio">debpalash/VoiceStudio</a></div>
+      <p class="desc">VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #3572A5;"></span>Python</span>
+        <span class="stars">★ 67,629</span>
+        <span class="today">+3,538 today</span>
+        <span>⑂ 7,415</span>
+        <span>◉ 205 open issues</span>
+        <span>AGPL-3.0</span>
+        <span><a href="https://voicestudio.sh">主页</a></span>
+      </div>
+      
+      <div class="topics"><span>#ai</span><span>#audiobook</span><span>#cuda</span><span>#dubbing</span><span>#elevenlabs-alternative</span><span>#huggingface</span></div>
+      
+    </div>
+  </article>
+  
+  <article class="repo top">
+    <div class="rank">03</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/mksglu/context-mode">mksglu/context-mode</a></div>
+      <p class="desc">Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #3178c6;"></span>TypeScript</span>
+        <span class="stars">★ 29,516</span>
+        <span class="today">+947 today</span>
+        <span>⑂ 2,062</span>
+        <span>◉ 359 open issues</span>
+        
+        <span><a href="https://context-mode.com">主页</a></span>
+      </div>
+      
+      <div class="topics"><span>#antigravity</span><span>#claude</span><span>#claude-code</span><span>#claude-code-hooks</span><span>#claude-code-plugins</span><span>#claude-code-skill</span></div>
+      
+    </div>
+  </article>
+  
+  <article class="repo">
+    <div class="rank">04</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/nvm-sh/nvm">nvm-sh/nvm</a></div>
+      <p class="desc">Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #89e051;"></span>Shell</span>
+        <span class="stars">★ 95,534</span>
+        <span class="today">+52 today</span>
+        <span>⑂ 10,528</span>
+        <span>◉ 383 open issues</span>
+        <span>MIT</span>
+        
+      </div>
+      
+      <div class="topics"><span>#bash</span><span>#install</span><span>#lts</span><span>#node</span><span>#node-js</span><span>#nodejs</span></div>
+      
+    </div>
+  </article>
+  
+  <article class="repo">
+    <div class="rank">05</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/K-Dense-AI/scientific-agent-skills">K-Dense-AI/scientific-agent-skills</a></div>
+      <p class="desc">Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #3572A5;"></span>Python</span>
+        <span class="stars">★ 49,847</span>
+        <span class="today">+163 today</span>
+        <span>⑂ 4,449</span>
+        <span>◉ 32 open issues</span>
+        <span>MIT</span>
+        <span><a href="https://arxiv.org/abs/2609.00065">主页</a></span>
+      </div>
+      
+      <div class="topics"><span>#agent-skills</span><span>#ai-scientist</span><span>#bioinformatics</span><span>#chemoinformatics</span><span>#claude</span><span>#claude-skills</span></div>
+      
+    </div>
+  </article>
+  
+  <article class="repo">
+    <div class="rank">06</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/HKUDS/CLI-Anything">HKUDS/CLI-Anything</a></div>
+      <p class="desc">"CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #3572A5;"></span>Python</span>
+        <span class="stars">★ 52,865</span>
+        <span class="today">+103 today</span>
+        <span>⑂ 4,792</span>
+        <span>◉ 169 open issues</span>
+        <span>Apache-2.0</span>
+        <span><a href="https://clianything.cc/">主页</a></span>
+      </div>
+      
+    </div>
+  </article>
+  
+  <article class="repo">
+    <div class="rank">07</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/ifixai-ai/iFixAi">ifixai-ai/iFixAi</a></div>
+      <p class="desc">Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #3572A5;"></span>Python</span>
+        <span class="stars">★ 28,043</span>
+        <span class="today">+2,109 today</span>
+        <span>⑂ 1,523</span>
+        <span>◉ 8 open issues</span>
+        <span>Apache-2.0</span>
+        <span><a href="https://www.ifixai.ai">主页</a></span>
+      </div>
+      
+      <div class="topics"><span>#agent-evaluation</span><span>#ai</span><span>#ai-alignment</span><span>#ai-evaluation</span><span>#ai-governance</span><span>#ai-safety</span></div>
+      
+    </div>
+  </article>
+  
+  <article class="repo">
+    <div class="rank">08</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/vxcontrol/pentagi">vxcontrol/pentagi</a></div>
+      <p class="desc">Fully autonomous AI Agents system capable of performing complex penetration testing tasks</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #00ADD8;"></span>Go</span>
+        <span class="stars">★ 30,151</span>
+        <span class="today">+1,025 today</span>
+        <span>⑂ 4,505</span>
+        <span>◉ 30 open issues</span>
+        <span>MIT</span>
+        <span><a href="https://pentagi.com">主页</a></span>
+      </div>
+      
+      <div class="topics"><span>#ai-agents</span><span>#ai-security-tool</span><span>#anthropic</span><span>#autonomous-agents</span><span>#golang</span><span>#gpt</span></div>
+      
+    </div>
+  </article>
+  
+  <article class="repo">
+    <div class="rank">09</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/rust-lang/rust">rust-lang/rust</a></div>
+      <p class="desc">Empowering everyone to build reliable and efficient software.</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #dea584;"></span>Rust</span>
+        <span class="stars">★ 120,242</span>
+        <span class="today">+207 today</span>
+        <span>⑂ 18,713</span>
+        <span>◉ 12,567 open issues</span>
+        <span>Apache-2.0</span>
+        <span><a href="https://www.rust-lang.org">主页</a></span>
+      </div>
+      
+      <div class="topics"><span>#compiler</span><span>#language</span><span>#rust</span></div>
+      
+    </div>
+  </article>
+  
+  <article class="repo">
+    <div class="rank">10</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/xtool-org/xtool">xtool-org/xtool</a></div>
+      <p class="desc">Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #F05138;"></span>Swift</span>
+        <span class="stars">★ 11,330</span>
+        <span class="today">+1,502 today</span>
+        <span>⑂ 525</span>
+        <span>◉ 106 open issues</span>
+        <span>MIT</span>
+        <span><a href="https://xtool.sh">主页</a></span>
+      </div>
+      
+      <div class="topics"><span>#ios</span><span>#linux</span><span>#swift</span><span>#swift-package-manager</span><span>#windows</span><span>#xcode</span></div>
+      
+    </div>
+  </article>
+  
+  <article class="repo">
+    <div class="rank">11</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/ntdevlabs/tiny11builder">ntdevlabs/tiny11builder</a></div>
+      <p class="desc">WinUI app for building smaller, customized Windows 11 images.</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #178600;"></span>C#</span>
+        <span class="stars">★ 20,424</span>
+        <span class="today">+139 today</span>
+        <span>⑂ 1,567</span>
+        <span>◉ 39 open issues</span>
+        
+        
+      </div>
+      
+    </div>
+  </article>
+  
+  <article class="repo">
+    <div class="rank">12</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/NationalSecurityAgency/ghidra">NationalSecurityAgency/ghidra</a></div>
+      <p class="desc">Ghidra is a software reverse engineering (SRE) framework</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #b07219;"></span>Java</span>
+        <span class="stars">★ 88,031</span>
+        <span class="today">+1,008 today</span>
+        <span>⑂ 9,824</span>
+        <span>◉ 2,115 open issues</span>
+        <span>Apache-2.0</span>
+        
+      </div>
+      
+      <div class="topics"><span>#disassembler</span><span>#reverse-engineering</span><span>#software-analysis</span></div>
+      
+    </div>
+  </article>
+  
+</section>
+
+<footer class="site-foot">
+  <div>由 GitHub Actions 每日 08:00（北京时间）自动生成 · 榜单数量以 GitHub Trending 实际返回为准</div>
+  
+</footer>
+
+</main>
+</body>
+</html>
