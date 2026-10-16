@@ -1,6 +1,6 @@
 # GitHub 每日热榜
 
-每天早上 8:00（北京时间）自动抓取 [GitHub Trending](https://github.com/trending?since=daily) 每日热榜，生成中文界面的 HTML 报告并部署到 GitHub Pages，同时推送到企业微信 / 钉钉群机器人。
+每天早上 8:10（北京时间）自动抓取 [GitHub Trending](https://github.com/trending?since=daily) 每日热榜，生成中文界面的 HTML 报告并部署到 GitHub Pages，同时推送到企业微信 / 钉钉群机器人。
 
 **报告地址：<https://majinding.github.io/github-daily/>**
 
@@ -14,7 +14,7 @@
 ## 目录结构
 
 ```
-.github/workflows/github-daily.yml   定时工作流（UTC 00:00 = 北京 08:00，支持手动触发）
+.github/workflows/github-daily.yml   定时工作流（UTC 00:10 = 北京 08:10，支持手动触发）
 scripts/fetch_trending.py            抓取 Trending + GitHub API 补详情
 scripts/render_report.py             渲染 HTML（今日页 / 归档页 / 归档索引）
 scripts/notify.py                    企微 / 钉钉 Webhook 推送
