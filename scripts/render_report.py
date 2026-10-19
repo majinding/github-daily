@@ -55,19 +55,32 @@ def build_lang_stats(repos: list[dict], top_n: int = 8) -> list[dict]:
 
 
 def load_archive_list() -> list[dict]:
-    """扫描归档目录与数据文件，生成往期列表（最新在前）。"""
-    counts: dict[str, int] = {}
+    """扫描归档目录与数据文件，生成往期列表（最新在前），含每期榜首。"""
+    meta: dict[str, dict] = {}
     for p in DATA_DIR.glob("20*.json"):
         if re.fullmatch(r"\d{4}-\d{2}-\d{2}\.json", p.name):
             try:
-                counts[p.stem] = json.loads(p.read_text(encoding="utf-8")).get("repo_count", 0)
+                d = json.loads(p.read_text(encoding="utf-8"))
+                repos = d.get("repos", [])
+                meta[p.stem] = {
+                    "count": d.get("repo_count", len(repos)),
+                    "top_repo": repos[0]["full_name"] if repos else "",
+                }
             except Exception:
                 pass
     archive = []
     if ARCHIVE_DIR.is_dir():
         for p in ARCHIVE_DIR.glob("20*.html"):
             if re.fullmatch(r"\d{4}-\d{2}-\d{2}\.html", p.name):
-                archive.append({"date": p.stem, "href": f"archive/{p.name}", "count": counts.get(p.stem, 0)})
+                m = meta.get(p.stem, {})
+                archive.append(
+                    {
+                        "date": p.stem,
+                        "href": f"archive/{p.name}",
+                        "count": m.get("count", 0),
+                        "top_repo": m.get("top_repo", ""),
+                    }
+                )
     return sorted(archive, key=lambda x: x["date"], reverse=True)
 
 

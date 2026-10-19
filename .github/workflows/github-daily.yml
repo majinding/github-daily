@@ -2,8 +2,8 @@ name: GitHub Daily Trending
 
 on:
   schedule:
-    # UTC 00:10 = 北京时间每天 08:10（避开 UTC 整点调度高峰，降低延迟概率）
-    - cron: "10 0 * * *"
+    # UTC 17:00 = 北京时间每天 01:00（凌晨；避开 UTC 整点调度高峰，降低延迟概率）
+    - cron: "0 17 * * *"
   workflow_dispatch: {}
 
 permissions:

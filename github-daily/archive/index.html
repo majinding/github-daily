@@ -82,13 +82,38 @@ a:hover { text-decoration: underline; }
 .site-foot .archive { margin-top: 8px; }
 .site-foot .archive a { margin-right: 12px; white-space: nowrap; }
 
+.archive-block { margin-top: 38px; }
+.archive-block .arch-head {
+  display: flex; justify-content: space-between; align-items: baseline;
+  border-bottom: 1px solid var(--border); padding-bottom: 8px; margin-bottom: 14px;
+}
+.archive-block .arch-head h2 { font-size: 1.15rem; margin: 0; }
+.archive-block .arch-all { font-size: .85rem; white-space: nowrap; }
+.arch-list { list-style: none; margin: 0; padding: 0; }
+.arch-list li {
+  display: grid; grid-template-columns: 116px 1fr auto; gap: 8px 16px; align-items: center;
+  background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+  padding: 11px 16px; margin-bottom: 10px;
+}
+.arch-list li:hover { border-color: var(--accent); }
+.arch-list .arch-date { font-weight: 700; font-variant-numeric: tabular-nums; }
+.arch-list .arch-top { color: var(--muted); font-size: .85rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.arch-list .arch-count { color: var(--muted); font-size: .82rem; white-space: nowrap; }
+
 .page-list { list-style: none; margin: 0; padding: 0; }
 .page-list li {
+  display: grid; grid-template-columns: 116px 1fr auto; gap: 8px 16px; align-items: center;
   background: var(--card); border: 1px solid var(--border); border-radius: 10px;
-  padding: 12px 16px; margin-bottom: 10px; display: flex; justify-content: space-between;
+  padding: 11px 16px; margin-bottom: 10px;
 }
+.page-list li:hover { border-color: var(--accent); }
 .page-list li a { font-weight: 600; }
-.page-list li .count { color: var(--muted); font-size: .82rem; }
+.page-list li .top { color: var(--muted); font-size: .85rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.page-list li .count { color: var(--muted); font-size: .82rem; white-space: nowrap; }
+@media (max-width: 560px) {
+  .arch-list li, .page-list li { grid-template-columns: 1fr auto; }
+  .arch-list .arch-top, .page-list li .top { grid-column: 1 / -1; order: 3; }
+}
 </style>
 </head>
 <body>
@@ -106,21 +131,25 @@ a:hover { text-decoration: underline; }
   
   <li>
     <a href="./2026-10-18.html">2026-10-18</a>
+    <span class="top">榜首 anthropics/claude-plugins-official</span>
     <span class="count">13 个项目</span>
   </li>
   
   <li>
     <a href="./2026-10-17.html">2026-10-17</a>
+    <span class="top">榜首 anthropics/claude-plugins-official</span>
     <span class="count">13 个项目</span>
   </li>
   
   <li>
     <a href="./2026-10-16.html">2026-10-16</a>
+    <span class="top">榜首 morluto/rea</span>
     <span class="count">12 个项目</span>
   </li>
   
   <li>
     <a href="./2026-10-15.html">2026-10-15</a>
+    <span class="top">榜首 morluto/rea</span>
     <span class="count">12 个项目</span>
   </li>
   

@@ -13,6 +13,7 @@
   {% for item in archive %}
   <li>
     <a href="./{{ item.date }}.html">{{ item.date }}</a>
+    {% if item.top_repo %}<span class="top">榜首 {{ item.top_repo }}</span>{% endif %}
     <span class="count">{{ item.count }} 个项目</span>
   </li>
   {% endfor %}

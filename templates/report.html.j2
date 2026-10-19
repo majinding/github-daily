@@ -58,10 +58,30 @@
   {% endfor %}
 </section>
 
-<footer class="site-foot">
-  <div>由 GitHub Actions 每日 08:00（北京时间）自动生成 · 榜单数量以 GitHub Trending 实际返回为准</div>
+<section class="archive-block">
+  <div class="arch-head">
+    <h2>往期回顾</h2>
+    <a class="arch-all" href="{{ base_path }}/archive/">查看全部归档 →</a>
+  </div>
   {% if archive %}
-  <div class="archive">往期回顾：
+  <ul class="arch-list">
+    {% for item in archive[:10] %}
+    <li>
+      <a class="arch-date" href="{{ base_path }}/{{ item.href }}">{{ item.date }}</a>
+      {% if item.top_repo %}<span class="arch-top">榜首 {{ item.top_repo }}</span>{% endif %}
+      <span class="arch-count">{{ item.count }} 个项目</span>
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p class="head-note">暂无往期数据，明天起就会出现。</p>
+  {% endif %}
+</section>
+
+<footer class="site-foot">
+  <div>由 GitHub Actions 每日 01:00（北京时间）自动生成 · 榜单数量以 GitHub Trending 实际返回为准</div>
+  {% if archive %}
+  <div class="archive">更多往期：
     {% for item in archive %}<a href="{{ base_path }}/{{ item.href }}">{{ item.date }}</a>{% endfor %}
     <a href="{{ base_path }}/archive/">全部归档</a>
   </div>
