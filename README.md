@@ -7,7 +7,7 @@
 ## 功能
 
 - 抓取 Trending 每日热榜（有几个报几个，不强行凑数）
-- 每个项目包含：排名、英文原文描述（未翻译；描述为空时用 README 首段兜底）、总 Star、昨日新增 Star、主语言、Fork/Issue 数、License、Topic 标签
+- 每个项目包含：排名、英文原文描述 + Agnes 3.0 Flash 自动中文翻译（描述为空时用 README 首段兜底）、总 Star、昨日新增 Star、主语言、Fork/Issue 数、License、Topic 标签
 - HTML 报告含当日统计概览、语言分布、往期归档，支持深色模式，手机友好
 - 每日原始数据存档于 `data/YYYY-MM-DD.json`，方便二次分析
 
@@ -44,6 +44,16 @@ REPORT_URL=http://localhost/python scripts/notify.py   # 可选
 
 机器人消息为 Top 10 摘要 + 完整报告链接。
 
+## 配置中文翻译（可选）
+
+报告会调用 [Agnes 3.0 Flash](https://agnes-ai.com/en/docs/agnes-30-flash) 把每个项目的英文描述翻译成中文，显示在英文原文下方。在 **Settings → Secrets and variables → Actions** 添加：
+
+| Secret 名 | 说明 |
+|---|---|
+| `AGNES_API_KEY` | Agnes AI 的 API Key（Bearer 鉴权）。不配置则跳过翻译，报告仅显示英文原文 |
+
+> Key 只存于加密 Secret，运行时注入环境变量，仓库访客与 PR 均看不到明文。
+
 ## 手动触发
 
 Actions 页 → **GitHub Daily Trending** → **Run workflow**。
@@ -52,4 +62,4 @@ Actions 页 → **GitHub Daily Trending** → **Run workflow**。
 
 - GitHub Actions 定时任务在流量高峰可能延迟几分钟到十几分钟执行
 - 榜单项目数量以 GitHub Trending 实际返回为准（通常 25 个左右）
-- 项目描述保留仓库英文原文，未做翻译
+- 项目描述保留仓库英文原文，并由 Agnes 3.0 Flash 模型自动翻译为中文（译文附在原文下方）

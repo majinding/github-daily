@@ -8,7 +8,7 @@
   </div>
   <p class="head-note">
     数据窗口：约过去 24 小时（来源 <a href="{{ source_url }}">GitHub Trending · Daily</a>） ·
-    项目描述为仓库英文原文，未翻译 · 生成时间：{{ generated_at }}
+    项目描述保留英文原文，附 Agnes 3.0 Flash 自动中文翻译 · 生成时间：{{ generated_at }}
   </p>
 </header>
 
@@ -41,6 +41,7 @@
     <div class="repo-body">
       <div class="repo-title"><a href="{{ r.url }}">{{ r.full_name }}</a></div>
       <p class="desc">{{ r.description or "（仓库未提供描述）" }}</p>
+      {% if r.description_zh %}<p class="desc-zh">译：{{ r.description_zh }}</p>{% endif %}
       <div class="meta">
         {% if r.language %}<span class="lang"><span class="dot" style="background: {{ r.language_color }};"></span>{{ r.language }}</span>{% endif %}
         <span class="stars">★ {{ r.stars | thousands }}</span>

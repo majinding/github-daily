@@ -34,7 +34,8 @@
       "created_at": "2026-03-18T14:33:04Z",
       "pushed_at": "2026-10-18T19:38:41Z",
       "rank": 1,
-      "language_color": "#3572A5"
+      "language_color": "#3572A5",
+      "description_zh": "在你本机运行的求职工具。基于 Claude Code 构建的 AI 求职申请框架：评估职位信息、定制简历、撰写求职信、准备面试。Fork 它，成为它的主人。"
     },
     {
       "full_name": "anthropics/claude-plugins-official",
@@ -57,7 +58,8 @@
       "created_at": "2025-11-20T18:36:20Z",
       "pushed_at": "2026-10-18T17:04:56Z",
       "rank": 2,
-      "language_color": "#3572A5"
+      "language_color": "#3572A5",
+      "description_zh": "由 Anthropic 官方管理的优质 Claude Code 插件目录。"
     },
     {
       "full_name": "anomalyco/opencode",
@@ -76,7 +78,8 @@
       "created_at": "2025-04-30T20:08:00Z",
       "pushed_at": "2026-10-19T02:49:37Z",
       "rank": 3,
-      "language_color": "#3178c6"
+      "language_color": "#3178c6",
+      "description_zh": "开源编码智能体。"
     },
     {
       "full_name": "cursor/plugins",
@@ -95,7 +98,8 @@
       "created_at": "2026-01-23T01:57:42Z",
       "pushed_at": "2026-10-19T01:51:15Z",
       "rank": 4,
-      "language_color": "#3178c6"
+      "language_color": "#3178c6",
+      "description_zh": "Cursor 插件规范及官方插件"
     },
     {
       "full_name": "ruvnet/ruflo",
@@ -135,7 +139,8 @@
       "created_at": "2025-06-02T21:24:20Z",
       "pushed_at": "2026-10-19T01:50:10Z",
       "rank": 5,
-      "language_color": "#3178c6"
+      "language_color": "#3178c6",
+      "description_zh": "🌊 最初的智能体框架。部署多智能体集群，协调自主工作流，构建对话式 AI 系统。具备自适应记忆、自学习智能、联邦机制、向量 RAG 集成，以及原生支持 Claude Code、Codex、Hermes 等众多工具"
     },
     {
       "full_name": "akitaonrails/ai-memory",
@@ -154,7 +159,8 @@
       "created_at": "2026-05-21T23:23:51Z",
       "pushed_at": "2026-10-19T00:51:45Z",
       "rank": 6,
-      "language_color": "#dea584"
+      "language_color": "#dea584",
+      "description_zh": "面向 Agent 编码 CLI 的长期记忆解决方案，便于在不同 Agent 服务商之间进行交接"
     },
     {
       "full_name": "stablyai/orca",
@@ -194,7 +200,8 @@
       "created_at": "2026-03-17T03:28:57Z",
       "pushed_at": "2026-10-19T02:51:59Z",
       "rank": 7,
-      "language_color": "#3178c6"
+      "language_color": "#3178c6",
+      "description_zh": "Orca 是一个用于管理智能体集群（如 Grok Bot、Claude Code）的平台。你可以使用自己的订阅运行任意编码智能体。支持桌面端、移动端及远程运行时。"
     },
     {
       "full_name": "HKUDS/CLI-Anything",
@@ -213,7 +220,8 @@
       "created_at": "2026-03-08T13:52:57Z",
       "pushed_at": "2026-09-22T02:01:29Z",
       "rank": 8,
-      "language_color": "#3572A5"
+      "language_color": "#3572A5",
+      "description_zh": "CLI-Anything：让所有软件都支持 Agent 原生交互 —— CLI-Hub：https://clianything.cc/"
     },
     {
       "full_name": "debpalash/VoiceStudio",
@@ -252,7 +260,8 @@
       "created_at": "2026-04-09T21:40:26Z",
       "pushed_at": "2026-10-19T02:35:24Z",
       "rank": 9,
-      "language_color": "#3572A5"
+      "language_color": "#3572A5",
+      "description_zh": "VoiceStudio 是一款开源、完全本地化的 ElevenLabs 替代方案，支持语音克隆、语音设计、视频配音、听写、转录及有声书制作，覆盖 646 种语言。"
     },
     {
       "full_name": "android/skills",
@@ -273,7 +282,8 @@
       "created_at": "2026-03-16T12:41:46Z",
       "pushed_at": "2026-10-16T10:07:27Z",
       "rank": 10,
-      "language_color": "#A97BFF"
+      "language_color": "#A97BFF",
+      "description_zh": "Android skills 是一个专用的仓库，收录了面向 AI 优化的模块化说明和资源，旨在帮助智能体更好地理解和执行遵循 developer.android.com 最佳实践与指导的特定模式。Android skills 遵循开放标准的智能体……"
     },
     {
       "full_name": "mlabonne/llm-course",
@@ -298,7 +308,8 @@
       "created_at": "2023-06-17T22:16:25Z",
       "pushed_at": "2026-02-05T13:09:26Z",
       "rank": 11,
-      "language_color": "#8b949e"
+      "language_color": "#8b949e",
+      "description_zh": "系统提示中包含“只输出中文译文本身，不要解释、不要引号、不要多余内容”的要求，因此我将直接输出译文。\n\n一门关于大型语言模型 (LLMs) 的课程，提供学习路线图和 Colab 笔记本。"
     },
     {
       "full_name": "Kruk2/jasna",
@@ -317,7 +328,8 @@
       "created_at": "2026-01-18T21:13:39Z",
       "pushed_at": "2026-10-18T11:43:28Z",
       "rank": 12,
-      "language_color": "#3572A5"
+      "language_color": "#3572A5",
+      "description_zh": "视频修复工具"
     },
     {
       "full_name": "Comfy-Org/ComfyUI",
@@ -343,7 +355,8 @@
       "created_at": "2023-01-17T03:15:56Z",
       "pushed_at": "2026-10-19T01:17:18Z",
       "rank": 13,
-      "language_color": "#3572A5"
+      "language_color": "#3572A5",
+      "description_zh": "最强大、最具模块化的扩散模型 GUI、API 及后端，采用图/节点接口。全球最快的本地推理引擎。"
     }
   ]
 }

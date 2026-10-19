@@ -38,6 +38,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/fetch_trending.py
 
+      - name: 翻译项目描述为中文
+        env:
+          AGNES_API_KEY: ${{ secrets.AGNES_API_KEY }}
+        run: python scripts/translate.py
+
       - name: 渲染 HTML 报告
         run: python scripts/render_report.py
 
