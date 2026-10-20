@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GitHub 每日热榜 · 2026-10-21</title>
+<style>
+:root {
+  --bg: #f6f8fa; --card: #ffffff; --text: #1f2328; --muted: #59636e;
+  --border: #d1d9e0; --accent: #0969da; --star: #9a6700; --today: #cf222e;
+  --chip: #eff2f5; --code: #ddf4ff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117; --card: #161b22; --text: #e6edf3; --muted: #9198a1;
+    --border: #30363d; --accent: #4493f8; --star: #d4a72c; --today: #f85149;
+    --chip: #21262d; --code: #121d2f;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  line-height: 1.6;
+}
+.wrap { max-width: 880px; margin: 0 auto; padding: 28px 18px 60px; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.site-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px 14px; margin-bottom: 6px; }
+.site-head h1 { font-size: 1.5rem; margin: 0; letter-spacing: .5px; }
+.date-badge {
+  background: var(--code); color: var(--accent); border: 1px solid var(--border);
+  border-radius: 999px; padding: 2px 12px; font-size: .85rem; font-weight: 600;
+}
+.head-note { color: var(--muted); font-size: .82rem; margin: 0 0 22px; }
+
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 14px; }
+.stat {
+  background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+  padding: 12px 16px;
+}
+.stat .num { font-size: 1.35rem; font-weight: 700; }
+.stat .label { font-size: .78rem; color: var(--muted); }
+
+.langbar {
+  background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+  padding: 14px 16px; margin-bottom: 26px;
+}
+.langbar .bar { display: flex; height: 10px; border-radius: 6px; overflow: hidden; margin-bottom: 10px; }
+.langbar .seg { height: 100%; }
+.langbar .legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: .78rem; color: var(--muted); }
+.langbar .legend .dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 5px; vertical-align: baseline; }
+
+.repo {
+  display: flex; gap: 16px; background: var(--card); border: 1px solid var(--border);
+  border-radius: 12px; padding: 16px 18px; margin-bottom: 14px;
+}
+.repo:hover { border-color: var(--accent); }
+.rank {
+  font-size: 1.5rem; font-weight: 800; color: var(--muted); min-width: 44px;
+  text-align: center; font-variant-numeric: tabular-nums; padding-top: 2px;
+}
+.repo.top .rank { color: var(--today); }
+.repo-body { flex: 1; min-width: 0; }
+.repo-title { font-size: 1.05rem; font-weight: 700; word-break: break-all; }
+.repo-title a { color: var(--text); }
+.repo-title a:hover { color: var(--accent); }
+.desc { margin: 6px 0 4px; color: var(--muted); font-size: .92rem; }
+.desc-zh { margin: 0 0 10px; color: var(--text); font-size: .92rem; border-left: 3px solid var(--accent); padding-left: 10px; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: .82rem; color: var(--muted); align-items: center; }
+.meta .lang .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 5px; }
+.meta .today { color: var(--today); font-weight: 700; }
+.meta .stars { color: var(--star); font-weight: 600; }
+.topics { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 6px; }
+.topics span {
+  background: var(--chip); border-radius: 999px; padding: 1px 10px;
+  font-size: .74rem; color: var(--muted);
+}
+
+.site-foot { margin-top: 34px; padding-top: 18px; border-top: 1px solid var(--border); color: var(--muted); font-size: .82rem; }
+.site-foot .archive { margin-top: 8px; }
+.site-foot .archive a { margin-right: 12px; white-space: nowrap; }
+
+.archive-block { margin-top: 38px; }
+.archive-block .arch-head {
+  display: flex; justify-content: space-between; align-items: baseline;
+  border-bottom: 1px solid var(--border); padding-bottom: 8px; margin-bottom: 14px;
+}
+.archive-block .arch-head h2 { font-size: 1.15rem; margin: 0; }
+.archive-block .arch-all { font-size: .85rem; white-space: nowrap; }
+.arch-list { list-style: none; margin: 0; padding: 0; }
+.arch-list li {
+  display: grid; grid-template-columns: 116px 1fr auto; gap: 8px 16px; align-items: center;
+  background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+  padding: 11px 16px; margin-bottom: 10px;
+}
+.arch-list li:hover { border-color: var(--accent); }
+.arch-list .arch-date { font-weight: 700; font-variant-numeric: tabular-nums; }
+.arch-list .arch-top { color: var(--muted); font-size: .85rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.arch-list .arch-count { color: var(--muted); font-size: .82rem; white-space: nowrap; }
+
+.page-list { list-style: none; margin: 0; padding: 0; }
+.page-list li {
+  display: grid; grid-template-columns: 116px 1fr auto; gap: 8px 16px; align-items: center;
+  background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+  padding: 11px 16px; margin-bottom: 10px;
+}
+.page-list li:hover { border-color: var(--accent); }
+.page-list li a { font-weight: 600; }
+.page-list li .top { color: var(--muted); font-size: .85rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.page-list li .count { color: var(--muted); font-size: .82rem; white-space: nowrap; }
+@media (max-width: 560px) {
+  .arch-list li, .page-list li { grid-template-columns: 1fr auto; }
+  .arch-list .arch-top, .page-list li .top { grid-column: 1 / -1; order: 3; }
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+
+<header>
+  <div class="site-head">
+    <h1>GitHub 每日热榜</h1>
+    <span class="date-badge">2026-10-21</span>
+  </div>
+  <p class="head-note">
+    数据窗口：约过去 24 小时（来源 <a href="https://github.com/trending?since=daily">GitHub Trending · Daily</a>） ·
+    项目描述保留英文原文，附 Agnes 3.0 Flash 自动中文翻译 · 生成时间：2026-10-21 04:14:58 (UTC+8)
+  </p>
+</header>
+
+<section class="stats">
+  <div class="stat"><div class="num">13</div><div class="label">上榜项目</div></div>
+  <div class="stat"><div class="num">14,795</div><div class="label">新增 Star 合计</div></div>
+  <div class="stat"><div class="num">4</div><div class="label">涉及语言</div></div>
+  <div class="stat"><div class="num">#1</div><div class="label">今日榜首：MadsLorentzen/ai-job-search</div></div>
+</section>
+
+
+<section class="langbar">
+  <div class="bar">
+    
+    <div class="seg" style="width: 53.8%; background: #3572A5;" title="Python 7 个"></div>
+    
+    <div class="seg" style="width: 23.1%; background: #3178c6;" title="TypeScript 3 个"></div>
+    
+    <div class="seg" style="width: 15.4%; background: #f1e05a;" title="JavaScript 2 个"></div>
+    
+    <div class="seg" style="width: 7.7%; background: #89e051;" title="Shell 1 个"></div>
+    
+  </div>
+  <div class="legend">
+    
+    <span><span class="dot" style="background: #3572A5;"></span>Python · 7</span>
+    
+    <span><span class="dot" style="background: #3178c6;"></span>TypeScript · 3</span>
+    
+    <span><span class="dot" style="background: #f1e05a;"></span>JavaScript · 2</span>
+    
+    <span><span class="dot" style="background: #89e051;"></span>Shell · 1</span>
+    
+  </div>
+</section>
+
+
+<section class="repo-list">
+  
+  <article class="repo top">
+    <div class="rank">01</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/MadsLorentzen/ai-job-search">MadsLorentzen/ai-job-search</a></div>
+      <p class="desc">The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.</p>
+      <p class="desc-zh">译：在你机器上运行的求职工具。基于 Claude Code 构建的 AI 求职申请框架：评估职位、定制简历、撰写求职信、准备面试。Fork 它，掌控它。</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #3572A5;"></span>Python</span>
+        <span class="stars">★ 60,170</span>
+        <span class="today">+3,890 today</span>
+        <span>⑂ 18,810</span>
+        <span>◉ 30 open issues</span>
+        <span>MIT</span>
+        
+      </div>
+      
+      <div class="topics"><span>#ai</span><span>#ai-agents</span><span>#career</span><span>#claude-code</span><span>#cover-letter</span><span>#cv</span></div>
+      
+    </div>
+  </article>
+  
+  <article class="repo top">
+    <div class="rank">02</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/cloudflare/security-audit-skill">cloudflare/security-audit-skill</a></div>
+      <p class="desc">A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings</p>
+      <p class="desc-zh">译：用于多阶段安全审计的编码智能体技能，具备独立验证且机器可读的审计结果</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #f1e05a;"></span>JavaScript</span>
+        <span class="stars">★ 33,839</span>
+        <span class="today">+1,680 today</span>
+        <span>⑂ 2,118</span>
+        <span>◉ 72 open issues</span>
+        <span>MIT</span>
+        
+      </div>
+      
+    </div>
+  </article>
+  
+  <article class="repo top">
+    <div class="rank">03</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/stablyai/orca">stablyai/orca</a></div>
+      <p class="desc">Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.</p>
+      <p class="desc-zh">译：Orca 是一个用于管理智能体集群（如 Grok Bot、Claude Code）的平台。您可以使用自己的订阅账户运行任何编码智能体，并可在桌面端、移动端及远程运行环境中使用。</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #3178c6;"></span>TypeScript</span>
+        <span class="stars">★ 99,561</span>
+        <span class="today">+1,559 today</span>
+        <span>⑂ 6,317</span>
+        <span>◉ 8,601 open issues</span>
+        <span>MIT</span>
+        <span><a href="https://orca.dev">主页</a></span>
+      </div>
+      
+      <div class="topics"><span>#ade</span><span>#agent-ide</span><span>#ai-agents</span><span>#automation</span><span>#bot</span><span>#claude-code</span></div>
+      
+    </div>
+  </article>
+  
+  <article class="repo">
+    <div class="rank">04</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/DietrichGebert/ponytail">DietrichGebert/ponytail</a></div>
+      <p class="desc">Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.</p>
+      <p class="desc-zh">译：让 AI Agent 以办公室里最懒的资深开发者的思维模式思考：最好的代码，就是你从未写出的代码。</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #f1e05a;"></span>JavaScript</span>
+        <span class="stars">★ 169,381</span>
+        <span class="today">+1,396 today</span>
+        <span>⑂ 9,212</span>
+        <span>◉ 49 open issues</span>
+        <span>MIT</span>
+        <span><a href="https://ponytail.dev">主页</a></span>
+      </div>
+      
+      <div class="topics"><span>#agent-skills</span><span>#ai-agents</span><span>#claude</span><span>#claude-code</span><span>#claude-code-plugin</span><span>#cursor-rules</span></div>
+      
+    </div>
+  </article>
+  
+  <article class="repo">
+    <div class="rank">05</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/Comfy-Org/ComfyUI">Comfy-Org/ComfyUI</a></div>
+      <p class="desc">The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.</p>
+      <p class="desc-zh">译：功能最强大、模块化的扩散模型 GUI、API 及后端，具备图形/节点界面。全球最快的本地推理引擎。</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #3572A5;"></span>Python</span>
+        <span class="stars">★ 140,653</span>
+        <span class="today">+1,201 today</span>
+        <span>⑂ 16,651</span>
+        <span>◉ 5,300 open issues</span>
+        <span>GPL-3.0</span>
+        <span><a href="https://www.comfy.org/">主页</a></span>
+      </div>
+      
+      <div class="topics"><span>#ai</span><span>#comfy</span><span>#comfyui</span><span>#python</span><span>#pytorch</span><span>#stable-diffusion</span></div>
+      
+    </div>
+  </article>
+  
+  <article class="repo">
+    <div class="rank">06</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/ruvnet/ruflo">ruvnet/ruflo</a></div>
+      <p class="desc">🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated</p>
+      <p class="desc-zh">译：🌊 原始智能体框架。部署智能多智能体集群，协调自主工作流，并构建对话式 AI 系统。具备自适应记忆、自学习智能、联邦机制、向量 RAG 集成，以及原生支持 Claude Code、Codex、Hermes 等多种集成。</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #3178c6;"></span>TypeScript</span>
+        <span class="stars">★ 77,721</span>
+        <span class="today">+683 today</span>
+        <span>⑂ 9,145</span>
+        <span>◉ 982 open issues</span>
+        <span>MIT</span>
+        <span><a href="https://Cognitum.One">主页</a></span>
+      </div>
+      
+      <div class="topics"><span>#agentic-ai</span><span>#agentic-framework</span><span>#agentic-workflow</span><span>#agents</span><span>#ai-agents</span><span>#ai-assistant</span></div>
+      
+    </div>
+  </article>
+  
+  <article class="repo">
+    <div class="rank">07</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/Graphify-Labs/graphify">Graphify-Labs/graphify</a></div>
+      <p class="desc">Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.</p>
+      <p class="desc-zh">译：将包含文档、SQL 架构、配置文件和 PDF 在内的任何代码库转化为可查询的知识图谱。这是面向 Claude Code、Cursor、Codex 和 Gemini CLI 的 /graphify 技能：本地确定性 AST 解析，解释每条边，无需向量存储。</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #3572A5;"></span>Python</span>
+        <span class="stars">★ 130,035</span>
+        <span class="today">+906 today</span>
+        <span>⑂ 12,526</span>
+        <span>◉ 1,558 open issues</span>
+        <span>Apache-2.0</span>
+        <span><a href="https://www.graphify.com">主页</a></span>
+      </div>
+      
+      <div class="topics"><span>#ai-agents</span><span>#antigravity</span><span>#ast</span><span>#claude-code</span><span>#code-analysis</span><span>#code-search</span></div>
+      
+    </div>
+  </article>
+  
+  <article class="repo">
+    <div class="rank">08</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/anomalyco/opencode">anomalyco/opencode</a></div>
+      <p class="desc">The open source coding agent.</p>
+      <p class="desc-zh">译：开源编码智能体。</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #3178c6;"></span>TypeScript</span>
+        <span class="stars">★ 218,750</span>
+        <span class="today">+1,256 today</span>
+        <span>⑂ 29,185</span>
+        <span>◉ 3,811 open issues</span>
+        <span>MIT</span>
+        <span><a href="https://opencode.ai">主页</a></span>
+      </div>
+      
+    </div>
+  </article>
+  
+  <article class="repo">
+    <div class="rank">09</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/msitarzewski/agency-agents">msitarzewski/agency-agents</a></div>
+      <p class="desc">A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.</p>
+      <p class="desc-zh">译：指尖掌控的全能 AI 代理机构——从前端专家到 Reddit 社区高手，从创意注入者到现实检验者。每个智能体均为具备独特个性、专业工作流程及可交付成果的细分领域专家。</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #89e051;"></span>Shell</span>
+        <span class="stars">★ 162,220</span>
+        <span class="today">+590 today</span>
+        <span>⑂ 26,224</span>
+        <span>◉ 167 open issues</span>
+        <span>MIT</span>
+        
+      </div>
+      
+    </div>
+  </article>
+  
+  <article class="repo">
+    <div class="rank">10</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/headroomlabs-ai/headroom">headroomlabs-ai/headroom</a></div>
+      <p class="desc">Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.</p>
+      <p class="desc-zh">译：在抵达 LLM 之前压缩工具输出、日志、文件和 RAG 片段。让编码代理减少 20% 的 token 消耗，对 JSON 可减少 60–95% 的 token，且答案保持一致。提供库、代理及 MCP 服务器。</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #3572A5;"></span>Python</span>
+        <span class="stars">★ 76,677</span>
+        <span class="today">+555 today</span>
+        <span>⑂ 5,952</span>
+        <span>◉ 503 open issues</span>
+        <span>Apache-2.0</span>
+        <span><a href="https://docs.headroomlabs.ai/docs">主页</a></span>
+      </div>
+      
+      <div class="topics"><span>#agent</span><span>#ai</span><span>#anthropic</span><span>#claude-code</span><span>#compression</span><span>#context-engineering</span></div>
+      
+    </div>
+  </article>
+  
+  <article class="repo">
+    <div class="rank">11</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/anthropics/knowledge-work-plugins">anthropics/knowledge-work-plugins</a></div>
+      <p class="desc">Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork</p>
+      
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #3572A5;"></span>Python</span>
+        <span class="stars">★ 30,737</span>
+        <span class="today">+262 today</span>
+        <span>⑂ 3,463</span>
+        <span>◉ 124 open issues</span>
+        <span>Apache-2.0</span>
+        
+      </div>
+      
+    </div>
+  </article>
+  
+  <article class="repo">
+    <div class="rank">12</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/shiyu-coder/Kronos">shiyu-coder/Kronos</a></div>
+      <p class="desc">Kronos: A Foundation Model for the Language of Financial Markets</p>
+      <p class="desc-zh">译：Kronos：金融市场语言的基础模型</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #3572A5;"></span>Python</span>
+        <span class="stars">★ 42,275</span>
+        <span class="today">+719 today</span>
+        <span>⑂ 7,001</span>
+        <span>◉ 283 open issues</span>
+        <span>MIT</span>
+        
+      </div>
+      
+    </div>
+  </article>
+  
+  <article class="repo">
+    <div class="rank">13</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/vllm-project/vllm">vllm-project/vllm</a></div>
+      <p class="desc">A high-throughput and memory-efficient inference and serving engine for LLMs</p>
+      <p class="desc-zh">译：一款面向大语言模型的高吞吐量、内存高效的推理与服务引擎</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #3572A5;"></span>Python</span>
+        <span class="stars">★ 94,389</span>
+        <span class="today">+98 today</span>
+        <span>⑂ 23,660</span>
+        <span>◉ 9,151 open issues</span>
+        <span>Apache-2.0</span>
+        <span><a href="https://vllm.ai">主页</a></span>
+      </div>
+      
+      <div class="topics"><span>#amd</span><span>#blackwell</span><span>#cuda</span><span>#deepseek</span><span>#deepseek-v3</span><span>#gpt</span></div>
+      
+    </div>
+  </article>
+  
+</section>
+
+<section class="archive-block">
+  <div class="arch-head">
+    <h2>往期回顾</h2>
+    <a class="arch-all" href="../archive/">查看全部归档 →</a>
+  </div>
+  
+  <ul class="arch-list">
+    
+    <li>
+      <a class="arch-date" href="../archive/2026-10-20.html">2026-10-20</a>
+      <span class="arch-top">榜首 MadsLorentzen/ai-job-search</span>
+      <span class="arch-count">12 个项目</span>
+    </li>
+    
+    <li>
+      <a class="arch-date" href="../archive/2026-10-19.html">2026-10-19</a>
+      <span class="arch-top">榜首 MadsLorentzen/ai-job-search</span>
+      <span class="arch-count">13 个项目</span>
+    </li>
+    
+    <li>
+      <a class="arch-date" href="../archive/2026-10-18.html">2026-10-18</a>
+      <span class="arch-top">榜首 anthropics/claude-plugins-official</span>
+      <span class="arch-count">13 个项目</span>
+    </li>
+    
+    <li>
+      <a class="arch-date" href="../archive/2026-10-17.html">2026-10-17</a>
+      <span class="arch-top">榜首 anthropics/claude-plugins-official</span>
+      <span class="arch-count">13 个项目</span>
+    </li>
+    
+    <li>
+      <a class="arch-date" href="../archive/2026-10-16.html">2026-10-16</a>
+      <span class="arch-top">榜首 morluto/rea</span>
+      <span class="arch-count">12 个项目</span>
+    </li>
+    
+    <li>
+      <a class="arch-date" href="../archive/2026-10-15.html">2026-10-15</a>
+      <span class="arch-top">榜首 morluto/rea</span>
+      <span class="arch-count">12 个项目</span>
+    </li>
+    
+  </ul>
+  
+</section>
+
+<footer class="site-foot">
+  <div>由 GitHub Actions 每日 01:00（北京时间）自动生成 · 榜单数量以 GitHub Trending 实际返回为准</div>
+  
+  <div class="archive">更多往期：
+    <a href="../archive/2026-10-20.html">2026-10-20</a><a href="../archive/2026-10-19.html">2026-10-19</a><a href="../archive/2026-10-18.html">2026-10-18</a><a href="../archive/2026-10-17.html">2026-10-17</a><a href="../archive/2026-10-16.html">2026-10-16</a><a href="../archive/2026-10-15.html">2026-10-15</a>
+    <a href="../archive/">全部归档</a>
+  </div>
+  
+</footer>
+
+</main>
+</body>
+</html>
