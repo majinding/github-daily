@@ -84,6 +84,98 @@ def load_archive_list() -> list[dict]:
     return sorted(archive, key=lambda x: x["date"], reverse=True)
 
 
+def load_all_data() -> list[dict]:
+    """读取 data/ 下全部历史数据（按日期排序）。"""
+    files = sorted(
+        p for p in DATA_DIR.glob("20*.json") if re.fullmatch(r"\d{4}-\d{2}-\d{2}\.json", p.name)
+    )
+    out = []
+    for p in files:
+        try:
+            out.append(json.loads(p.read_text(encoding="utf-8")))
+        except Exception:
+            pass
+    return out
+
+
+def build_history_stats(all_data: list[dict], window_days: int = 7, top_n: int = 5) -> dict:
+    """基于历史存档计算洞察榜：近 N 日 Star 增长、新增 Star 合计、连续上榜、上榜总天数。"""
+    series = sorted((d for d in all_data if d.get("date")), key=lambda d: d["date"])
+    if not series:
+        return {}
+
+    # full_name -> [(date, stars)] 与 full_name -> [date]（上榜记录）
+    star_series: dict[str, list[tuple[str, int]]] = {}
+    appear: dict[str, set[str]] = {}
+    for d in series:
+        date = d["date"]
+        for r in d.get("repos", []):
+            fn = r.get("full_name")
+            if not fn:
+                continue
+            appear.setdefault(fn, set()).add(date)
+            s = r.get("stars")
+            if isinstance(s, int):
+                star_series.setdefault(fn, []).append((date, s))
+
+    recent = series[-window_days:]
+    recent_dates = {d["date"] for d in recent}
+
+    # 近 N 日 Star 总数增长（取窗口内首末两期的差）
+    growth = []
+    for fn, pts in star_series.items():
+        pts_w = sorted((dt, s) for dt, s in pts if dt in recent_dates)
+        if len(pts_w) >= 2 and pts_w[-1][1] > pts_w[0][1]:
+            growth.append({
+                "full_name": fn,
+                "delta": pts_w[-1][1] - pts_w[0][1],
+                "span": f"{pts_w[0][0][5:]}~{pts_w[-1][0][5:]}",
+            })
+    growth.sort(key=lambda x: -x["delta"])
+
+    # 近 N 日「今日新增 Star」合计
+    new_stars: dict[str, int] = {}
+    for d in recent:
+        for r in d.get("repos", []):
+            fn = r.get("full_name")
+            st = r.get("stars_today")
+            if fn and isinstance(st, int):
+                new_stars[fn] = new_stars.get(fn, 0) + st
+    new_top = sorted(
+        ({"full_name": fn, "delta": total} for fn, total in new_stars.items() if total > 0),
+        key=lambda x: -x["delta"],
+    )[:top_n]
+
+    # 连续上榜：从最近一天起向前数连续出现的期数
+    dates_desc = [d["date"] for d in reversed(series)]
+    streak = []
+    for fn, dset in appear.items():
+        n = 0
+        for dt in dates_desc:
+            if dt in dset:
+                n += 1
+            else:
+                break
+        if n >= 2:
+            streak.append({"full_name": fn, "days": n})
+    streak.sort(key=lambda x: -x["days"])
+
+    # 上榜总天数
+    most = sorted(
+        ({"full_name": fn, "days": len(dset)} for fn, dset in appear.items()),
+        key=lambda x: -x["days"],
+    )[:top_n]
+
+    return {
+        "window_days": len(recent),
+        "total_days": len(series),
+        "growth": growth[:top_n],
+        "new_stars": new_top,
+        "streak": streak[:top_n],
+        "most_listed": most,
+    }
+
+
 def main() -> None:
     data = load_latest()
     repos = data.get("repos", [])
@@ -98,6 +190,7 @@ def main() -> None:
 
     archive = load_archive_list()
     total_today = sum(r.get("stars_today") or 0 for r in repos)
+    insights = build_history_stats(load_all_data())
 
     base_ctx = {
         "report_date": data["date"],
@@ -109,6 +202,8 @@ def main() -> None:
         "lang_stats": build_lang_stats(repos),
         "top_repo_name": repos[0]["full_name"],
         "archive": [a for a in archive if a["date"] != data["date"]],
+        "developers": data.get("developers", []),
+        "insights": insights,
     }
 
     SITE_DIR.mkdir(exist_ok=True)
