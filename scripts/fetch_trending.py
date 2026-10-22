@@ -23,6 +23,7 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 TRENDING_URL = "https://github.com/trending?since=daily"
+DEVELOPERS_URL = "https://github.com/trending/developers?since=daily"
 API_BASE = "https://api.github.com"
 MAX_WORKERS = 5
 
@@ -142,6 +143,52 @@ def fetch_trending_page(session: requests.Session) -> list[dict]:
     return items
 
 
+def fetch_developers_page(session: requests.Session) -> list[dict]:
+    """解析 Trending 开发者榜，返回开发者列表（失败时返回空列表，不中断主流程）。"""
+    try:
+        resp = session.get(DEVELOPERS_URL, headers=PAGE_HEADERS, timeout=30)
+        resp.raise_for_status()
+    except Exception as exc:
+        print(f"      开发者榜抓取失败（跳过该板块）：{exc}", file=sys.stderr)
+        return []
+    soup = BeautifulSoup(resp.text, "html.parser")
+    rows = soup.select("article.Box-row")
+    if not rows:
+        print("      开发者榜解析失败：未找到 article.Box-row（页面结构可能已变化，跳过）", file=sys.stderr)
+        return []
+
+    developers: list[dict] = []
+    for idx, row in enumerate(rows, start=1):
+        name_el = row.select_one("h1.h3 a") or row.select_one("h1 a")
+        if not name_el:
+            continue
+        username = (name_el.get("href") or "").strip("/")
+        if not username or "/" in username:
+            continue
+        avatar_el = row.select_one("img.avatar-user")
+        repo_el = row.select_one("h1.h4 a")
+        repo_full = ""
+        repo_desc = ""
+        if repo_el:
+            href = (repo_el.get("href") or "").strip("/")
+            if href.count("/") == 1:
+                repo_full = href
+            repo_article = repo_el.find_parent("article")
+            if repo_article:
+                desc_el = repo_article.select_one("p")
+                if desc_el:
+                    repo_desc = desc_el.get_text(" ", strip=True)
+        developers.append({
+            "rank": idx,
+            "username": username,
+            "name": name_el.get_text(" ", strip=True),
+            "avatar": (avatar_el.get("src") or "") if avatar_el else "",
+            "repo": repo_full,
+            "repo_desc": repo_desc,
+        })
+    return developers
+
+
 def enrich_repo(session: requests.Session, item: dict, token: str) -> dict:
     """用 REST API 补充单个仓库的详情；描述为空时用 README 兜底。"""
     full = item["full_name"]
@@ -215,11 +262,15 @@ def main() -> None:
     token = os_environ_token()
     session = requests.Session()
 
-    print(f"[1/3] 抓取 Trending 页面: {TRENDING_URL}")
+    print(f"[1/4] 抓取 Trending 页面: {TRENDING_URL}")
     items = fetch_trending_page(session)
     print(f"      解析到 {len(items)} 个项目")
 
-    print(f"[2/3] 调用 GitHub API 补充详情（并发 {MAX_WORKERS}）...")
+    print(f"[1.5/4] 抓取 Trending 开发者榜: {DEVELOPERS_URL}")
+    developers = fetch_developers_page(session)
+    print(f"      解析到 {len(developers)} 位开发者")
+
+    print(f"[2/4] 调用 GitHub API 补充详情（并发 {MAX_WORKERS}）...")
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
         futures = {pool.submit(enrich_repo, session, it, token): it for it in items}
         for future in as_completed(futures):
@@ -246,6 +297,8 @@ def main() -> None:
         "source": TRENDING_URL,
         "repo_count": len(repos),
         "repos": repos,
+        "developers": developers,
+        "developer_count": len(developers),
     }
 
     DATA_DIR.mkdir(exist_ok=True)
@@ -254,7 +307,7 @@ def main() -> None:
     (DATA_DIR / "latest.json").write_text(
         json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
     )
-    print(f"[3/3] 已写入 {out.relative_to(ROOT)} 和 data/latest.json")
+    print(f"[4/4] 已写入 {out.relative_to(ROOT)} 和 data/latest.json")
 
     print("\n榜单预览:")
     for r in repos[:5]:
