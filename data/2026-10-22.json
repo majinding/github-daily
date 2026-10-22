@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "generated_at": "2026-10-22 18:27:52 (UTC+8)",
+  "generated_at": "2026-10-22 18:33:29 (UTC+8)",
   "source": "https://github.com/trending?since=daily",
   "repo_count": 12,
   "repos": [
@@ -10,7 +10,7 @@
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "description_source": "github",
       "language": "JavaScript",
-      "stars": 37879,
+      "stars": 37892,
       "stars_today": 2012,
       "forks": 2365,
       "built_by": 3,
@@ -22,7 +22,7 @@
       "pushed_at": "2026-09-14T19:29:02Z",
       "rank": 1,
       "language_color": "#f1e05a",
-      "description_zh": "用于多阶段安全审计的代码智能体技能，提供独立验证且机器可读的发现结果"
+      "description_zh": "一种面向多阶段安全审计的编码智能体技能，支持独立验证，并能生成机器可读的发现结果"
     },
     {
       "full_name": "vllm-project/vllm",
@@ -30,7 +30,7 @@
       "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
       "description_source": "github",
       "language": "Python",
-      "stars": 95093,
+      "stars": 95094,
       "stars_today": 441,
       "forks": 23793,
       "built_by": 5,
@@ -63,7 +63,7 @@
       "pushed_at": "2026-10-22T10:25:18Z",
       "rank": 2,
       "language_color": "#3572A5",
-      "description_zh": "面向大语言模型的高吞吐、内存高效推理与服务引擎"
+      "description_zh": "一个高吞吐、内存高效的 LLM 推理与服务引擎"
     },
     {
       "full_name": "stablyai/orca",
@@ -71,7 +71,7 @@
       "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 102058,
+      "stars": 102069,
       "stars_today": 1541,
       "forks": 6447,
       "built_by": 5,
@@ -101,10 +101,10 @@
       "homepage": "https://orca.dev",
       "license": "MIT",
       "created_at": "2026-03-17T03:28:57Z",
-      "pushed_at": "2026-10-22T10:27:39Z",
+      "pushed_at": "2026-10-22T10:31:01Z",
       "rank": 3,
       "language_color": "#3178c6",
-      "description_zh": "Orca 是管理智能体集群（如 Grok Bot、Claude Code）的平台。您可以使用自己的订阅运行任何编码智能体。支持桌面端、移动端及远程运行时环境。"
+      "description_zh": "Orca 是一个用于管理智能体集群（如 Grok Bot、Claude Code）的平台。可结合自身订阅运行任意编码智能体。支持桌面端、移动端及远程运行时环境"
     },
     {
       "full_name": "headroomlabs-ai/headroom",
@@ -112,7 +112,7 @@
       "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
       "description_source": "github",
       "language": "Python",
-      "stars": 77484,
+      "stars": 77485,
       "stars_today": 474,
       "forks": 6017,
       "built_by": 5,
@@ -145,7 +145,7 @@
       "pushed_at": "2026-10-22T07:28:37Z",
       "rank": 4,
       "language_color": "#3572A5",
-      "description_zh": "在工具输出、日志、文件及 RAG 分块到达 LLM 之前进行压缩，使编程智能体的 token 消耗减少 20%，JSON 的 token 消耗减少 60%-95%，同时答案质量不变。支持库、代理及 MCP 服务器形式。"
+      "description_zh": "在工具输出、日志、文件及 RAG 块到达 LLM 之前进行压缩。为编码智能体减少 20% 的 token 使用，为 JSON 减少 60-95% 的 token 使用，且保持回答质量不变。提供库、代理及 MCP 服务器"
     },
     {
       "full_name": "DietrichGebert/ponytail",
@@ -153,7 +153,7 @@
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "description_source": "github",
       "language": "JavaScript",
-      "stars": 172470,
+      "stars": 172475,
       "stars_today": 2079,
       "forks": 9383,
       "built_by": 5,
@@ -176,7 +176,7 @@
       "pushed_at": "2026-10-18T01:55:14Z",
       "rank": 5,
       "language_color": "#f1e05a",
-      "description_zh": "让 AI 智能体具备团队中最懒资深开发者的思维模式。最好的代码就是你从未编写的代码。"
+      "description_zh": "让你的 AI 智能体像房间里最懒的首席开发者一样思考。最好的代码是你从未写过的代码"
     },
     {
       "full_name": "Comfy-Org/ComfyUI",
@@ -184,11 +184,11 @@
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
       "description_source": "github",
       "language": "Python",
-      "stars": 141840,
+      "stars": 141844,
       "stars_today": 939,
       "forks": 16759,
       "built_by": 5,
-      "open_issues": 5318,
+      "open_issues": 5319,
       "topics": [
         "ai",
         "comfy",
@@ -203,7 +203,7 @@
       "pushed_at": "2026-10-22T09:15:34Z",
       "rank": 6,
       "language_color": "#3572A5",
-      "description_zh": "功能最强大、模块化程度最高的扩散模型 GUI、API 及后端，采用图形/节点界面。全球最快的本地推理引擎。"
+      "description_zh": "最强大且模块化的扩散模型 GUI、API 及后端，具备图/节点界面。全球最快的本地推理引擎"
     },
     {
       "full_name": "supabase/supabase",
@@ -211,7 +211,7 @@
       "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 113243,
+      "stars": 113246,
       "stars_today": 504,
       "forks": 16988,
       "built_by": 5,
@@ -240,10 +240,10 @@
       "homepage": "https://supabase.com",
       "license": "Apache-2.0",
       "created_at": "2019-10-12T05:56:49Z",
-      "pushed_at": "2026-10-22T10:10:37Z",
+      "pushed_at": "2026-10-22T10:31:17Z",
       "rank": 7,
       "language_color": "#3178c6",
-      "description_zh": "Postgres 开发平台。Supabase 为您提供专属的 Postgres 数据库，用于构建 Web、移动及 AI 应用程序。"
+      "description_zh": "Postgres 开发平台。Supabase 提供专用的 Postgres 数据库，助你构建 Web、移动及 AI 应用"
     },
     {
       "full_name": "twentyhq/twenty",
@@ -251,7 +251,7 @@
       "description": "The open alternative to Salesforce, designed for AI.",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 59476,
+      "stars": 59477,
       "stars_today": 112,
       "forks": 9681,
       "built_by": 4,
@@ -278,10 +278,10 @@
       "homepage": "https://twenty.com",
       "license": "",
       "created_at": "2022-12-01T13:04:40Z",
-      "pushed_at": "2026-10-22T10:27:30Z",
+      "pushed_at": "2026-10-22T10:33:17Z",
       "rank": 8,
       "language_color": "#3178c6",
-      "description_zh": "Salesforce 的开源替代方案，专为 AI 设计。"
+      "description_zh": "为 AI 设计的 Salesforce 开源替代品"
     },
     {
       "full_name": "shiyu-coder/Kronos",
@@ -289,7 +289,7 @@
       "description": "Kronos: A Foundation Model for the Language of Financial Markets",
       "description_source": "github",
       "language": "Python",
-      "stars": 43058,
+      "stars": 43059,
       "stars_today": 575,
       "forks": 7096,
       "built_by": 5,
@@ -301,7 +301,7 @@
       "pushed_at": "2026-04-13T12:38:49Z",
       "rank": 9,
       "language_color": "#3572A5",
-      "description_zh": "Kronos：面向金融市场语言的基础模型"
+      "description_zh": "Kronos：金融市场的语言基础模型"
     },
     {
       "full_name": "strelov1/freehire",
@@ -309,7 +309,7 @@
       "description": "freehire — the open-source search engine for job seekers",
       "description_source": "github",
       "language": "Go",
-      "stars": 2681,
+      "stars": 2684,
       "stars_today": 360,
       "forks": 264,
       "built_by": 3,
@@ -342,7 +342,7 @@
       "pushed_at": "2026-10-22T05:09:30Z",
       "rank": 10,
       "language_color": "#00ADD8",
-      "description_zh": "freehire —— 面向求职者的开源搜索引擎"
+      "description_zh": "freehire——面向求职者的开源搜索引擎"
     },
     {
       "full_name": "akitaonrails/ai-memory",
@@ -350,7 +350,7 @@
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "description_source": "github",
       "language": "Rust",
-      "stars": 12608,
+      "stars": 12609,
       "stars_today": 286,
       "forks": 890,
       "built_by": 5,
@@ -362,7 +362,7 @@
       "pushed_at": "2026-10-22T07:40:15Z",
       "rank": 11,
       "language_color": "#dea584",
-      "description_zh": "为代理编码 CLI 提供长期记忆解决方案，并促进不同代理服务商之间的交接。"
+      "description_zh": "为代理编码 CLI 提供长期记忆解决方案，并促进不同代理供应商之间的交接"
     },
     {
       "full_name": "Graphify-Labs/graphify",
@@ -370,7 +370,7 @@
       "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
       "description_source": "github",
       "language": "Python",
-      "stars": 132196,
+      "stars": 132201,
       "stars_today": 1433,
       "forks": 12678,
       "built_by": 5,
@@ -403,7 +403,7 @@
       "pushed_at": "2026-10-21T15:23:36Z",
       "rank": 12,
       "language_color": "#3572A5",
-      "description_zh": "将包含文档、SQL 模式、配置文件和 PDF 在内的任何代码库转化为可查询的知识图谱。一个适用于 Claude Code、Cursor、Codex 和 Gemini CLI 的 /graphify 技能：本地确定性 AST 解析，每条边均附带说明，无需向量数据库。"
+      "description_zh": "将任何代码库及其文档、SQL 架构、配置和 PDF 转换为可查询的知识图谱。提供用于 Claude Code、Cursor、Codex 和 Gemini CLI 的 /graphify 技能：本地确定性 AST 解析，每条边都有解释，无需向量存储。"
     }
   ]
 }
