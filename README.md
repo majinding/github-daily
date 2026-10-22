@@ -8,6 +8,8 @@
 
 - 抓取 Trending 每日热榜（有几个报几个，不强行凑数）
 - 每个项目包含：排名、英文原文描述 + Agnes 3.0 Flash 自动中文翻译（描述为空时用 README 首段兜底）、总 Star、昨日新增 Star、主语言、Fork/Issue 数、License、Topic 标签
+- **今日热门开发者榜**：同步抓取 Trending Developers，展示头像、用户名及其 Popular repo
+- **数据洞察**：基于历史存档自动计算「近 7 日 Star 增长 Top5」「近 7 日新增 Star 合计 Top5」「连续上榜 Top5」，零 API 成本，越攒越准
 - HTML 报告含当日统计概览、语言分布、往期归档，支持深色模式，手机友好
 - 每日原始数据存档于 `data/YYYY-MM-DD.json`，方便二次分析
 
