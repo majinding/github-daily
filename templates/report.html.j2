@@ -59,6 +59,62 @@
   {% endfor %}
 </section>
 
+{% if developers %}
+<section class="dev-list">
+  <div class="sec-head">
+    <h2>今日热门开发者</h2>
+    <span class="sec-sub">来源 <a href="https://github.com/trending/developers?since=daily">Trending Developers</a></span>
+  </div>
+  <div class="dev-grid">
+    {% for d in developers[:12] %}
+    <div class="dev-card">
+      {% if d.avatar %}<img class="dev-avatar" src="{{ d.avatar }}" alt="@{{ d.username }}" loading="lazy">{% endif %}
+      <div class="dev-info">
+        <div class="dev-name"><a href="https://github.com/{{ d.username }}">{{ d.name or d.username }}</a></div>
+        <div class="dev-user">@{{ d.username }}</div>
+        {% if d.repo %}<div class="dev-repo">🔥 <a href="https://github.com/{{ d.repo }}">{{ d.repo }}</a></div>{% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{% if insights and (insights.growth or insights.new_stars or insights.streak) %}
+<section class="insights">
+  <div class="sec-head">
+    <h2>数据洞察</h2>
+    <span class="sec-sub">基于 {{ insights.total_days }} 期历史存档自动计算</span>
+  </div>
+  <div class="insight-grid">
+    {% if insights.growth %}
+    <div class="insight-col">
+      <h3>近 {{ insights.window_days }} 日 Star 增长 Top5</h3>
+      <ol class="insight-list">
+        {% for g in insights.growth %}<li><span class="i-name">{{ g.full_name }}</span><span class="i-val">+{{ g.delta | thousands }}</span></li>{% endfor %}
+      </ol>
+    </div>
+    {% endif %}
+    {% if insights.new_stars %}
+    <div class="insight-col">
+      <h3>近 {{ insights.window_days }} 日新增 Star 合计 Top5</h3>
+      <ol class="insight-list">
+        {% for g in insights.new_stars %}<li><span class="i-name">{{ g.full_name }}</span><span class="i-val">+{{ g.delta | thousands }}</span></li>{% endfor %}
+      </ol>
+    </div>
+    {% endif %}
+    {% if insights.streak %}
+    <div class="insight-col">
+      <h3>连续上榜 Top5</h3>
+      <ol class="insight-list">
+        {% for g in insights.streak %}<li><span class="i-name">{{ g.full_name }}</span><span class="i-val">{{ g.days }} 天</span></li>{% endfor %}
+      </ol>
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% endif %}
+
 <section class="archive-block">
   <div class="arch-head">
     <h2>往期回顾</h2>
