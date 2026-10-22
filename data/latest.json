@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "generated_at": "2026-10-22 19:49:19 (UTC+8)",
+  "generated_at": "2026-10-22 23:05:06 (UTC+8)",
   "source": "https://github.com/trending?since=daily",
   "repo_count": 9,
   "repos": [
@@ -10,16 +10,16 @@
       "description": "The PHP Interpreter",
       "description_source": "github",
       "language": "C",
-      "stars": 40771,
+      "stars": 40913,
       "stars_today": 110,
-      "forks": 8269,
+      "forks": 8286,
       "built_by": 5,
-      "open_issues": 2213,
+      "open_issues": 2208,
       "topics": [],
       "homepage": "https://www.php.net",
       "license": "BSD-3-Clause",
       "created_at": "2011-06-16T01:52:25Z",
-      "pushed_at": "2026-10-22T11:17:47Z",
+      "pushed_at": "2026-10-22T14:37:39Z",
       "rank": 1,
       "language_color": "#555555"
     },
@@ -29,9 +29,9 @@
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "description_source": "github",
       "language": "Python",
-      "stars": 31291,
+      "stars": 31371,
       "stars_today": 303,
-      "forks": 3505,
+      "forks": 3517,
       "built_by": 4,
       "open_issues": 131,
       "topics": [],
@@ -48,11 +48,11 @@
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "description_source": "github",
       "language": "JavaScript",
-      "stars": 172569,
+      "stars": 172854,
       "stars_today": 1949,
-      "forks": 9384,
+      "forks": 9408,
       "built_by": 5,
-      "open_issues": 81,
+      "open_issues": 85,
       "topics": [
         "agent-skills",
         "ai-agents",
@@ -78,9 +78,9 @@
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "description_source": "github",
       "language": "JavaScript",
-      "stars": 38056,
+      "stars": 38505,
       "stars_today": 2979,
-      "forks": 2378,
+      "forks": 2399,
       "built_by": 3,
       "open_issues": 80,
       "topics": [],
@@ -97,11 +97,11 @@
       "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
       "description_source": "github",
       "language": "Python",
-      "stars": 132277,
+      "stars": 132495,
       "stars_today": 1407,
-      "forks": 12678,
+      "forks": 12695,
       "built_by": 5,
-      "open_issues": 1626,
+      "open_issues": 1628,
       "topics": [
         "ai-agents",
         "antigravity",
@@ -137,11 +137,11 @@
       "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 113270,
-      "stars_today": 504,
-      "forks": 16986,
+      "stars": 113329,
+      "stars_today": 683,
+      "forks": 16992,
       "built_by": 5,
-      "open_issues": 1186,
+      "open_issues": 1192,
       "topics": [
         "ai",
         "alternative",
@@ -166,7 +166,7 @@
       "homepage": "https://supabase.com",
       "license": "Apache-2.0",
       "created_at": "2019-10-12T05:56:49Z",
-      "pushed_at": "2026-10-22T11:42:29Z",
+      "pushed_at": "2026-10-22T15:04:44Z",
       "rank": 6,
       "language_color": "#3178c6"
     },
@@ -176,9 +176,9 @@
       "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
       "description_source": "github",
       "language": "Python",
-      "stars": 103399,
+      "stars": 103521,
       "stars_today": 96,
-      "forks": 10066,
+      "forks": 10076,
       "built_by": 2,
       "open_issues": 55,
       "topics": [
@@ -216,9 +216,9 @@
       "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
       "description_source": "github",
       "language": "Python",
-      "stars": 42615,
+      "stars": 42774,
       "stars_today": 428,
-      "forks": 5348,
+      "forks": 5361,
       "built_by": 5,
       "open_issues": 34,
       "topics": [
@@ -239,9 +239,9 @@
       "description": "Minecraft 启动器 Plain Craft Launcher（PCL）。",
       "description_source": "github",
       "language": "Visual Basic .NET",
-      "stars": 8534,
+      "stars": 8606,
       "stars_today": 115,
-      "forks": 1175,
+      "forks": 1188,
       "built_by": 5,
       "open_issues": 299,
       "topics": [
@@ -260,14 +260,6 @@
   "developers": [
     {
       "rank": 1,
-      "username": "koala73",
-      "name": "Elie Habib",
-      "avatar": "https://avatars.githubusercontent.com/u/996596?s=96&v=4",
-      "repo": "koala73/worldmonitor",
-      "repo_desc": ""
-    },
-    {
-      "rank": 2,
       "username": "elie222",
       "name": "Elie Steinbock",
       "avatar": "https://avatars.githubusercontent.com/u/3090527?s=96&v=4",
@@ -275,39 +267,7 @@
       "repo_desc": ""
     },
     {
-      "rank": 3,
-      "username": "max-sixty",
-      "name": "Maximilian Roos",
-      "avatar": "https://avatars.githubusercontent.com/u/5635139?s=96&v=4",
-      "repo": "max-sixty/worktrunk",
-      "repo_desc": ""
-    },
-    {
-      "rank": 4,
-      "username": "colbymchenry",
-      "name": "Colby Mchenry",
-      "avatar": "https://avatars.githubusercontent.com/u/18431132?s=96&v=4",
-      "repo": "colbymchenry/codegraph",
-      "repo_desc": ""
-    },
-    {
-      "rank": 5,
-      "username": "qkaiser",
-      "name": "Quentin Kaiser",
-      "avatar": "https://avatars.githubusercontent.com/u/569494?s=96&v=4",
-      "repo": "qkaiser/broadcom-wps",
-      "repo_desc": ""
-    },
-    {
-      "rank": 6,
-      "username": "danielmeppiel",
-      "name": "Daniel Meppiel",
-      "avatar": "https://avatars.githubusercontent.com/u/51440732?s=96&v=4",
-      "repo": "danielmeppiel/genesis",
-      "repo_desc": ""
-    },
-    {
-      "rank": 7,
+      "rank": 2,
       "username": "shiaho777",
       "name": "shiaho",
       "avatar": "https://avatars.githubusercontent.com/u/222622008?s=96&v=4",
@@ -315,7 +275,7 @@
       "repo_desc": ""
     },
     {
-      "rank": 8,
+      "rank": 3,
       "username": "ruvnet",
       "name": "rUv",
       "avatar": "https://avatars.githubusercontent.com/u/2934394?s=96&v=4",
@@ -323,31 +283,47 @@
       "repo_desc": ""
     },
     {
+      "rank": 4,
+      "username": "koala73",
+      "name": "Elie Habib",
+      "avatar": "https://avatars.githubusercontent.com/u/996596?s=96&v=4",
+      "repo": "koala73/worldmonitor",
+      "repo_desc": ""
+    },
+    {
+      "rank": 5,
+      "username": "jarrodwatts",
+      "name": "Jarrod Watts",
+      "avatar": "https://avatars.githubusercontent.com/u/35651410?s=96&v=4",
+      "repo": "jarrodwatts/claude-hud",
+      "repo_desc": ""
+    },
+    {
+      "rank": 6,
+      "username": "bowenliang123",
+      "name": "Bowen Liang",
+      "avatar": "https://avatars.githubusercontent.com/u/1935105?s=96&v=4",
+      "repo": "bowenliang123/dsh-context",
+      "repo_desc": ""
+    },
+    {
+      "rank": 7,
+      "username": "max-sixty",
+      "name": "Maximilian Roos",
+      "avatar": "https://avatars.githubusercontent.com/u/5635139?s=96&v=4",
+      "repo": "max-sixty/worktrunk",
+      "repo_desc": ""
+    },
+    {
+      "rank": 8,
+      "username": "esengine",
+      "name": "YHH",
+      "avatar": "https://avatars.githubusercontent.com/u/18465053?s=96&v=4",
+      "repo": "esengine/DeepSeek-Reasonix",
+      "repo_desc": ""
+    },
+    {
       "rank": 9,
-      "username": "comfyanonymous",
-      "name": "comfyanonymous",
-      "avatar": "https://avatars.githubusercontent.com/u/121283862?s=96&v=4",
-      "repo": "comfyanonymous/ComfyUI_examples",
-      "repo_desc": ""
-    },
-    {
-      "rank": 10,
-      "username": "lidge-jun",
-      "name": "JUN",
-      "avatar": "https://avatars.githubusercontent.com/u/243035832?s=96&v=4",
-      "repo": "lidge-jun/opencodex",
-      "repo_desc": ""
-    },
-    {
-      "rank": 11,
-      "username": "Anionex",
-      "name": "anionex",
-      "avatar": "https://avatars.githubusercontent.com/u/123177548?s=96&v=4",
-      "repo": "Anionex/banana-slides",
-      "repo_desc": ""
-    },
-    {
-      "rank": 12,
       "username": "DeusData",
       "name": "Martin Vogel",
       "avatar": "https://avatars.githubusercontent.com/u/81762164?s=96&v=4",
@@ -355,7 +331,63 @@
       "repo_desc": ""
     },
     {
+      "rank": 10,
+      "username": "comfyanonymous",
+      "name": "comfyanonymous",
+      "avatar": "https://avatars.githubusercontent.com/u/121283862?s=96&v=4",
+      "repo": "comfyanonymous/ComfyUI_examples",
+      "repo_desc": ""
+    },
+    {
+      "rank": 11,
+      "username": "qkaiser",
+      "name": "Quentin Kaiser",
+      "avatar": "https://avatars.githubusercontent.com/u/569494?s=96&v=4",
+      "repo": "qkaiser/broadcom-wps",
+      "repo_desc": ""
+    },
+    {
+      "rank": 12,
+      "username": "Gilbert09",
+      "name": "Tom Owers",
+      "avatar": "https://avatars.githubusercontent.com/u/1459269?s=96&v=4",
+      "repo": "",
+      "repo_desc": ""
+    },
+    {
       "rank": 13,
+      "username": "SaladDay",
+      "name": "SaladDay",
+      "avatar": "https://avatars.githubusercontent.com/u/92240037?s=96&v=4",
+      "repo": "SaladDay/cc-switch-cli",
+      "repo_desc": ""
+    },
+    {
+      "rank": 14,
+      "username": "amir20",
+      "name": "Amir Raminfar",
+      "avatar": "https://avatars.githubusercontent.com/u/260667?s=96&v=4",
+      "repo": "amir20/dozzle",
+      "repo_desc": ""
+    },
+    {
+      "rank": 15,
+      "username": "melgarafael",
+      "name": "Rafael Melgaço",
+      "avatar": "https://avatars.githubusercontent.com/u/119944436?s=96&v=4",
+      "repo": "melgarafael/DeskcommCRM",
+      "repo_desc": ""
+    },
+    {
+      "rank": 16,
+      "username": "Anionex",
+      "name": "anionex",
+      "avatar": "https://avatars.githubusercontent.com/u/123177548?s=96&v=4",
+      "repo": "Anionex/banana-slides",
+      "repo_desc": ""
+    },
+    {
+      "rank": 17,
       "username": "garrytan",
       "name": "Garry Tan",
       "avatar": "https://avatars.githubusercontent.com/u/19957?s=96&v=4",
@@ -363,71 +395,55 @@
       "repo_desc": ""
     },
     {
-      "rank": 14,
-      "username": "sd2k",
-      "name": "Ben Sully",
-      "avatar": "https://avatars.githubusercontent.com/u/5464991?s=96&v=4",
-      "repo": "",
-      "repo_desc": ""
-    },
-    {
-      "rank": 15,
-      "username": "mvschwarz",
-      "name": "Mike Schwarz",
-      "avatar": "https://avatars.githubusercontent.com/u/171890339?s=96&v=4",
-      "repo": "mvschwarz/openrig",
-      "repo_desc": ""
-    },
-    {
-      "rank": 16,
-      "username": "ppenna",
-      "name": "Pedro Henrique Penna",
-      "avatar": "https://avatars.githubusercontent.com/u/4939789?s=96&v=4",
-      "repo": "",
-      "repo_desc": ""
-    },
-    {
-      "rank": 17,
-      "username": "abrignoni",
-      "name": "Brigs",
-      "avatar": "https://avatars.githubusercontent.com/u/28718987?s=96&v=4",
-      "repo": "abrignoni/iLEAPP",
-      "repo_desc": ""
-    },
-    {
       "rank": 18,
-      "username": "xiaolai",
-      "name": "xiaolai",
-      "avatar": "https://avatars.githubusercontent.com/u/152970?s=96&v=4",
-      "repo": "xiaolai/the-craft-of-selfteaching",
+      "username": "Alan-TheGentleman",
+      "name": "Alan Buscaglia",
+      "avatar": "https://avatars.githubusercontent.com/u/6935240?s=96&v=4",
+      "repo": "Alan-TheGentleman/prompts-dev",
       "repo_desc": ""
     },
     {
       "rank": 19,
-      "username": "emilk",
-      "name": "Emil Ernerfeldt",
-      "avatar": "https://avatars.githubusercontent.com/u/1148717?s=96&v=4",
-      "repo": "emilk/egui",
+      "username": "danog",
+      "name": "Daniil Gentili",
+      "avatar": "https://avatars.githubusercontent.com/u/7339644?s=96&v=4",
+      "repo": "danog/MadelineProto",
       "repo_desc": ""
     },
     {
       "rank": 20,
-      "username": "mvanhorn",
-      "name": "Matt Van Horn",
-      "avatar": "https://avatars.githubusercontent.com/u/455140?s=96&v=4",
-      "repo": "mvanhorn/last30days-skill",
+      "username": "pbakaus",
+      "name": "Paul Bakaus",
+      "avatar": "https://avatars.githubusercontent.com/u/43004?s=96&v=4",
+      "repo": "pbakaus/impeccable",
       "repo_desc": ""
     },
     {
       "rank": 21,
-      "username": "BBuf",
-      "name": "Xiaoyu Zhang",
-      "avatar": "https://avatars.githubusercontent.com/u/35585791?s=96&v=4",
-      "repo": "BBuf/AI-Infra-Auto-Driven-SKILLS",
+      "username": "bartlomieju",
+      "name": "Bartek Iwańczuk",
+      "avatar": "https://avatars.githubusercontent.com/u/13602871?s=96&v=4",
+      "repo": "bartlomieju/denidian",
       "repo_desc": ""
     },
     {
       "rank": 22,
+      "username": "ko3n1g",
+      "name": "oliver könig",
+      "avatar": "https://avatars.githubusercontent.com/u/16716991?s=96&v=4",
+      "repo": "",
+      "repo_desc": ""
+    },
+    {
+      "rank": 23,
+      "username": "doobidoo",
+      "name": "Henry Krupp",
+      "avatar": "https://avatars.githubusercontent.com/u/5000709?s=96&v=4",
+      "repo": "doobidoo/mcp-memory-service",
+      "repo_desc": ""
+    },
+    {
+      "rank": 24,
       "username": "iFurySt",
       "name": "Leo",
       "avatar": "https://avatars.githubusercontent.com/u/16201837?s=96&v=4",
@@ -435,27 +451,11 @@
       "repo_desc": ""
     },
     {
-      "rank": 23,
-      "username": "nicklockwood",
-      "name": "Nick Lockwood",
-      "avatar": "https://avatars.githubusercontent.com/u/546885?s=96&v=4",
-      "repo": "nicklockwood/SwiftFormat",
-      "repo_desc": ""
-    },
-    {
-      "rank": 24,
-      "username": "sunchao",
-      "name": "Chao Sun",
-      "avatar": "https://avatars.githubusercontent.com/u/506679?s=96&v=4",
-      "repo": "",
-      "repo_desc": ""
-    },
-    {
       "rank": 25,
-      "username": "backnotprop",
-      "name": "Michael Ramos",
-      "avatar": "https://avatars.githubusercontent.com/u/7244317?s=96&v=4",
-      "repo": "backnotprop/pstack",
+      "username": "ppenna",
+      "name": "Pedro Henrique Penna",
+      "avatar": "https://avatars.githubusercontent.com/u/4939789?s=96&v=4",
+      "repo": "",
       "repo_desc": ""
     }
   ],
