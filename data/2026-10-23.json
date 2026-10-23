@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "generated_at": "2026-10-23 04:22:26 (UTC+8)",
+  "generated_at": "2026-10-23 08:00:21 (UTC+8)",
   "source": "https://github.com/trending?since=daily",
   "repo_count": 9,
   "repos": [
@@ -10,16 +10,16 @@
       "description": "The PHP Interpreter",
       "description_source": "github",
       "language": "C",
-      "stars": 41070,
-      "stars_today": 423,
-      "forks": 8301,
+      "stars": 41139,
+      "stars_today": 287,
+      "forks": 8305,
       "built_by": 5,
-      "open_issues": 2225,
+      "open_issues": 2226,
       "topics": [],
       "homepage": "https://www.php.net",
       "license": "BSD-3-Clause",
       "created_at": "2011-06-16T01:52:25Z",
-      "pushed_at": "2026-10-22T19:28:54Z",
+      "pushed_at": "2026-10-22T23:59:52Z",
       "rank": 1,
       "language_color": "#555555",
       "description_zh": "PHP 解释器"
@@ -30,9 +30,9 @@
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "description_source": "github",
       "language": "Python",
-      "stars": 31500,
+      "stars": 31570,
       "stars_today": 303,
-      "forks": 3527,
+      "forks": 3530,
       "built_by": 4,
       "open_issues": 131,
       "topics": [],
@@ -42,7 +42,7 @@
       "pushed_at": "2026-10-22T07:39:25Z",
       "rank": 2,
       "language_color": "#3572A5",
-      "description_zh": "一个开源插件仓库，主要面向在 Claude Cowork 中使用的知识工作者"
+      "description_zh": "一个开源插件仓库，主要面向知识工作者，供其在 Claude Cowork 中使用"
     },
     {
       "full_name": "DietrichGebert/ponytail",
@@ -50,11 +50,11 @@
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "description_source": "github",
       "language": "JavaScript",
-      "stars": 173227,
-      "stars_today": 1949,
-      "forks": 9427,
+      "stars": 173427,
+      "stars_today": 1948,
+      "forks": 9436,
       "built_by": 5,
-      "open_issues": 88,
+      "open_issues": 91,
       "topics": [
         "agent-skills",
         "ai-agents",
@@ -73,7 +73,7 @@
       "pushed_at": "2026-10-18T01:55:14Z",
       "rank": 3,
       "language_color": "#f1e05a",
-      "description_zh": "让你的 AI 代理像房间里最懒的资深开发一样思考。最好的代码是你从未写过的代码。"
+      "description_zh": "让你的 AI 智能体像团队里最懒的高级开发一样思考。最好的代码是你从未编写的代码。"
     },
     {
       "full_name": "cloudflare/security-audit-skill",
@@ -81,9 +81,9 @@
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "description_source": "github",
       "language": "JavaScript",
-      "stars": 39167,
+      "stars": 39515,
       "stars_today": 2979,
-      "forks": 2440,
+      "forks": 2459,
       "built_by": 3,
       "open_issues": 80,
       "topics": [],
@@ -93,7 +93,7 @@
       "pushed_at": "2026-09-14T19:29:02Z",
       "rank": 4,
       "language_color": "#f1e05a",
-      "description_zh": "一种用于多阶段安全审计的代码代理技能，提供独立验证的机器可读审计结果"
+      "description_zh": "一种用于多阶段安全审计的编码智能体技能，提供独立验证且机器可读的发现结果"
     },
     {
       "full_name": "Graphify-Labs/graphify",
@@ -101,11 +101,11 @@
       "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
       "description_source": "github",
       "language": "Python",
-      "stars": 132791,
-      "stars_today": 1407,
-      "forks": 12712,
+      "stars": 132919,
+      "stars_today": 1408,
+      "forks": 12720,
       "built_by": 5,
-      "open_issues": 1595,
+      "open_issues": 1602,
       "topics": [
         "ai-agents",
         "antigravity",
@@ -134,7 +134,7 @@
       "pushed_at": "2026-10-22T16:19:38Z",
       "rank": 5,
       "language_color": "#3572A5",
-      "description_zh": "将任何包含文档、SQL 模式、配置文件和 PDF 的代码库转化为可查询的知识图谱。一个适用于 Claude Code、Cursor、Codex 和 Gemini CLI 的 /graphify 技能：本地确定性 AST 解析，每条边都有解释，无需向量数据库。"
+      "description_zh": "将任何代码库连同其文档、SQL 架构、配置和 PDF 转化为可查询的知识图谱。面向 Claude Code、Cursor、Codex 和 Gemini CLI 的 /graphify 技能：本地确定性 AST 解析，清晰解释每条边，无需向量存储。"
     },
     {
       "full_name": "supabase/supabase",
@@ -142,11 +142,11 @@
       "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 113422,
-      "stars_today": 683,
-      "forks": 16993,
+      "stars": 113472,
+      "stars_today": 693,
+      "forks": 16999,
       "built_by": 5,
-      "open_issues": 1193,
+      "open_issues": 1195,
       "topics": [
         "ai",
         "alternative",
@@ -171,10 +171,10 @@
       "homepage": "https://supabase.com",
       "license": "Apache-2.0",
       "created_at": "2019-10-12T05:56:49Z",
-      "pushed_at": "2026-10-22T19:30:54Z",
+      "pushed_at": "2026-10-22T23:55:29Z",
       "rank": 6,
       "language_color": "#3178c6",
-      "description_zh": "Postgres 开发平台。Supabase 为你提供一个专用的 Postgres 数据库，用于构建 Web、移动和 AI 应用程序。"
+      "description_zh": "Postgres 开发平台。Supabase 为您提供专用的 Postgres 数据库，用于构建 Web、移动和 AI 应用程序。"
     },
     {
       "full_name": "fastapi/fastapi",
@@ -182,11 +182,11 @@
       "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
       "description_source": "github",
       "language": "Python",
-      "stars": 103642,
-      "stars_today": 96,
-      "forks": 10084,
+      "stars": 103727,
+      "stars_today": 101,
+      "forks": 10086,
       "built_by": 2,
-      "open_issues": 56,
+      "open_issues": 57,
       "topics": [
         "api",
         "async",
@@ -212,7 +212,7 @@
       "homepage": "https://fastapi.tiangolo.com/",
       "license": "MIT",
       "created_at": "2018-12-08T08:21:47Z",
-      "pushed_at": "2026-10-22T19:13:04Z",
+      "pushed_at": "2026-10-22T22:21:50Z",
       "rank": 7,
       "language_color": "#3572A5",
       "description_zh": "FastAPI 框架，高性能、易学、编码快速、生产就绪"
@@ -223,9 +223,9 @@
       "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
       "description_source": "github",
       "language": "Python",
-      "stars": 43020,
-      "stars_today": 370,
-      "forks": 5377,
+      "stars": 43173,
+      "stars_today": 177,
+      "forks": 5386,
       "built_by": 5,
       "open_issues": 35,
       "topics": [
@@ -239,7 +239,7 @@
       "pushed_at": "2026-10-20T12:23:14Z",
       "rank": 8,
       "language_color": "#3572A5",
-      "description_zh": "一个可视化的、以示例为导向的 Claude Code 指南——从基础概念到高级代理，附带即拷即用的模板，能带来即时价值。"
+      "description_zh": "一份关于 Claude Code 的可视化、示例驱动指南——涵盖从基础概念到高级智能体，并提供即取即用的复制粘贴模板。"
     },
     {
       "full_name": "Meloong-Git/PCL",
@@ -247,11 +247,11 @@
       "description": "Minecraft 启动器 Plain Craft Launcher（PCL）。",
       "description_source": "github",
       "language": "Visual Basic .NET",
-      "stars": 8653,
-      "stars_today": 115,
-      "forks": 1197,
+      "stars": 8682,
+      "stars_today": 119,
+      "forks": 1198,
       "built_by": 5,
-      "open_issues": 281,
+      "open_issues": 280,
       "topics": [
         "launcher",
         "minecraft",
