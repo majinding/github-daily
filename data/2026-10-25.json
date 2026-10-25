@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "generated_at": "2026-10-25 03:11:36 (UTC+8)",
+  "generated_at": "2026-10-25 08:00:21 (UTC+8)",
   "source": "https://github.com/trending?since=daily",
   "repo_count": 10,
   "repos": [
@@ -10,11 +10,11 @@
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "description_source": "github",
       "language": "JavaScript",
-      "stars": 43967,
-      "stars_today": 2271,
-      "forks": 2739,
+      "stars": 44509,
+      "stars_today": 2264,
+      "forks": 2767,
       "built_by": 3,
-      "open_issues": 85,
+      "open_issues": 86,
       "topics": [],
       "homepage": "",
       "license": "MIT",
@@ -22,7 +22,7 @@
       "pushed_at": "2026-09-14T19:29:02Z",
       "rank": 1,
       "language_color": "#f1e05a",
-      "description_zh": "一种用于多阶段安全审计的编码代理技能，提供独立验证的机器可读结果。"
+      "description_zh": "一种编码智能体技能，用于多阶段安全审计，提供独立验证的、机器可读的发现结果"
     },
     {
       "full_name": "NVIDIA/OpenShell",
@@ -30,19 +30,19 @@
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "description_source": "github",
       "language": "Rust",
-      "stars": 19348,
-      "stars_today": 893,
-      "forks": 1924,
+      "stars": 19467,
+      "stars_today": 896,
+      "forks": 1930,
       "built_by": 5,
-      "open_issues": 576,
+      "open_issues": 577,
       "topics": [],
       "homepage": "https://docs.nvidia.com/openshell/latest/",
       "license": "Apache-2.0",
       "created_at": "2026-02-24T22:52:22Z",
-      "pushed_at": "2026-10-24T02:12:45Z",
+      "pushed_at": "2026-10-24T23:55:12Z",
       "rank": 2,
       "language_color": "#dea584",
-      "description_zh": "OpenShell 是为自主 AI 智能体打造的安全、隐私运行时环境。"
+      "description_zh": "OpenShell 是专为自主 AI 智能体打造的安全、私密运行时环境"
     },
     {
       "full_name": "aws/agent-toolkit-for-aws",
@@ -50,9 +50,9 @@
       "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
       "description_source": "github",
       "language": "Python",
-      "stars": 3062,
-      "stars_today": 11,
-      "forks": 395,
+      "stars": 3122,
+      "stars_today": 13,
+      "forks": 397,
       "built_by": 5,
       "open_issues": 64,
       "topics": [],
@@ -62,7 +62,7 @@
       "pushed_at": "2026-10-23T15:00:22Z",
       "rank": 3,
       "language_color": "#3572A5",
-      "description_zh": "由 AWS 官方支持的 MCP 服务器、技能及插件，助力 AI 智能体在 AWS 上进行构建。"
+      "description_zh": "AWS 官方支持、受 AWS 支持的 MCP 服务器、技能和插件，助力 AI 智能体基于 AWS 进行构建"
     },
     {
       "full_name": "Nutlope/hallmark",
@@ -70,9 +70,9 @@
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "description_source": "github",
       "language": "CSS",
-      "stars": 31919,
-      "stars_today": 570,
-      "forks": 1640,
+      "stars": 32122,
+      "stars_today": 455,
+      "forks": 1647,
       "built_by": 5,
       "open_issues": 49,
       "topics": [],
@@ -82,7 +82,7 @@
       "pushed_at": "2026-10-22T17:20:32Z",
       "rank": 4,
       "language_color": "#563d7c",
-      "description_zh": "专为 Claude Code、Cursor 和 Codex 设计的反 AI 泛滥内容设计技能。"
+      "description_zh": "专为 Claude Code、Cursor 和 Codex 设计的反 AI 滥竽充数（Anti-AI-slop）设计技能"
     },
     {
       "full_name": "luongnv89/claude-howto",
@@ -90,9 +90,9 @@
       "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
       "description_source": "github",
       "language": "Python",
-      "stars": 44393,
-      "stars_today": 442,
-      "forks": 5485,
+      "stars": 44546,
+      "stars_today": 392,
+      "forks": 5490,
       "built_by": 5,
       "open_issues": 40,
       "topics": [
@@ -106,7 +106,7 @@
       "pushed_at": "2026-10-20T12:23:14Z",
       "rank": 5,
       "language_color": "#3572A5",
-      "description_zh": "一份可视化的 Claude Code 示例驱动指南，涵盖从基础概念到高级智能体，提供可即拷即用、价值立现的模板。"
+      "description_zh": "一本可视化、示例驱动的 Claude Code 指南——从基础概念到高级智能体，提供即取即用、立竿见影的复制粘贴模板"
     },
     {
       "full_name": "pbakaus/impeccable",
@@ -114,11 +114,11 @@
       "description": "The design language that makes your AI harness better at design.",
       "description_source": "github",
       "language": "Rust",
-      "stars": 86215,
-      "stars_today": 733,
-      "forks": 5147,
+      "stars": 86387,
+      "stars_today": 619,
+      "forks": 5153,
       "built_by": 4,
-      "open_issues": 38,
+      "open_issues": 39,
       "topics": [],
       "homepage": "https://impeccable.style",
       "license": "Apache-2.0",
@@ -126,7 +126,7 @@
       "pushed_at": "2026-10-24T06:29:27Z",
       "rank": 6,
       "language_color": "#dea584",
-      "description_zh": "让你的 AI 框架具备更好设计能力的设计语言。"
+      "description_zh": "提升你的 AI 框架设计能力的设计语言"
     },
     {
       "full_name": "pollen-robotics/microduck",
@@ -134,11 +134,11 @@
       "description": "A Tiny biped duck robot 🦆",
       "description_source": "github",
       "language": "Rust",
-      "stars": 10852,
-      "stars_today": 381,
-      "forks": 1393,
+      "stars": 10972,
+      "stars_today": 319,
+      "forks": 1405,
       "built_by": 5,
-      "open_issues": 60,
+      "open_issues": 62,
       "topics": [],
       "homepage": "https://pollen-robotics.com/microduck",
       "license": "Apache-2.0",
@@ -146,7 +146,7 @@
       "pushed_at": "2026-10-24T09:37:44Z",
       "rank": 7,
       "language_color": "#dea584",
-      "description_zh": "一只迷你的双足鸭子机器人 🦆"
+      "description_zh": "一只迷你双足鸭子机器人 🦆"
     },
     {
       "full_name": "google-gemini/gemini-cli",
@@ -154,11 +154,11 @@
       "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 107890,
-      "stars_today": 38,
-      "forks": 14797,
+      "stars": 108040,
+      "stars_today": 44,
+      "forks": 14807,
       "built_by": 5,
-      "open_issues": 756,
+      "open_issues": 762,
       "topics": [
         "ai",
         "ai-agents",
@@ -174,7 +174,7 @@
       "pushed_at": "2026-10-24T01:15:52Z",
       "rank": 8,
       "language_color": "#3178c6",
-      "description_zh": "一个开源 AI 智能体，将 Gemini 的强大能力直接带入你的终端。"
+      "description_zh": "一个开源 AI 智能体，将 Gemini 的强大能力直接带入你的终端"
     },
     {
       "full_name": "jbiaojerry/ebook-treasure-chest",
@@ -182,9 +182,9 @@
       "description": "欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。",
       "description_source": "github",
       "language": "Python",
-      "stars": 22521,
-      "stars_today": 220,
-      "forks": 3183,
+      "stars": 22592,
+      "stars_today": 227,
+      "forks": 3189,
       "built_by": 1,
       "open_issues": 6,
       "topics": [],
@@ -194,7 +194,7 @@
       "pushed_at": "2026-01-13T00:59:23Z",
       "rank": 9,
       "language_color": "#3572A5",
-      "description_zh": "欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。"
+      "description_zh": "欢迎来到电子书下载宝库，这是一个汇集各类电子书下载链接的平台。无论你喜欢经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。该库涵盖了帆书 app（原樊登读书）、微信读书、京东读书、喜马拉雅等阅读平台的大部分电子书。"
     },
     {
       "full_name": "makecindy/cindy",
@@ -202,11 +202,11 @@
       "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 3985,
-      "stars_today": 471,
-      "forks": 575,
+      "stars": 4085,
+      "stars_today": 477,
+      "forks": 584,
       "built_by": 5,
-      "open_issues": 1890,
+      "open_issues": 1886,
       "topics": [
         "agent",
         "ai-agent",
@@ -225,10 +225,10 @@
       "homepage": "https://cindy.app",
       "license": "Apache-2.0",
       "created_at": "2026-07-22T17:49:34Z",
-      "pushed_at": "2026-10-24T18:30:08Z",
+      "pushed_at": "2026-10-24T23:53:11Z",
       "rank": 10,
       "language_color": "#3178c6",
-      "description_zh": "视为已办。开箱即用的开源 AI 智能体 · 想到，就能做到。开源、开箱即用的 AI Agent。"
+      "description_zh": "视为已办。一个开箱即用的开源 AI 智能体 · 想到，就能做到。开源、开箱即用的 AI Agent。"
     }
   ],
   "developers": [
