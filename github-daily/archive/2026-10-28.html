@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GitHub 每日热榜 · 2026-10-28</title>
+<style>
+:root {
+  --bg: #f6f8fa; --card: #ffffff; --text: #1f2328; --muted: #59636e;
+  --border: #d1d9e0; --accent: #0969da; --star: #9a6700; --today: #cf222e;
+  --chip: #eff2f5; --code: #ddf4ff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117; --card: #161b22; --text: #e6edf3; --muted: #9198a1;
+    --border: #30363d; --accent: #4493f8; --star: #d4a72c; --today: #f85149;
+    --chip: #21262d; --code: #121d2f;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  line-height: 1.6;
+}
+.wrap { max-width: 880px; margin: 0 auto; padding: 28px 18px 60px; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.site-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px 14px; margin-bottom: 6px; }
+.site-head h1 { font-size: 1.5rem; margin: 0; letter-spacing: .5px; }
+.date-badge {
+  background: var(--code); color: var(--accent); border: 1px solid var(--border);
+  border-radius: 999px; padding: 2px 12px; font-size: .85rem; font-weight: 600;
+}
+.head-note { color: var(--muted); font-size: .82rem; margin: 0 0 22px; }
+
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 14px; }
+.stat {
+  background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+  padding: 12px 16px;
+}
+.stat .num { font-size: 1.35rem; font-weight: 700; }
+.stat .label { font-size: .78rem; color: var(--muted); }
+
+.langbar {
+  background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+  padding: 14px 16px; margin-bottom: 26px;
+}
+.langbar .bar { display: flex; height: 10px; border-radius: 6px; overflow: hidden; margin-bottom: 10px; }
+.langbar .seg { height: 100%; }
+.langbar .legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: .78rem; color: var(--muted); }
+.langbar .legend .dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 5px; vertical-align: baseline; }
+
+.repo {
+  display: flex; gap: 16px; background: var(--card); border: 1px solid var(--border);
+  border-radius: 12px; padding: 16px 18px; margin-bottom: 14px;
+}
+.repo:hover { border-color: var(--accent); }
+.rank {
+  font-size: 1.5rem; font-weight: 800; color: var(--muted); min-width: 44px;
+  text-align: center; font-variant-numeric: tabular-nums; padding-top: 2px;
+}
+.repo.top .rank { color: var(--today); }
+.repo-body { flex: 1; min-width: 0; }
+.repo-title { font-size: 1.05rem; font-weight: 700; word-break: break-all; }
+.repo-title a { color: var(--text); }
+.repo-title a:hover { color: var(--accent); }
+.desc { margin: 6px 0 4px; color: var(--muted); font-size: .92rem; }
+.desc-zh { margin: 0 0 10px; color: var(--text); font-size: .92rem; border-left: 3px solid var(--accent); padding-left: 10px; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: .82rem; color: var(--muted); align-items: center; }
+.meta .lang .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 5px; }
+.meta .today { color: var(--today); font-weight: 700; }
+.meta .stars { color: var(--star); font-weight: 600; }
+.topics { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 6px; }
+.topics span {
+  background: var(--chip); border-radius: 999px; padding: 1px 10px;
+  font-size: .74rem; color: var(--muted);
+}
+
+.site-foot { margin-top: 34px; padding-top: 18px; border-top: 1px solid var(--border); color: var(--muted); font-size: .82rem; }
+.site-foot .archive { margin-top: 8px; }
+.site-foot .archive a { margin-right: 12px; white-space: nowrap; }
+
+.archive-block { margin-top: 38px; }
+.archive-block .arch-head {
+  display: flex; justify-content: space-between; align-items: baseline;
+  border-bottom: 1px solid var(--border); padding-bottom: 8px; margin-bottom: 14px;
+}
+.archive-block .arch-head h2 { font-size: 1.15rem; margin: 0; }
+.archive-block .arch-all { font-size: .85rem; white-space: nowrap; }
+.arch-list { list-style: none; margin: 0; padding: 0; }
+.arch-list li {
+  display: grid; grid-template-columns: 116px 1fr auto; gap: 8px 16px; align-items: center;
+  background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+  padding: 11px 16px; margin-bottom: 10px;
+}
+.arch-list li:hover { border-color: var(--accent); }
+.arch-list .arch-date { font-weight: 700; font-variant-numeric: tabular-nums; }
+.arch-list .arch-top { color: var(--muted); font-size: .85rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.arch-list .arch-count { color: var(--muted); font-size: .82rem; white-space: nowrap; }
+
+.page-list { list-style: none; margin: 0; padding: 0; }
+.page-list li {
+  display: grid; grid-template-columns: 116px 1fr auto; gap: 8px 16px; align-items: center;
+  background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+  padding: 11px 16px; margin-bottom: 10px;
+}
+.page-list li:hover { border-color: var(--accent); }
+.page-list li a { font-weight: 600; }
+.page-list li .top { color: var(--muted); font-size: .85rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.page-list li .count { color: var(--muted); font-size: .82rem; white-space: nowrap; }
+
+/* ===== 今日热门开发者 ===== */
+.sec-head {
+  display: flex; justify-content: space-between; align-items: baseline; gap: 12px;
+  border-bottom: 1px solid var(--border); padding-bottom: 8px; margin-bottom: 14px;
+}
+.sec-head h2 { font-size: 1.15rem; margin: 0; }
+.sec-sub { color: var(--muted); font-size: .82rem; }
+.sec-sub a { color: inherit; }
+.dev-list { margin-top: 38px; }
+.dev-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px; }
+.dev-card {
+  display: flex; align-items: center; gap: 12px;
+  background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 10px 14px;
+}
+.dev-card:hover { border-color: var(--accent); }
+.dev-avatar { width: 42px; height: 42px; border-radius: 50%; flex: none; }
+.dev-info { min-width: 0; }
+.dev-name { font-weight: 650; font-size: .95rem; }
+.dev-name a { color: var(--fg); text-decoration: none; }
+.dev-name a:hover { color: var(--accent); }
+.dev-user { color: var(--muted); font-size: .78rem; }
+.dev-repo { font-size: .8rem; margin-top: 2px; }
+.dev-repo a { color: var(--accent); text-decoration: none; }
+.dev-repo a:hover { text-decoration: underline; }
+
+/* ===== 数据洞察 ===== */
+.insights { margin-top: 38px; }
+.insight-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 10px; }
+.insight-col {
+  background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px;
+}
+.insight-col h3 { font-size: .88rem; margin: 0 0 8px; color: var(--muted); font-weight: 600; }
+.insight-list { list-style: none; margin: 0; padding: 0; counter-reset: none; }
+.insight-list li {
+  display: flex; justify-content: space-between; gap: 10px; align-items: baseline;
+  padding: 6px 0; border-bottom: 1px dashed var(--border); font-size: .86rem;
+}
+.insight-list li:last-child { border-bottom: none; }
+.insight-list .i-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.insight-list .i-val { color: #d1423c; font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+@media (max-width: 560px) {
+  .arch-list li, .page-list li { grid-template-columns: 1fr auto; }
+  .arch-list .arch-top, .page-list li .top { grid-column: 1 / -1; order: 3; }
+  .dev-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+
+<header>
+  <div class="site-head">
+    <h1>GitHub 每日热榜</h1>
+    <span class="date-badge">2026-10-28</span>
+  </div>
+  <p class="head-note">
+    数据窗口：约过去 24 小时（来源 <a href="https://github.com/trending?since=daily">GitHub Trending · Daily</a>） ·
+    项目描述保留英文原文，附 Agnes 3.0 Flash 自动中文翻译 · 生成时间：2026-10-28 05:04:38 (UTC+8)
+  </p>
+</header>
+
+<section class="stats">
+  <div class="stat"><div class="num">11</div><div class="label">上榜项目</div></div>
+  <div class="stat"><div class="num">14,384</div><div class="label">新增 Star 合计</div></div>
+  <div class="stat"><div class="num">7</div><div class="label">涉及语言</div></div>
+  <div class="stat"><div class="num">#1</div><div class="label">今日榜首：elayadesign/ai-design-skills</div></div>
+</section>
+
+
+<section class="langbar">
+  <div class="bar">
+    
+    <div class="seg" style="width: 36.4%; background: #3178c6;" title="TypeScript 4 个"></div>
+    
+    <div class="seg" style="width: 18.2%; background: #8b949e;" title="未知 2 个"></div>
+    
+    <div class="seg" style="width: 9.1%; background: #563d7c;" title="CSS 1 个"></div>
+    
+    <div class="seg" style="width: 9.1%; background: #f1e05a;" title="JavaScript 1 个"></div>
+    
+    <div class="seg" style="width: 9.1%; background: #3572A5;" title="Python 1 个"></div>
+    
+    <div class="seg" style="width: 9.1%; background: #dea584;" title="Rust 1 个"></div>
+    
+    <div class="seg" style="width: 9.1%; background: #89e051;" title="Shell 1 个"></div>
+    
+  </div>
+  <div class="legend">
+    
+    <span><span class="dot" style="background: #3178c6;"></span>TypeScript · 4</span>
+    
+    <span><span class="dot" style="background: #8b949e;"></span>未知 · 2</span>
+    
+    <span><span class="dot" style="background: #563d7c;"></span>CSS · 1</span>
+    
+    <span><span class="dot" style="background: #f1e05a;"></span>JavaScript · 1</span>
+    
+    <span><span class="dot" style="background: #3572A5;"></span>Python · 1</span>
+    
+    <span><span class="dot" style="background: #dea584;"></span>Rust · 1</span>
+    
+    <span><span class="dot" style="background: #89e051;"></span>Shell · 1</span>
+    
+  </div>
+</section>
+
+
+<section class="repo-list">
+  
+  <article class="repo top">
+    <div class="rank">01</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/elayadesign/ai-design-skills">elayadesign/ai-design-skills</a></div>
+      <p class="desc">A growing collection of design skills for AI coding tools — Claude Code, Cursor, Codex, Windsurf, and anything else that reads a markdown rules file. Each skill is a self-contained folder. Install the ones you need. --- Skill What it does --- --- landing-page-design Builds a landing page from ...</p>
+      <p class="desc-zh">译：一个不断壮大的 AI 编码工具设计技能集——适用于 Claude Code、Cursor、Codex、Windsurf 及任何读取 Markdown 规则文件的工具。每个技能都是独立的文件夹。安装你需要的即可。 --- 技能 功能 --- --- landing-page-design 构建落地页...</p>
+      <div class="meta">
+        
+        <span class="stars">★ 9,092</span>
+        <span class="today">+1,395 today</span>
+        <span>⑂ 656</span>
+        <span>◉ 5 open issues</span>
+        <span>MIT</span>
+        
+      </div>
+      
+    </div>
+  </article>
+  
+  <article class="repo top">
+    <div class="rank">02</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/Nutlope/hallmark">Nutlope/hallmark</a></div>
+      <p class="desc">Anti-AI-slop design skill for Claude Code, Cursor, and Codex.</p>
+      <p class="desc-zh">译：专为 Claude Code、Cursor 和 Codex 打造的反 AI 滥稿设计技能。</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #563d7c;"></span>CSS</span>
+        <span class="stars">★ 38,787</span>
+        <span class="today">+2,859 today</span>
+        <span>⑂ 2,017</span>
+        <span>◉ 64 open issues</span>
+        <span>MIT</span>
+        <span><a href="https://www.usehallmark.com/">主页</a></span>
+      </div>
+      
+    </div>
+  </article>
+  
+  <article class="repo top">
+    <div class="rank">03</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/nightly-labs/openbot">nightly-labs/openbot</a></div>
+      <p class="desc">A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.</p>
+      <p class="desc-zh">译：本地优先的桌面工作区，用于持久化的 AI 队友。在专属工作区中运行 Codex、Claude 和 Grok，支持任务队列、文件共享、浏览器控制及智能体间协作。</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #3178c6;"></span>TypeScript</span>
+        <span class="stars">★ 2,321</span>
+        <span class="today">+794 today</span>
+        <span>⑂ 242</span>
+        <span>◉ 208 open issues</span>
+        
+        <span><a href="https://openbot.run/">主页</a></span>
+      </div>
+      
+      <div class="topics"><span>#ai-agents</span><span>#bun</span><span>#codex</span><span>#electron</span><span>#local-first</span><span>#macos</span></div>
+      
+    </div>
+  </article>
+  
+  <article class="repo">
+    <div class="rank">04</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/obra/superpowers">obra/superpowers</a></div>
+      <p class="desc">An agentic skills framework & software development methodology that works.</p>
+      <p class="desc-zh">译：一套行之有效的智能体技能框架与软件开发方法论。</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #89e051;"></span>Shell</span>
+        <span class="stars">★ 306,331</span>
+        <span class="today">+608 today</span>
+        <span>⑂ 27,276</span>
+        <span>◉ 364 open issues</span>
+        <span>MIT</span>
+        
+      </div>
+      
+      <div class="topics"><span>#ai</span><span>#brainstorming</span><span>#coding</span><span>#obra</span><span>#sdlc</span><span>#skills</span></div>
+      
+    </div>
+  </article>
+  
+  <article class="repo">
+    <div class="rank">05</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/pbakaus/impeccable">pbakaus/impeccable</a></div>
+      <p class="desc">The design language that makes your AI harness better at design.</p>
+      <p class="desc-zh">译：让 AI 辅助工具在设计方面表现更出色的设计语言。</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #dea584;"></span>Rust</span>
+        <span class="stars">★ 90,369</span>
+        <span class="today">+1,458 today</span>
+        <span>⑂ 5,371</span>
+        <span>◉ 44 open issues</span>
+        <span>Apache-2.0</span>
+        <span><a href="https://impeccable.style">主页</a></span>
+      </div>
+      
+    </div>
+  </article>
+  
+  <article class="repo">
+    <div class="rank">06</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/makecindy/cindy">makecindy/cindy</a></div>
+      <p class="desc">Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。</p>
+      <p class="desc-zh">译：视为已完成。开箱即用的开源 AI 智能体 · 想到，就能做到。开源、开箱即用的 AI Agent。</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #3178c6;"></span>TypeScript</span>
+        <span class="stars">★ 7,392</span>
+        <span class="today">+1,446 today</span>
+        <span>⑂ 877</span>
+        <span>◉ 2,079 open issues</span>
+        <span>Apache-2.0</span>
+        <span><a href="https://cindy.app">主页</a></span>
+      </div>
+      
+      <div class="topics"><span>#agent</span><span>#ai-agent</span><span>#ai-assistant</span><span>#android</span><span>#claude-code</span><span>#codex</span></div>
+      
+    </div>
+  </article>
+  
+  <article class="repo">
+    <div class="rank">07</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/gitroomhq/postiz-app">gitroomhq/postiz-app</a></div>
+      <p class="desc">📨 The ultimate agentic social media scheduling tool 🤖</p>
+      <p class="desc-zh">译：📨 终极智能体社交媒体排程工具 🤖</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #3178c6;"></span>TypeScript</span>
+        <span class="stars">★ 39,234</span>
+        <span class="today">+953 today</span>
+        <span>⑂ 7,500</span>
+        <span>◉ 223 open issues</span>
+        <span>AGPL-3.0</span>
+        <span><a href="https://postiz.com">主页</a></span>
+      </div>
+      
+      <div class="topics"><span>#nextjs</span><span>#open-source</span><span>#open-source-social-media-scheduling-tool</span><span>#oss</span><span>#postiz-cloud</span><span>#postiz-hosted</span></div>
+      
+    </div>
+  </article>
+  
+  <article class="repo">
+    <div class="rank">08</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/affaan-m/ECC">affaan-m/ECC</a></div>
+      <p class="desc">The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.</p>
+      <p class="desc-zh">译：智能体运行时性能优化系统。为 Claude Code、Codex、Opencode、Cursor 及其他工具提供技能、本能、记忆、安全和研究优先的开发支持。</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #f1e05a;"></span>JavaScript</span>
+        <span class="stars">★ 290,758</span>
+        <span class="today">+1,183 today</span>
+        <span>⑂ 43,068</span>
+        <span>◉ 261 open issues</span>
+        <span>MIT</span>
+        <span><a href="https://ecc.tools">主页</a></span>
+      </div>
+      
+      <div class="topics"><span>#ai-agents</span><span>#anthropic</span><span>#claude</span><span>#claude-code</span><span>#developer-tools</span><span>#llm</span></div>
+      
+    </div>
+  </article>
+  
+  <article class="repo">
+    <div class="rank">09</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/HKUDS/DeepTutor">HKUDS/DeepTutor</a></div>
+      <p class="desc">DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.</p>
+      <p class="desc-zh">译：DeepTutor：终身个性化辅导。https://deeptutor.info/。</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #3572A5;"></span>Python</span>
+        <span class="stars">★ 45,675</span>
+        <span class="today">+1,587 today</span>
+        <span>⑂ 5,735</span>
+        <span>◉ 214 open issues</span>
+        <span>Apache-2.0</span>
+        <span><a href="http://arxiv.org/abs/2604.26962">主页</a></span>
+      </div>
+      
+      <div class="topics"><span>#ai-agents</span><span>#ai-tutor</span><span>#clawbot</span><span>#cli-tool</span><span>#deepresearch</span><span>#interactive-learning</span></div>
+      
+    </div>
+  </article>
+  
+  <article class="repo">
+    <div class="rank">10</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/JetBrains/thinkrail">JetBrains/thinkrail</a></div>
+      <p class="desc">Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need</p>
+      <p class="desc-zh">译：在轻量级且能根据你工作方式自我定制的实时 IDE 中，使用 pi 进行氛围编程——你需要的氛围</p>
+      <div class="meta">
+        <span class="lang"><span class="dot" style="background: #3178c6;"></span>TypeScript</span>
+        <span class="stars">★ 3,863</span>
+        <span class="today">+1,211 today</span>
+        <span>⑂ 206</span>
+        <span>◉ 226 open issues</span>
+        <span>Apache-2.0</span>
+        <span><a href="https://thinkrail.ai/">主页</a></span>
+      </div>
+      
+      <div class="topics"><span>#agent</span><span>#agent-skills</span><span>#agentic-ai</span><span>#agentic-workflow</span><span>#ai-coding</span><span>#ai-tools</span></div>
+      
+    </div>
+  </article>
+  
+  <article class="repo">
+    <div class="rank">11</div>
+    <div class="repo-body">
+      <div class="repo-title"><a href="https://github.com/togg53192-cmd/jailbreaks">togg53192-cmd/jailbreaks</a></div>
+      <p class="desc">LIST OF ALL MY JAILBREAKS</p>
+      <p class="desc-zh">译：我的所有越狱列表</p>
+      <div class="meta">
+        
+        <span class="stars">★ 5,369</span>
+        <span class="today">+890 today</span>
+        <span>⑂ 811</span>
+        <span>◉ 14 open issues</span>
+        
+        
+      </div>
+      
+    </div>
+  </article>
+  
+</section>
+
+
+<section class="dev-list">
+  <div class="sec-head">
+    <h2>今日热门开发者</h2>
+    <span class="sec-sub">来源 <a href="https://github.com/trending/developers?since=daily">Trending Developers</a></span>
+  </div>
+  <div class="dev-grid">
+    
+    <div class="dev-card">
+      <img class="dev-avatar" src="https://avatars.githubusercontent.com/u/29406408?s=96&v=4" alt="@ahmadrosid" loading="lazy">
+      <div class="dev-info">
+        <div class="dev-name"><a href="https://github.com/ahmadrosid">ahmadrosid</a></div>
+        <div class="dev-user">@ahmadrosid</div>
+        <div class="dev-repo">🔥 <a href="https://github.com/ahmadrosid/nakama">ahmadrosid/nakama</a></div>
+      </div>
+    </div>
+    
+    <div class="dev-card">
+      <img class="dev-avatar" src="https://avatars.githubusercontent.com/u/18633264?s=96&v=4" alt="@lalalune" loading="lazy">
+      <div class="dev-info">
+        <div class="dev-name"><a href="https://github.com/lalalune">Shaw</a></div>
+        <div class="dev-user">@lalalune</div>
+        <div class="dev-repo">🔥 <a href="https://github.com/lalalune/pumpfun-source">lalalune/pumpfun-source</a></div>
+      </div>
+    </div>
+    
+    <div class="dev-card">
+      <img class="dev-avatar" src="https://avatars.githubusercontent.com/u/17802178?s=96&v=4" alt="@gakonst" loading="lazy">
+      <div class="dev-info">
+        <div class="dev-name"><a href="https://github.com/gakonst">Georgios Konstantopoulos</a></div>
+        <div class="dev-user">@gakonst</div>
+        <div class="dev-repo">🔥 <a href="https://github.com/gakonst/nanocode">gakonst/nanocode</a></div>
+      </div>
+    </div>
+    
+    <div class="dev-card">
+      <img class="dev-avatar" src="https://avatars.githubusercontent.com/u/41830259?s=96&v=4" alt="@Th0rgal" loading="lazy">
+      <div class="dev-info">
+        <div class="dev-name"><a href="https://github.com/Th0rgal">Thomas Marchand</a></div>
+        <div class="dev-user">@Th0rgal</div>
+        <div class="dev-repo">🔥 <a href="https://github.com/Th0rgal/orb">Th0rgal/orb</a></div>
+      </div>
+    </div>
+    
+    <div class="dev-card">
+      <img class="dev-avatar" src="https://avatars.githubusercontent.com/u/24619905?s=96&v=4" alt="@krille-chan" loading="lazy">
+      <div class="dev-info">
+        <div class="dev-name"><a href="https://github.com/krille-chan">Krille-chan</a></div>
+        <div class="dev-user">@krille-chan</div>
+        <div class="dev-repo">🔥 <a href="https://github.com/krille-chan/fluffychat">krille-chan/fluffychat</a></div>
+      </div>
+    </div>
+    
+    <div class="dev-card">
+      <img class="dev-avatar" src="https://avatars.githubusercontent.com/u/5635139?s=96&v=4" alt="@max-sixty" loading="lazy">
+      <div class="dev-info">
+        <div class="dev-name"><a href="https://github.com/max-sixty">Maximilian Roos</a></div>
+        <div class="dev-user">@max-sixty</div>
+        <div class="dev-repo">🔥 <a href="https://github.com/max-sixty/worktrunk">max-sixty/worktrunk</a></div>
+      </div>
+    </div>
+    
+    <div class="dev-card">
+      <img class="dev-avatar" src="https://avatars.githubusercontent.com/u/7244317?s=96&v=4" alt="@backnotprop" loading="lazy">
+      <div class="dev-info">
+        <div class="dev-name"><a href="https://github.com/backnotprop">Michael Ramos</a></div>
+        <div class="dev-user">@backnotprop</div>
+        <div class="dev-repo">🔥 <a href="https://github.com/backnotprop/pstack">backnotprop/pstack</a></div>
+      </div>
+    </div>
+    
+    <div class="dev-card">
+      <img class="dev-avatar" src="https://avatars.githubusercontent.com/u/455140?s=96&v=4" alt="@mvanhorn" loading="lazy">
+      <div class="dev-info">
+        <div class="dev-name"><a href="https://github.com/mvanhorn">Matt Van Horn</a></div>
+        <div class="dev-user">@mvanhorn</div>
+        <div class="dev-repo">🔥 <a href="https://github.com/mvanhorn/last30days-skill">mvanhorn/last30days-skill</a></div>
+      </div>
+    </div>
+    
+    <div class="dev-card">
+      <img class="dev-avatar" src="https://avatars.githubusercontent.com/u/48862574?s=96&v=4" alt="@vastsa" loading="lazy">
+      <div class="dev-info">
+        <div class="dev-name"><a href="https://github.com/vastsa">Lan</a></div>
+        <div class="dev-user">@vastsa</div>
+        <div class="dev-repo">🔥 <a href="https://github.com/vastsa/PI-Desktop">vastsa/PI-Desktop</a></div>
+      </div>
+    </div>
+    
+    <div class="dev-card">
+      <img class="dev-avatar" src="https://avatars.githubusercontent.com/u/770929?s=96&v=4" alt="@OutThisLife" loading="lazy">
+      <div class="dev-info">
+        <div class="dev-name"><a href="https://github.com/OutThisLife">brooklyn!</a></div>
+        <div class="dev-user">@OutThisLife</div>
+        <div class="dev-repo">🔥 <a href="https://github.com/OutThisLife/azeroth-survivors-re">OutThisLife/azeroth-survivors-re</a></div>
+      </div>
+    </div>
+    
+    <div class="dev-card">
+      <img class="dev-avatar" src="https://avatars.githubusercontent.com/u/35651410?s=96&v=4" alt="@jarrodwatts" loading="lazy">
+      <div class="dev-info">
+        <div class="dev-name"><a href="https://github.com/jarrodwatts">Jarrod Watts</a></div>
+        <div class="dev-user">@jarrodwatts</div>
+        <div class="dev-repo">🔥 <a href="https://github.com/jarrodwatts/claude-hud">jarrodwatts/claude-hud</a></div>
+      </div>
+    </div>
+    
+    <div class="dev-card">
+      <img class="dev-avatar" src="https://avatars.githubusercontent.com/u/19428358?s=96&v=4" alt="@enesozturk" loading="lazy">
+      <div class="dev-info">
+        <div class="dev-name"><a href="https://github.com/enesozturk">Enes</a></div>
+        <div class="dev-user">@enesozturk</div>
+        <div class="dev-repo">🔥 <a href="https://github.com/enesozturk/dimensional-drawing">enesozturk/dimensional-drawing</a></div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+
+
+<section class="insights">
+  <div class="sec-head">
+    <h2>数据洞察</h2>
+    <span class="sec-sub">基于 14 期历史存档自动计算</span>
+  </div>
+  <div class="insight-grid">
+    
+    <div class="insight-col">
+      <h3>近 7 日 Star 增长 Top5</h3>
+      <ol class="insight-list">
+        <li><span class="i-name">cloudflare/security-audit-skill</span><span class="i-val">+8,328</span></li><li><span class="i-name">Nutlope/hallmark</span><span class="i-val">+6,665</span></li><li><span class="i-name">pbakaus/impeccable</span><span class="i-val">+3,982</span></li><li><span class="i-name">makecindy/cindy</span><span class="i-val">+3,307</span></li><li><span class="i-name">debpalash/VoiceStudio</span><span class="i-val">+2,413</span></li>
+      </ol>
+    </div>
+    
+    
+    <div class="insight-col">
+      <h3>近 7 日新增 Star 合计 Top5</h3>
+      <ol class="insight-list">
+        <li><span class="i-name">cloudflare/security-audit-skill</span><span class="i-val">+13,816</span></li><li><span class="i-name">Nutlope/hallmark</span><span class="i-val">+6,875</span></li><li><span class="i-name">pbakaus/impeccable</span><span class="i-val">+4,675</span></li><li><span class="i-name">DietrichGebert/ponytail</span><span class="i-val">+3,897</span></li><li><span class="i-name">makecindy/cindy</span><span class="i-val">+3,894</span></li>
+      </ol>
+    </div>
+    
+    
+    <div class="insight-col">
+      <h3>连续上榜 Top5</h3>
+      <ol class="insight-list">
+        <li><span class="i-name">Nutlope/hallmark</span><span class="i-val">4 天</span></li><li><span class="i-name">pbakaus/impeccable</span><span class="i-val">4 天</span></li><li><span class="i-name">makecindy/cindy</span><span class="i-val">4 天</span></li><li><span class="i-name">JetBrains/thinkrail</span><span class="i-val">3 天</span></li><li><span class="i-name">affaan-m/ECC</span><span class="i-val">2 天</span></li>
+      </ol>
+    </div>
+    
+  </div>
+</section>
+
+
+<section class="archive-block">
+  <div class="arch-head">
+    <h2>往期回顾</h2>
+    <a class="arch-all" href="../archive/">查看全部归档 →</a>
+  </div>
+  
+  <ul class="arch-list">
+    
+    <li>
+      <a class="arch-date" href="../archive/2026-10-27.html">2026-10-27</a>
+      <span class="arch-top">榜首 Nutlope/hallmark</span>
+      <span class="arch-count">14 个项目</span>
+    </li>
+    
+    <li>
+      <a class="arch-date" href="../archive/2026-10-26.html">2026-10-26</a>
+      <span class="arch-top">榜首 makecindy/cindy</span>
+      <span class="arch-count">11 个项目</span>
+    </li>
+    
+    <li>
+      <a class="arch-date" href="../archive/2026-10-25.html">2026-10-25</a>
+      <span class="arch-top">榜首 cloudflare/security-audit-skill</span>
+      <span class="arch-count">10 个项目</span>
+    </li>
+    
+    <li>
+      <a class="arch-date" href="../archive/2026-10-24.html">2026-10-24</a>
+      <span class="arch-top">榜首 cloudflare/security-audit-skill</span>
+      <span class="arch-count">8 个项目</span>
+    </li>
+    
+    <li>
+      <a class="arch-date" href="../archive/2026-10-23.html">2026-10-23</a>
+      <span class="arch-top">榜首 php/php-src</span>
+      <span class="arch-count">9 个项目</span>
+    </li>
+    
+    <li>
+      <a class="arch-date" href="../archive/2026-10-22.html">2026-10-22</a>
+      <span class="arch-top">榜首 php/php-src</span>
+      <span class="arch-count">9 个项目</span>
+    </li>
+    
+    <li>
+      <a class="arch-date" href="../archive/2026-10-21.html">2026-10-21</a>
+      <span class="arch-top">榜首 MadsLorentzen/ai-job-search</span>
+      <span class="arch-count">13 个项目</span>
+    </li>
+    
+    <li>
+      <a class="arch-date" href="../archive/2026-10-20.html">2026-10-20</a>
+      <span class="arch-top">榜首 MadsLorentzen/ai-job-search</span>
+      <span class="arch-count">12 个项目</span>
+    </li>
+    
+    <li>
+      <a class="arch-date" href="../archive/2026-10-19.html">2026-10-19</a>
+      <span class="arch-top">榜首 MadsLorentzen/ai-job-search</span>
+      <span class="arch-count">13 个项目</span>
+    </li>
+    
+    <li>
+      <a class="arch-date" href="../archive/2026-10-18.html">2026-10-18</a>
+      <span class="arch-top">榜首 anthropics/claude-plugins-official</span>
+      <span class="arch-count">13 个项目</span>
+    </li>
+    
+  </ul>
+  
+</section>
+
+<footer class="site-foot">
+  <div>由 GitHub Actions 每日 01:00（北京时间）自动生成 · 榜单数量以 GitHub Trending 实际返回为准</div>
+  
+  <div class="archive">更多往期：
+    <a href="../archive/2026-10-27.html">2026-10-27</a><a href="../archive/2026-10-26.html">2026-10-26</a><a href="../archive/2026-10-25.html">2026-10-25</a><a href="../archive/2026-10-24.html">2026-10-24</a><a href="../archive/2026-10-23.html">2026-10-23</a><a href="../archive/2026-10-22.html">2026-10-22</a><a href="../archive/2026-10-21.html">2026-10-21</a><a href="../archive/2026-10-20.html">2026-10-20</a><a href="../archive/2026-10-19.html">2026-10-19</a><a href="../archive/2026-10-18.html">2026-10-18</a><a href="../archive/2026-10-17.html">2026-10-17</a><a href="../archive/2026-10-16.html">2026-10-16</a><a href="../archive/2026-10-15.html">2026-10-15</a>
+    <a href="../archive/">全部归档</a>
+  </div>
+  
+</footer>
+
+</main>
+</body>
+</html>
