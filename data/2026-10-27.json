@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "generated_at": "2026-10-27 05:17:23 (UTC+8)",
+  "generated_at": "2026-10-27 08:00:22 (UTC+8)",
   "source": "https://github.com/trending?since=daily",
   "repo_count": 14,
   "repos": [
@@ -10,9 +10,9 @@
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "description_source": "github",
       "language": "CSS",
-      "stars": 35997,
-      "stars_today": 2235,
-      "forks": 1879,
+      "stars": 36255,
+      "stars_today": 2244,
+      "forks": 1894,
       "built_by": 5,
       "open_issues": 62,
       "topics": [],
@@ -22,7 +22,7 @@
       "pushed_at": "2026-10-22T17:20:32Z",
       "rank": 1,
       "language_color": "#563d7c",
-      "description_zh": "适用于 Claude Code、Cursor 和 Codex 的反 AI 平庸设计技能。"
+      "description_zh": "专为 Claude Code、Cursor 和 Codex 打造的反 AI 劣质设计技能。"
     },
     {
       "full_name": "TauricResearch/TradingAgents",
@@ -30,9 +30,9 @@
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "description_source": "github",
       "language": "Python",
-      "stars": 115903,
-      "stars_today": 1376,
-      "forks": 22254,
+      "stars": 116063,
+      "stars_today": 1395,
+      "forks": 22273,
       "built_by": 5,
       "open_issues": 154,
       "topics": [
@@ -56,11 +56,11 @@
       "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 2769,
-      "stars_today": 1156,
-      "forks": 147,
+      "stars": 2870,
+      "stars_today": 1173,
+      "forks": 153,
       "built_by": 5,
-      "open_issues": 228,
+      "open_issues": 226,
       "topics": [
         "agent",
         "agent-skills",
@@ -79,10 +79,10 @@
       "homepage": "https://thinkrail.ai/",
       "license": "Apache-2.0",
       "created_at": "2026-07-08T07:40:43Z",
-      "pushed_at": "2026-10-26T21:01:40Z",
+      "pushed_at": "2026-10-26T23:56:23Z",
       "rank": 3,
       "language_color": "#3178c6",
-      "description_zh": "使用 pi 在轻量级实时 IDE 中进行氛围编码，该 IDE 会根据你的工作方式进行定制——你所需的气场"
+      "description_zh": "使用 pi 进行氛围编程，在一个轻量级、真实 IDE 中，根据你的工作方式自我定制——你所需的风味"
     },
     {
       "full_name": "makecindy/cindy",
@@ -90,11 +90,11 @@
       "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 6326,
-      "stars_today": 1268,
-      "forks": 777,
+      "stars": 6437,
+      "stars_today": 1296,
+      "forks": 786,
       "built_by": 5,
-      "open_issues": 2016,
+      "open_issues": 2027,
       "topics": [
         "agent",
         "ai-agent",
@@ -113,7 +113,7 @@
       "homepage": "https://cindy.app",
       "license": "Apache-2.0",
       "created_at": "2026-07-22T17:49:34Z",
-      "pushed_at": "2026-10-26T17:17:47Z",
+      "pushed_at": "2026-10-26T23:55:50Z",
       "rank": 4,
       "language_color": "#3178c6",
       "description_zh": "视为已完成。开箱即用的开源 AI 智能体 · 想到，就能做到。开源、开箱即用的 AI Agent。"
@@ -124,9 +124,9 @@
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "description_source": "github",
       "language": "JavaScript",
-      "stars": 289724,
-      "stars_today": 987,
-      "forks": 42926,
+      "stars": 289819,
+      "stars_today": 896,
+      "forks": 42941,
       "built_by": 4,
       "open_issues": 248,
       "topics": [
@@ -145,7 +145,7 @@
       "pushed_at": "2026-10-26T04:56:56Z",
       "rank": 5,
       "language_color": "#f1e05a",
-      "description_zh": "智能体框架性能优化系统。为 Claude Code、Codex、Opencode、Cursor 及更多工具提供技能、直觉、记忆、安全及研究优先的开发支持。"
+      "description_zh": "智能体性能优化系统。为 Claude Code、Codex、Opencode、Cursor 及更多工具提供技能、直觉、记忆、安全及研究优先的开发支持。"
     },
     {
       "full_name": "pbakaus/impeccable",
@@ -153,19 +153,19 @@
       "description": "The design language that makes your AI harness better at design.",
       "description_source": "github",
       "language": "Rust",
-      "stars": 89036,
-      "stars_today": 1551,
-      "forks": 5304,
+      "stars": 89159,
+      "stars_today": 1506,
+      "forks": 5308,
       "built_by": 4,
-      "open_issues": 42,
+      "open_issues": 43,
       "topics": [],
       "homepage": "https://impeccable.style",
       "license": "Apache-2.0",
       "created_at": "2025-11-16T01:52:04Z",
-      "pushed_at": "2026-10-26T20:19:43Z",
+      "pushed_at": "2026-10-26T23:41:54Z",
       "rank": 6,
       "language_color": "#dea584",
-      "description_zh": "使你的 AI 框架在设计上更出色的设计语言。"
+      "description_zh": "让您的 AI 框架设计能力更强的设计语言。"
     },
     {
       "full_name": "NVIDIA/SkillSpector",
@@ -173,9 +173,9 @@
       "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
       "description_source": "github",
       "language": "Python",
-      "stars": 22077,
-      "stars_today": 203,
-      "forks": 1929,
+      "stars": 22164,
+      "stars_today": 214,
+      "forks": 1936,
       "built_by": 4,
       "open_issues": 175,
       "topics": [
@@ -197,7 +197,7 @@
       "pushed_at": "2026-10-23T09:40:29Z",
       "rank": 7,
       "language_color": "#3572A5",
-      "description_zh": "AI 智能体技能安全扫描器。在 Claude Code、Codex 和 MCP 技能安装前，检测漏洞、恶意模式、安全风险、提示注入、数据窃取及供应链风险。"
+      "description_zh": "AI 智能体技能安全扫描器。在安装前检测 Claude Code、Codex 和 MCP 技能中的漏洞、恶意模式、安全风险、提示注入、数据泄露及供应链风险。"
     },
     {
       "full_name": "pollen-robotics/microduck",
@@ -205,9 +205,9 @@
       "description": "A Tiny biped duck robot 🦆",
       "description_source": "github",
       "language": "Rust",
-      "stars": 12342,
-      "stars_today": 844,
-      "forks": 1543,
+      "stars": 12395,
+      "stars_today": 843,
+      "forks": 1546,
       "built_by": 5,
       "open_issues": 80,
       "topics": [],
@@ -217,7 +217,7 @@
       "pushed_at": "2026-10-26T11:29:24Z",
       "rank": 8,
       "language_color": "#dea584",
-      "description_zh": "一个微小的双足鸭子机器人 🦆"
+      "description_zh": "一只小型双足鸭子机器人 🦆"
     },
     {
       "full_name": "nightly-labs/openbot",
@@ -225,11 +225,11 @@
       "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 1389,
-      "stars_today": 312,
-      "forks": 177,
+      "stars": 1457,
+      "stars_today": 176,
+      "forks": 184,
       "built_by": 5,
-      "open_issues": 193,
+      "open_issues": 201,
       "topics": [
         "ai-agents",
         "bun",
@@ -243,10 +243,10 @@
       "homepage": "https://openbot.run/",
       "license": "",
       "created_at": "2026-08-12T21:32:03Z",
-      "pushed_at": "2026-10-26T20:25:36Z",
+      "pushed_at": "2026-10-26T23:49:48Z",
       "rank": 9,
       "language_color": "#3178c6",
-      "description_zh": "本地优先的持久化 AI 队友桌面工作区。使用专用工作区、任务队列、文件共享、浏览器控制和智能体间协作，运行 Codex、Claude 和 Grok。"
+      "description_zh": "面向持久化 AI 队友的本地优先桌面工作区。运行 Codex、Claude 和 Grok，支持专用工作区、任务队列、文件共享、浏览器控制及智能体间协作。"
     },
     {
       "full_name": "Panniantong/Agent-Reach",
@@ -254,11 +254,11 @@
       "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "description_source": "github",
       "language": "Python",
-      "stars": 103411,
-      "stars_today": 723,
-      "forks": 9172,
+      "stars": 103545,
+      "stars_today": 746,
+      "forks": 9186,
       "built_by": 5,
-      "open_issues": 246,
+      "open_issues": 253,
       "topics": [
         "agent-infrastructure",
         "ai-agent",
@@ -284,7 +284,7 @@
       "pushed_at": "2026-10-25T04:37:26Z",
       "rank": 10,
       "language_color": "#3572A5",
-      "description_zh": "赋予你的 AI 智能体眼睛，浏览整个互联网。读取和搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、XiaoHongShu——一个 CLI，零 API 费用。"
+      "description_zh": "为您的 AI 智能体赋予浏览整个互联网的能力。阅读并搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、XiaoHongShu——一个 CLI，零 API 费用。"
     },
     {
       "full_name": "debpalash/VoiceStudio",
@@ -292,9 +292,9 @@
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "description_source": "github",
       "language": "Python",
-      "stars": 88961,
-      "stars_today": 2292,
-      "forks": 9810,
+      "stars": 89175,
+      "stars_today": 2297,
+      "forks": 9842,
       "built_by": 5,
       "open_issues": 129,
       "topics": [
@@ -321,10 +321,10 @@
       "homepage": "https://voicestudio.sh",
       "license": "AGPL-3.0",
       "created_at": "2026-04-09T21:40:26Z",
-      "pushed_at": "2026-10-26T20:55:47Z",
+      "pushed_at": "2026-10-26T21:52:40Z",
       "rank": 11,
       "language_color": "#3572A5",
-      "description_zh": "VoiceStudio 是一个开源且完全本地运行的 ElevenLabs 替代品——支持语音克隆、语音设计、视频配音、听写、转录及有声书创作，涵盖 646 种语言。"
+      "description_zh": "VoiceStudio 是一个开源且完全本地化的 ElevenLabs 替代品，支持语音克隆、语音设计、视频配音、听写、转录及有声书创作，覆盖 646 种语言。"
     },
     {
       "full_name": "gitroomhq/postiz-app",
@@ -332,9 +332,9 @@
       "description": "📨 The ultimate agentic social media scheduling tool 🤖",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 38353,
-      "stars_today": 146,
-      "forks": 7445,
+      "stars": 38428,
+      "stars_today": 188,
+      "forks": 7455,
       "built_by": 5,
       "open_issues": 222,
       "topics": [
@@ -355,7 +355,7 @@
       "pushed_at": "2026-10-24T18:27:21Z",
       "rank": 12,
       "language_color": "#3178c6",
-      "description_zh": "📨 终极代理式社交媒体排程工具 🤖"
+      "description_zh": "📨 终极智能体式社交媒体排程工具 🤖"
     },
     {
       "full_name": "alchaincyf/huashu-design",
@@ -363,9 +363,9 @@
       "description": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor & any agent",
       "description_source": "github",
       "language": "HTML",
-      "stars": 26682,
-      "stars_today": 409,
-      "forks": 2958,
+      "stars": 26723,
+      "stars_today": 251,
+      "forks": 2960,
       "built_by": 3,
       "open_issues": 6,
       "topics": [
@@ -386,7 +386,7 @@
       "pushed_at": "2026-10-23T15:32:08Z",
       "rank": 13,
       "language_color": "#e34c26",
-      "description_zh": "Huashu Design 3.0 · 在 agent 中输入一句话，获取可交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 从六个候选中挑选三个方向 · 包含样张的 84 种风格库 · 越用越懂你的外观账本与设计体检 · 适用于 Claude Code、Codex、Cursor 及任何 agent 的 HTML 原生设计技能"
+      "description_zh": "Huashu Design 3.0 · 在 agent 中输入一句话，即可获取可交付的设计成果：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 从六个候选方案中挑选三个方向 · 拥有 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · 专为 Claude Code、Codex、Cursor 及任何 agent 打造的 HTML 原生设计技能"
     },
     {
       "full_name": "multica-ai/andrej-karpathy-skills",
@@ -394,9 +394,9 @@
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
       "description_source": "github",
       "language": "",
-      "stars": 224517,
-      "stars_today": 702,
-      "forks": 22462,
+      "stars": 224628,
+      "stars_today": 638,
+      "forks": 22470,
       "built_by": 5,
       "open_issues": 138,
       "topics": [],
@@ -406,7 +406,7 @@
       "pushed_at": "2026-04-20T10:05:04Z",
       "rank": 14,
       "language_color": "#8b949e",
-      "description_zh": "单文件 CLAUDE.md，旨在改进 Claude Code 的行为，该文件基于 Andrej Karpathy 对 LLM 编码陷阱的观察整理而成。"
+      "description_zh": "一个单文件 CLAUDE.md，旨在通过 Andrej Karpathy 关于 LLM 编码陷阱的观察结果来改进 Claude Code 的行为。"
     }
   ],
   "developers": [
