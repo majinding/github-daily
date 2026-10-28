@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "generated_at": "2026-10-28 05:04:38 (UTC+8)",
+  "generated_at": "2026-10-28 08:00:21 (UTC+8)",
   "source": "https://github.com/trending?since=daily",
   "repo_count": 11,
   "repos": [
@@ -10,9 +10,9 @@
       "description": "A growing collection of design skills for AI coding tools — Claude Code, Cursor, Codex, Windsurf, and anything else that reads a markdown rules file. Each skill is a self-contained folder. Install the ones you need. --- Skill What it does --- --- landing-page-design Builds a landing page from ...",
       "description_source": "readme",
       "language": "",
-      "stars": 9092,
+      "stars": 9267,
       "stars_today": 1395,
-      "forks": 656,
+      "forks": 667,
       "built_by": 2,
       "open_issues": 5,
       "topics": [],
@@ -22,7 +22,7 @@
       "pushed_at": "2026-10-27T16:02:10Z",
       "rank": 1,
       "language_color": "#8b949e",
-      "description_zh": "一个不断壮大的 AI 编码工具设计技能集——适用于 Claude Code、Cursor、Codex、Windsurf 及任何读取 Markdown 规则文件的工具。每个技能都是独立的文件夹。安装你需要的即可。 --- 技能 功能 --- --- landing-page-design 构建落地页..."
+      "description_zh": "一个不断增长的 AI 编码工具设计技能库——适用于 Claude Code、Cursor、Codex、Windsurf 以及任何能读取 markdown 规则文件的工具。每个技能都是独立的文件夹。按需安装所需的技能。--- 技能 功能 --- --- landing-page-design 从……构建落地页"
     },
     {
       "full_name": "Nutlope/hallmark",
@@ -30,9 +30,9 @@
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "description_source": "github",
       "language": "CSS",
-      "stars": 38787,
-      "stars_today": 2859,
-      "forks": 2017,
+      "stars": 38950,
+      "stars_today": 2830,
+      "forks": 2031,
       "built_by": 5,
       "open_issues": 64,
       "topics": [],
@@ -42,7 +42,7 @@
       "pushed_at": "2026-10-27T15:05:53Z",
       "rank": 2,
       "language_color": "#563d7c",
-      "description_zh": "专为 Claude Code、Cursor 和 Codex 打造的反 AI 滥稿设计技能。"
+      "description_zh": "为 Claude Code、Cursor 和 Codex 设计的反 AI 平庸感（Anti-AI-slop）设计技能。"
     },
     {
       "full_name": "nightly-labs/openbot",
@@ -50,11 +50,11 @@
       "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 2321,
-      "stars_today": 794,
-      "forks": 242,
+      "stars": 2398,
+      "stars_today": 777,
+      "forks": 248,
       "built_by": 5,
-      "open_issues": 208,
+      "open_issues": 221,
       "topics": [
         "ai-agents",
         "bun",
@@ -68,10 +68,10 @@
       "homepage": "https://openbot.run/",
       "license": "",
       "created_at": "2026-08-12T21:32:03Z",
-      "pushed_at": "2026-10-27T20:07:46Z",
+      "pushed_at": "2026-10-27T23:47:12Z",
       "rank": 3,
       "language_color": "#3178c6",
-      "description_zh": "本地优先的桌面工作区，用于持久化的 AI 队友。在专属工作区中运行 Codex、Claude 和 Grok，支持任务队列、文件共享、浏览器控制及智能体间协作。"
+      "description_zh": "本地优先的桌面工作区，用于持久化的 AI 队友。支持运行 Codex、Claude 和 Grok，配备专属工作区、任务队列、文件共享、浏览器控制及智能体间协作功能。"
     },
     {
       "full_name": "obra/superpowers",
@@ -79,9 +79,9 @@
       "description": "An agentic skills framework & software development methodology that works.",
       "description_source": "github",
       "language": "Shell",
-      "stars": 306331,
-      "stars_today": 608,
-      "forks": 27276,
+      "stars": 306421,
+      "stars_today": 617,
+      "forks": 27277,
       "built_by": 5,
       "open_issues": 364,
       "topics": [
@@ -100,7 +100,7 @@
       "pushed_at": "2026-10-23T03:48:57Z",
       "rank": 4,
       "language_color": "#89e051",
-      "description_zh": "一套行之有效的智能体技能框架与软件开发方法论。"
+      "description_zh": "一个行之有效的智能体技能框架与软件开发方法论。"
     },
     {
       "full_name": "pbakaus/impeccable",
@@ -108,11 +108,11 @@
       "description": "The design language that makes your AI harness better at design.",
       "description_source": "github",
       "language": "Rust",
-      "stars": 90369,
-      "stars_today": 1458,
-      "forks": 5371,
+      "stars": 90473,
+      "stars_today": 1449,
+      "forks": 5375,
       "built_by": 4,
-      "open_issues": 44,
+      "open_issues": 45,
       "topics": [],
       "homepage": "https://impeccable.style",
       "license": "Apache-2.0",
@@ -120,7 +120,7 @@
       "pushed_at": "2026-10-27T16:28:34Z",
       "rank": 5,
       "language_color": "#dea584",
-      "description_zh": "让 AI 辅助工具在设计方面表现更出色的设计语言。"
+      "description_zh": "让你的 AI 驾驭工具更懂设计的设计语言。"
     },
     {
       "full_name": "makecindy/cindy",
@@ -128,11 +128,11 @@
       "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 7392,
-      "stars_today": 1446,
-      "forks": 877,
+      "stars": 7440,
+      "stars_today": 1465,
+      "forks": 885,
       "built_by": 5,
-      "open_issues": 2079,
+      "open_issues": 2084,
       "topics": [
         "agent",
         "ai-agent",
@@ -151,10 +151,10 @@
       "homepage": "https://cindy.app",
       "license": "Apache-2.0",
       "created_at": "2026-07-22T17:49:34Z",
-      "pushed_at": "2026-10-27T18:14:15Z",
+      "pushed_at": "2026-10-27T23:55:54Z",
       "rank": 6,
       "language_color": "#3178c6",
-      "description_zh": "视为已完成。开箱即用的开源 AI 智能体 · 想到，就能做到。开源、开箱即用的 AI Agent。"
+      "description_zh": "视为完成。开箱即用的开源 AI 智能体 · 想到，就能做到。开源、开箱即用的 AI Agent。"
     },
     {
       "full_name": "gitroomhq/postiz-app",
@@ -162,9 +162,9 @@
       "description": "📨 The ultimate agentic social media scheduling tool 🤖",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 39234,
-      "stars_today": 953,
-      "forks": 7500,
+      "stars": 39347,
+      "stars_today": 951,
+      "forks": 7512,
       "built_by": 5,
       "open_issues": 223,
       "topics": [
@@ -185,7 +185,7 @@
       "pushed_at": "2026-10-24T18:27:21Z",
       "rank": 7,
       "language_color": "#3178c6",
-      "description_zh": "📨 终极智能体社交媒体排程工具 🤖"
+      "description_zh": "📨 终极智能体社交媒体调度工具 🤖"
     },
     {
       "full_name": "affaan-m/ECC",
@@ -193,11 +193,11 @@
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "description_source": "github",
       "language": "JavaScript",
-      "stars": 290758,
-      "stars_today": 1183,
-      "forks": 43068,
+      "stars": 290860,
+      "stars_today": 1165,
+      "forks": 43074,
       "built_by": 4,
-      "open_issues": 261,
+      "open_issues": 260,
       "topics": [
         "ai-agents",
         "anthropic",
@@ -214,7 +214,7 @@
       "pushed_at": "2026-10-26T04:56:56Z",
       "rank": 8,
       "language_color": "#f1e05a",
-      "description_zh": "智能体运行时性能优化系统。为 Claude Code、Codex、Opencode、Cursor 及其他工具提供技能、本能、记忆、安全和研究优先的开发支持。"
+      "description_zh": "智能体驾驭工具性能优化系统。为 Claude Code、Codex、Opencode、Cursor 及其他工具提供技能、本能、记忆、安全及研究优先的开发支持。"
     },
     {
       "full_name": "HKUDS/DeepTutor",
@@ -222,11 +222,11 @@
       "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
       "description_source": "github",
       "language": "Python",
-      "stars": 45675,
-      "stars_today": 1587,
-      "forks": 5735,
+      "stars": 45827,
+      "stars_today": 1598,
+      "forks": 5748,
       "built_by": 4,
-      "open_issues": 214,
+      "open_issues": 217,
       "topics": [
         "ai-agents",
         "ai-tutor",
@@ -252,11 +252,11 @@
       "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 3863,
-      "stars_today": 1211,
-      "forks": 206,
+      "stars": 3967,
+      "stars_today": 1204,
+      "forks": 211,
       "built_by": 5,
-      "open_issues": 226,
+      "open_issues": 224,
       "topics": [
         "agent",
         "agent-skills",
@@ -275,10 +275,10 @@
       "homepage": "https://thinkrail.ai/",
       "license": "Apache-2.0",
       "created_at": "2026-07-08T07:40:43Z",
-      "pushed_at": "2026-10-27T21:03:09Z",
+      "pushed_at": "2026-10-27T23:51:32Z",
       "rank": 10,
       "language_color": "#3178c6",
-      "description_zh": "在轻量级且能根据你工作方式自我定制的实时 IDE 中，使用 pi 进行氛围编程——你需要的氛围"
+      "description_zh": "使用 pi 进行氛围编码（Vibe code），在一个轻量级且能围绕你的工作方式自我定制的 IDE 中操作——你需要的那种氛围。"
     },
     {
       "full_name": "togg53192-cmd/jailbreaks",
@@ -286,9 +286,9 @@
       "description": "LIST OF ALL MY JAILBREAKS",
       "description_source": "github",
       "language": "",
-      "stars": 5369,
-      "stars_today": 890,
-      "forks": 811,
+      "stars": 5486,
+      "stars_today": 902,
+      "forks": 817,
       "built_by": 4,
       "open_issues": 14,
       "topics": [],
@@ -298,7 +298,7 @@
       "pushed_at": "2026-10-25T15:21:20Z",
       "rank": 11,
       "language_color": "#8b949e",
-      "description_zh": "我的所有越狱列表"
+      "description_zh": "我所有的越狱提示词列表"
     }
   ],
   "developers": [
