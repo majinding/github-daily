@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "generated_at": "2026-11-06 06:28:50 (UTC+8)",
+  "generated_at": "2026-11-06 08:00:23 (UTC+8)",
   "source": "https://github.com/trending?since=daily",
   "repo_count": 15,
   "repos": [
@@ -10,9 +10,9 @@
       "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "description_source": "github",
       "language": "Python",
-      "stars": 7202,
-      "stars_today": 2707,
-      "forks": 567,
+      "stars": 7266,
+      "stars_today": 2679,
+      "forks": 574,
       "built_by": 5,
       "open_issues": 57,
       "topics": [],
@@ -22,7 +22,7 @@
       "pushed_at": "2026-11-05T14:45:30Z",
       "rank": 1,
       "language_color": "#3572A5",
-      "description_zh": "Auto Ontology 是一个用于在数据之上构建基于语义和图结构的推理层的 Python 框架。它支持确定性的查询生成、更优的上下文检索，并为 LLM 和智能体工作流提供更可解释的 AI。"
+      "description_zh": "Auto Ontology 是一个用于在数据之上构建基于图形的语义推理层的 Python 框架。它支持确定性的查询生成、更优的上下文检索，以及针对 LLM 和智能体工作流更具可解释性的 AI。"
     },
     {
       "full_name": "mattpocock/skills",
@@ -30,9 +30,9 @@
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "description_source": "github",
       "language": "Shell",
-      "stars": 315102,
-      "stars_today": 2053,
-      "forks": 26388,
+      "stars": 315176,
+      "stars_today": 2071,
+      "forks": 26392,
       "built_by": 3,
       "open_issues": 216,
       "topics": [],
@@ -50,19 +50,19 @@
       "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 139906,
-      "stars_today": 608,
-      "forks": 20690,
+      "stars": 139928,
+      "stars_today": 612,
+      "forks": 20693,
       "built_by": 4,
-      "open_issues": 70,
+      "open_issues": 71,
       "topics": [],
       "homepage": "",
       "license": "MIT",
       "created_at": "2026-03-11T21:22:45Z",
-      "pushed_at": "2026-11-05T22:23:32Z",
+      "pushed_at": "2026-11-05T23:41:26Z",
       "rank": 3,
       "language_color": "#3178c6",
-      "description_zh": "使用 Garry Tan 的确切 Claude Code 配置：包含 23 个具有特定观点的工具，分别充当 CEO、设计师、工程经理、发布经理、文档工程师和 QA。"
+      "description_zh": "使用 Garry Tan 的原版 Claude Code 配置：23 个观点鲜明的工具，分别担任 CEO、设计师、工程经理、发布经理、文档工程师和 QA。"
     },
     {
       "full_name": "Usagi-org/ai-goofish-monitor",
@@ -70,9 +70,9 @@
       "description": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
       "description_source": "github",
       "language": "Python",
-      "stars": 17489,
-      "stars_today": 242,
-      "forks": 2939,
+      "stars": 17507,
+      "stars_today": 240,
+      "forks": 2941,
       "built_by": 4,
       "open_issues": 47,
       "topics": [
@@ -104,9 +104,9 @@
       "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
       "description_source": "github",
       "language": "Python",
-      "stars": 97887,
-      "stars_today": 1661,
-      "forks": 10251,
+      "stars": 97937,
+      "stars_today": 1655,
+      "forks": 10254,
       "built_by": 5,
       "open_issues": 14,
       "topics": [
@@ -137,7 +137,7 @@
       "pushed_at": "2026-11-05T18:01:47Z",
       "rank": 5,
       "language_color": "#3572A5",
-      "description_zh": "🕷️ 最强的 Web 爬取框架，可处理从单次请求到全规模爬取的一切任务！不要害羞，加入这里：https://discord.gg/EMgGbDceNQ 并在此关注每日技巧和窍门：https://x.com/Scrapling_dev"
+      "description_zh": "🕷️ 最好的网络爬虫框架，能处理从单次请求到大规模爬取的一切！别害羞，加入这里：https://discord.gg/EMgGbDceNQ 并在这里关注每日技巧和窍门：https://x.com/Scrapling_dev"
     },
     {
       "full_name": "vercel-labs/agent-desktop",
@@ -145,9 +145,9 @@
       "description": "Computer use CLI for AI agents",
       "description_source": "github",
       "language": "Rust",
-      "stars": 16744,
+      "stars": 16800,
       "stars_today": 2173,
-      "forks": 1174,
+      "forks": 1184,
       "built_by": 2,
       "open_issues": 167,
       "topics": [
@@ -170,7 +170,7 @@
       "pushed_at": "2026-11-05T06:31:12Z",
       "rank": 6,
       "language_color": "#dea584",
-      "description_zh": "用于 AI 智能体的计算机使用 CLI。"
+      "description_zh": "面向 AI 智能体的计算机使用 CLI。"
     },
     {
       "full_name": "max-sixty/worktrunk",
@@ -178,11 +178,11 @@
       "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "description_source": "github",
       "language": "Rust",
-      "stars": 11475,
+      "stars": 11500,
       "stars_today": 546,
-      "forks": 435,
+      "forks": 437,
       "built_by": 3,
-      "open_issues": 51,
+      "open_issues": 49,
       "topics": [
         "agents",
         "claude-code",
@@ -194,7 +194,7 @@
       "homepage": "https://worktrunk.dev",
       "license": "",
       "created_at": "2025-10-17T22:13:14Z",
-      "pushed_at": "2026-11-05T08:57:29Z",
+      "pushed_at": "2026-11-05T23:51:22Z",
       "rank": 7,
       "language_color": "#dea584",
       "description_zh": "Worktrunk 是一个用于 Git worktree 管理的 CLI，专为并行 AI 智能体工作流设计。"
@@ -205,11 +205,11 @@
       "description": "Extremely Fast Compression algorithm",
       "description_source": "github",
       "language": "C",
-      "stars": 12348,
-      "stars_today": 16,
-      "forks": 1632,
+      "stars": 12368,
+      "stars_today": 23,
+      "forks": 1633,
       "built_by": 4,
-      "open_issues": 15,
+      "open_issues": 6,
       "topics": [
         "c",
         "compression",
@@ -218,10 +218,10 @@
       "homepage": "http://www.lz4.org",
       "license": "",
       "created_at": "2014-03-25T15:52:21Z",
-      "pushed_at": "2026-11-05T21:15:17Z",
+      "pushed_at": "2026-11-06T00:00:14Z",
       "rank": 8,
       "language_color": "#555555",
-      "description_zh": "极速压缩算法。"
+      "description_zh": "极速压缩算法"
     },
     {
       "full_name": "google/skills",
@@ -229,9 +229,9 @@
       "description": "Agent Skills for Google products and technologies",
       "description_source": "github",
       "language": "Python",
-      "stars": 22329,
-      "stars_today": 199,
-      "forks": 1887,
+      "stars": 22356,
+      "stars_today": 211,
+      "forks": 1891,
       "built_by": 5,
       "open_issues": 25,
       "topics": [
@@ -245,7 +245,7 @@
       "pushed_at": "2026-11-05T22:00:15Z",
       "rank": 9,
       "language_color": "#3572A5",
-      "description_zh": "针对 Google 产品和技术的智能体技能。"
+      "description_zh": "面向 Google 产品和技术的智能体技能。"
     },
     {
       "full_name": "vercel-labs/agent-browser",
@@ -253,19 +253,19 @@
       "description": "Browser automation CLI for AI agents",
       "description_source": "github",
       "language": "Rust",
-      "stars": 45834,
-      "stars_today": 181,
-      "forks": 3145,
+      "stars": 45862,
+      "stars_today": 150,
+      "forks": 3147,
       "built_by": 4,
       "open_issues": 489,
       "topics": [],
       "homepage": "https://agent-browser.dev",
       "license": "Apache-2.0",
       "created_at": "2026-01-11T05:38:15Z",
-      "pushed_at": "2026-11-05T21:53:10Z",
+      "pushed_at": "2026-11-05T22:39:04Z",
       "rank": 10,
       "language_color": "#dea584",
-      "description_zh": "用于 AI 智能体的浏览器自动化 CLI。"
+      "description_zh": "面向 AI 智能体的浏览器自动化 CLI。"
     },
     {
       "full_name": "scenario-labs/skills",
@@ -273,11 +273,11 @@
       "description": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.",
       "description_source": "github",
       "language": "Python",
-      "stars": 3004,
-      "stars_today": 674,
-      "forks": 264,
+      "stars": 3039,
+      "stars_today": 667,
+      "forks": 266,
       "built_by": 4,
-      "open_issues": 39,
+      "open_issues": 38,
       "topics": [
         "3d-models",
         "agent-skills",
@@ -303,10 +303,10 @@
       "homepage": "https://www.skills.sh/scenario-labs/skills",
       "license": "MIT",
       "created_at": "2026-08-12T10:08:49Z",
-      "pushed_at": "2026-11-05T22:22:11Z",
+      "pushed_at": "2026-11-05T23:21:04Z",
       "rank": 11,
       "language_color": "#3572A5",
-      "description_zh": "从任意 AI 智能体获取生产级的图像、视频、音频和 3D 内容：这些技能能自动选择正确的模型，并在支出前核算价格，通过 Scenario MCP 保持角色和品牌的一致性，同时拥有驱动 Blender、Maya、ZBrush、Unreal 和 Unity 的专家团队。"
+      "description_zh": "通过任意 AI 智能体获取生产就绪的图像、视频、音频和 3D 内容：技能模块可自动选择合适模型，在消费前预估价格，并通过 Scenario MCP 保持角色和品牌的一致性，此外还具备驱动 Blender、Maya、ZBrush、Unreal 和 Unity 的专家团队功能。"
     },
     {
       "full_name": "ConardLi/garden-skills",
@@ -314,9 +314,9 @@
       "description": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
       "description_source": "github",
       "language": "JavaScript",
-      "stars": 14096,
-      "stars_today": 241,
-      "forks": 1644,
+      "stars": 14114,
+      "stars_today": 175,
+      "forks": 1647,
       "built_by": 3,
       "open_issues": 25,
       "topics": [
@@ -333,7 +333,7 @@
       "pushed_at": "2026-10-25T13:45:33Z",
       "rank": 12,
       "language_color": "#f1e05a",
-      "description_zh": "ConardLi 的开源 Skills 集合，涵盖网页设计、知识检索、图像生成等功能。"
+      "description_zh": "ConardLi 的开源 Skills 合集，涵盖网页设计、知识检索、图像生成等功能。"
     },
     {
       "full_name": "microsoft/VibeVoice",
@@ -341,9 +341,9 @@
       "description": "Open-Source Frontier Voice AI",
       "description_source": "github",
       "language": "Python",
-      "stars": 55834,
-      "stars_today": 214,
-      "forks": 6277,
+      "stars": 55891,
+      "stars_today": 223,
+      "forks": 6286,
       "built_by": 4,
       "open_issues": 205,
       "topics": [],
@@ -361,9 +361,9 @@
       "description": "Light, fluffy, and always free - The AWS Local Emulator alternative",
       "description_source": "github",
       "language": "Java",
-      "stars": 30353,
-      "stars_today": 784,
-      "forks": 3327,
+      "stars": 30383,
+      "stars_today": 779,
+      "forks": 3330,
       "built_by": 5,
       "open_issues": 193,
       "topics": [
@@ -384,7 +384,7 @@
       "pushed_at": "2026-11-05T21:02:20Z",
       "rank": 14,
       "language_color": "#b07219",
-      "description_zh": "轻量、轻盈且始终免费 —— AWS Local Emulator 的替代方案"
+      "description_zh": "轻量、易用且始终免费——AWS 本地模拟器的替代方案"
     },
     {
       "full_name": "JiaFeiMiao-K-Cat/DiscImageStudio",
@@ -392,11 +392,11 @@
       "description": "<div align=\"center\" 简体中文 繁體中文 English 日本語 Türkçe Español Čeština <h2 全能的光盘盘面可见图像生成与刻录工具</h2 Disc Image Studio 是一个多平台的光盘盘面图像生成与刻录工具，帮助您使用任何刻录光驱在任何 DVD / CD / 单层蓝光 光盘上刻蚀出肉眼可见的图像。 </div --- --- Disc Image Studio 可将一张图片转换成符合 CD、DVD 与单层 BD-R 光盘物理层约束的数据，刻录后将使光盘盘面呈现肉眼可见的图案。 --- Windows 下载 win-x64.exe ...",
       "description_source": "readme",
       "language": "C#",
-      "stars": 7230,
-      "stars_today": 977,
-      "forks": 258,
+      "stars": 7252,
+      "stars_today": 984,
+      "forks": 260,
       "built_by": 5,
-      "open_issues": 94,
+      "open_issues": 95,
       "topics": [],
       "homepage": "",
       "license": "GPL-3.0",
@@ -404,7 +404,7 @@
       "pushed_at": "2026-11-05T17:24:40Z",
       "rank": 15,
       "language_color": "#178600",
-      "description_zh": "Disc Image Studio 是一款多平台光盘盘面图像生成与刻录工具，可帮助您在任何 DVD/CD/单层蓝光光盘上刻蚀肉眼可见的图像。它可将图片转换为符合 CD、DVD 及单层 BD-R 物理层约束的数据，使光盘盘面呈现指定图案。"
+      "description_zh": "<div align=\"center\" 简体中文 繁體中文 English 日本語 Türkçe Español Čeština <h2 全能的光盘盘面可见图像生成与刻录工具</h2 Disc Image Studio 是一款跨平台的光盘盘面图像生成与刻录工具，支持通过任意刻录光驱，在任意 DVD / CD / 单层蓝光光盘上烧录肉眼可见的图像。</div --- --- Disc Image Studio 能够将图片转换为符合 CD、DVD 及单层 BD-R 光盘物理层约束的数据，烧录后光盘盘面将呈现肉眼可见的图案。 --- Windows 下载 win-x64.exe ..."
     }
   ],
   "developers": [
