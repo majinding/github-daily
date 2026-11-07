@@ -1,8 +1,8 @@
 {
   "date": "2026-11-07",
-  "generated_at": "2026-11-07 05:54:19 (UTC+8)",
+  "generated_at": "2026-11-07 08:00:28 (UTC+8)",
   "source": "https://github.com/trending?since=daily",
-  "repo_count": 18,
+  "repo_count": 17,
   "repos": [
     {
       "full_name": "zed-industries/zed",
@@ -10,11 +10,11 @@
       "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
       "description_source": "github",
       "language": "Rust",
-      "stars": 93525,
-      "stars_today": 292,
-      "forks": 11493,
+      "stars": 93605,
+      "stars_today": 306,
+      "forks": 11499,
       "built_by": 5,
-      "open_issues": 3025,
+      "open_issues": 3028,
       "topics": [
         "gpui",
         "rust-lang",
@@ -27,7 +27,7 @@
       "pushed_at": "2026-11-06T20:00:38Z",
       "rank": 1,
       "language_color": "#dea584",
-      "description_zh": "以思考的速度编码 – Zed 是由 Atom 和 Tree-sitter 的创作者打造的一款高性能多人协作代码编辑器。"
+      "description_zh": "以思维的速度编程 – Zed 是由 Atom 和 Tree-sitter 创作者打造的高性能多人协作代码编辑器。"
     },
     {
       "full_name": "NVIDIA/auto-ontology",
@@ -35,19 +35,19 @@
       "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "description_source": "github",
       "language": "Python",
-      "stars": 8894,
-      "stars_today": 2005,
-      "forks": 716,
+      "stars": 8988,
+      "stars_today": 2015,
+      "forks": 723,
       "built_by": 5,
-      "open_issues": 61,
+      "open_issues": 62,
       "topics": [],
       "homepage": "",
       "license": "Apache-2.0",
       "created_at": "2026-04-27T21:45:56Z",
-      "pushed_at": "2026-11-06T20:57:20Z",
+      "pushed_at": "2026-11-06T23:03:36Z",
       "rank": 2,
       "language_color": "#3572A5",
-      "description_zh": "Auto Ontology 是一个用于在数据之上构建语义化、基于图形的推理层的 Python 框架。它支持确定性的查询生成、更好的上下文检索，以及 LLM 和智能体工作流中更具可解释性的 AI。"
+      "description_zh": "Auto Ontology 是一个用于在数据之上构建基于语义和图推理层的 Python 框架。它支持确定性的查询生成、更优的上下文检索，并为 LLM 和智能体工作流提供更可解释的 AI。"
     },
     {
       "full_name": "rails/rails",
@@ -55,11 +55,11 @@
       "description": "Ruby on Rails",
       "description_source": "github",
       "language": "Ruby",
-      "stars": 58992,
-      "stars_today": 152,
-      "forks": 23827,
+      "stars": 59022,
+      "stars_today": 142,
+      "forks": 23833,
       "built_by": 5,
-      "open_issues": 1764,
+      "open_issues": 1761,
       "topics": [
         "activejob",
         "activerecord",
@@ -72,7 +72,7 @@
       "homepage": "https://rubyonrails.org",
       "license": "MIT",
       "created_at": "2008-04-11T02:19:47Z",
-      "pushed_at": "2026-11-06T14:50:07Z",
+      "pushed_at": "2026-11-06T23:19:25Z",
       "rank": 3,
       "language_color": "#701516",
       "description_zh": "Ruby on Rails"
@@ -83,9 +83,9 @@
       "description": "🎥 Command line media player",
       "description_source": "github",
       "language": "C",
-      "stars": 37856,
-      "stars_today": 36,
-      "forks": 3630,
+      "stars": 37871,
+      "stars_today": 37,
+      "forks": 3632,
       "built_by": 5,
       "open_issues": 1162,
       "topics": [
@@ -111,11 +111,11 @@
       "description": "Empowering everyone to build reliable and efficient software.",
       "description_source": "github",
       "language": "Rust",
-      "stars": 121380,
-      "stars_today": 186,
-      "forks": 17363,
+      "stars": 121436,
+      "stars_today": 192,
+      "forks": 17365,
       "built_by": 5,
-      "open_issues": 12619,
+      "open_issues": 12623,
       "topics": [
         "compiler",
         "language",
@@ -124,7 +124,7 @@
       "homepage": "https://www.rust-lang.org",
       "license": "Apache-2.0",
       "created_at": "2010-06-16T20:39:03Z",
-      "pushed_at": "2026-11-06T21:22:32Z",
+      "pushed_at": "2026-11-06T22:10:49Z",
       "rank": 5,
       "language_color": "#dea584",
       "description_zh": "赋能每个人构建可靠且高效的软件。"
@@ -135,9 +135,9 @@
       "description": "The library for web and native user interfaces.",
       "description_source": "github",
       "language": "JavaScript",
-      "stars": 252217,
-      "stars_today": 244,
-      "forks": 51807,
+      "stars": 252248,
+      "stars_today": 248,
+      "forks": 51809,
       "built_by": 5,
       "open_issues": 1503,
       "topics": [
@@ -154,7 +154,7 @@
       "pushed_at": "2026-11-06T19:49:25Z",
       "rank": 6,
       "language_color": "#f1e05a",
-      "description_zh": "用于 Web 和原生用户界面的库。"
+      "description_zh": "Web 和原生用户界面开发库。"
     },
     {
       "full_name": "angular/angular",
@@ -162,11 +162,11 @@
       "description": "Deliver web apps with confidence 🚀",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 101299,
-      "stars_today": 128,
-      "forks": 28910,
+      "stars": 101353,
+      "stars_today": 135,
+      "forks": 28912,
       "built_by": 5,
-      "open_issues": 1034,
+      "open_issues": 1033,
       "topics": [
         "angular",
         "javascript",
@@ -190,11 +190,11 @@
       "description": "The Symfony PHP framework",
       "description_source": "github",
       "language": "PHP",
-      "stars": 31394,
-      "stars_today": 89,
-      "forks": 9945,
+      "stars": 31425,
+      "stars_today": 128,
+      "forks": 9948,
       "built_by": 5,
-      "open_issues": 273,
+      "open_issues": 266,
       "topics": [
         "bundle",
         "framework",
@@ -207,7 +207,7 @@
       "homepage": "https://symfony.com",
       "license": "MIT",
       "created_at": "2010-01-04T14:21:21Z",
-      "pushed_at": "2026-11-06T21:25:09Z",
+      "pushed_at": "2026-11-06T22:12:59Z",
       "rank": 8,
       "language_color": "#4F5D95",
       "description_zh": "Symfony PHP 框架"
@@ -218,11 +218,11 @@
       "description": "The Prometheus monitoring system and time series database.",
       "description_source": "github",
       "language": "Go",
-      "stars": 67130,
-      "stars_today": 140,
-      "forks": 10982,
+      "stars": 67176,
+      "stars_today": 148,
+      "forks": 10988,
       "built_by": 4,
-      "open_issues": 1072,
+      "open_issues": 1075,
       "topics": [
         "alerting",
         "graphing",
@@ -238,7 +238,7 @@
       "pushed_at": "2026-11-06T17:19:24Z",
       "rank": 9,
       "language_color": "#00ADD8",
-      "description_zh": "Prometheus 监控系统及时间序列数据库。"
+      "description_zh": "Prometheus 监控系统及时序数据库。"
     },
     {
       "full_name": "google/skills",
@@ -246,8 +246,8 @@
       "description": "Agent Skills for Google products and technologies",
       "description_source": "github",
       "language": "Python",
-      "stars": 22798,
-      "stars_today": 532,
+      "stars": 22822,
+      "stars_today": 534,
       "forks": 1919,
       "built_by": 5,
       "open_issues": 26,
@@ -259,10 +259,10 @@
       "homepage": "",
       "license": "Apache-2.0",
       "created_at": "2026-03-31T19:02:20Z",
-      "pushed_at": "2026-11-06T21:21:47Z",
+      "pushed_at": "2026-11-06T22:01:22Z",
       "rank": 10,
       "language_color": "#3572A5",
-      "description_zh": "用于 Google 产品和技术的智能体技能"
+      "description_zh": "面向 Google 产品与技术的智能体技能"
     },
     {
       "full_name": "microsoft/vscode",
@@ -270,11 +270,11 @@
       "description": "Visual Studio Code",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 194977,
-      "stars_today": 295,
-      "forks": 44421,
+      "stars": 195019,
+      "stars_today": 301,
+      "forks": 44424,
       "built_by": 5,
-      "open_issues": 21845,
+      "open_issues": 21837,
       "topics": [
         "editor",
         "electron",
@@ -285,34 +285,10 @@
       "homepage": "https://code.visualstudio.com",
       "license": "MIT",
       "created_at": "2015-09-03T20:23:38Z",
-      "pushed_at": "2026-11-06T21:52:35Z",
+      "pushed_at": "2026-11-07T00:00:01Z",
       "rank": 11,
       "language_color": "#3178c6",
       "description_zh": "Visual Studio Code"
-    },
-    {
-      "full_name": "lz4/lz4",
-      "url": "https://github.com/lz4/lz4",
-      "description": "Extremely Fast Compression algorithm",
-      "description_source": "github",
-      "language": "C",
-      "stars": 12631,
-      "stars_today": 313,
-      "forks": 1643,
-      "built_by": 4,
-      "open_issues": 6,
-      "topics": [
-        "c",
-        "compression",
-        "lz4"
-      ],
-      "homepage": "http://www.lz4.org",
-      "license": "",
-      "created_at": "2014-03-25T15:52:21Z",
-      "pushed_at": "2026-11-06T17:53:27Z",
-      "rank": 12,
-      "language_color": "#555555",
-      "description_zh": "极速压缩算法"
     },
     {
       "full_name": "nushell/nushell",
@@ -320,9 +296,9 @@
       "description": "A new type of shell",
       "description_source": "github",
       "language": "Rust",
-      "stars": 40940,
-      "stars_today": 177,
-      "forks": 2341,
+      "stars": 40978,
+      "stars_today": 131,
+      "forks": 2343,
       "built_by": 4,
       "open_issues": 1456,
       "topics": [
@@ -334,9 +310,9 @@
       "license": "MIT",
       "created_at": "2019-05-10T16:59:42Z",
       "pushed_at": "2026-11-06T12:38:23Z",
-      "rank": 13,
+      "rank": 12,
       "language_color": "#dea584",
-      "description_zh": "一种新型 Shell"
+      "description_zh": "一种新型 shell"
     },
     {
       "full_name": "etcd-io/etcd",
@@ -344,11 +320,11 @@
       "description": "Distributed reliable key-value store for the most critical data of a distributed system",
       "description_source": "github",
       "language": "Go",
-      "stars": 52581,
-      "stars_today": 123,
+      "stars": 52612,
+      "stars_today": 128,
       "forks": 10590,
       "built_by": 5,
-      "open_issues": 410,
+      "open_issues": 425,
       "topics": [
         "cncf",
         "consensus",
@@ -365,9 +341,9 @@
       "license": "Apache-2.0",
       "created_at": "2013-07-06T21:57:21Z",
       "pushed_at": "2026-11-06T12:29:27Z",
-      "rank": 14,
+      "rank": 13,
       "language_color": "#00ADD8",
-      "description_zh": "分布式可靠键值存储，用于分布式系统中最关键的数据"
+      "description_zh": "面向分布式系统最关键数据的分布式可靠键值存储"
     },
     {
       "full_name": "openssl/openssl",
@@ -375,11 +351,11 @@
       "description": "General purpose TLS and crypto library",
       "description_source": "github",
       "language": "C",
-      "stars": 31271,
-      "stars_today": 24,
+      "stars": 31283,
+      "stars_today": 26,
       "forks": 11580,
       "built_by": 5,
-      "open_issues": 1642,
+      "open_issues": 1643,
       "topics": [
         "cryptography",
         "decryption",
@@ -392,7 +368,7 @@
       "license": "Apache-2.0",
       "created_at": "2013-01-15T22:34:48Z",
       "pushed_at": "2026-11-06T21:22:27Z",
-      "rank": 15,
+      "rank": 14,
       "language_color": "#555555",
       "description_zh": "通用 TLS 和加密库"
     },
@@ -402,9 +378,9 @@
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "description_source": "github",
       "language": "Shell",
-      "stars": 316612,
-      "stars_today": 2058,
-      "forks": 26485,
+      "stars": 316687,
+      "stars_today": 2070,
+      "forks": 26490,
       "built_by": 3,
       "open_issues": 217,
       "topics": [],
@@ -412,9 +388,9 @@
       "license": "MIT",
       "created_at": "2026-02-03T11:15:53Z",
       "pushed_at": "2026-11-05T10:40:01Z",
-      "rank": 16,
+      "rank": 15,
       "language_color": "#89e051",
-      "description_zh": "真实工程师的技能。直接源自我的 .agents 目录。"
+      "description_zh": "真正工程师的技能。直接来自我的 .agents 目录。"
     },
     {
       "full_name": "cloudflare/security-audit-skill",
@@ -422,9 +398,9 @@
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "description_source": "github",
       "language": "JavaScript",
-      "stars": 63786,
-      "stars_today": 2524,
-      "forks": 4136,
+      "stars": 63939,
+      "stars_today": 2548,
+      "forks": 4142,
       "built_by": 3,
       "open_issues": 115,
       "topics": [],
@@ -432,9 +408,9 @@
       "license": "MIT",
       "created_at": "2026-06-18T14:08:44Z",
       "pushed_at": "2026-09-14T19:29:02Z",
-      "rank": 17,
+      "rank": 16,
       "language_color": "#f1e05a",
-      "description_zh": "用于多阶段安全审计的编码智能体技能，具有独立验证的机器可读结果"
+      "description_zh": "用于多阶段安全审计的编码代理技能，具备独立验证的机器可读审计结果"
     },
     {
       "full_name": "astral-sh/ruff",
@@ -442,11 +418,11 @@
       "description": "An extremely fast Python linter and code formatter, written in Rust.",
       "description_source": "github",
       "language": "Rust",
-      "stars": 50634,
-      "stars_today": 213,
-      "forks": 2603,
+      "stars": 50684,
+      "stars_today": 169,
+      "forks": 2611,
       "built_by": 4,
-      "open_issues": 2257,
+      "open_issues": 2254,
       "topics": [
         "linter",
         "pep8",
@@ -463,10 +439,10 @@
       "homepage": "https://docs.astral.sh/ruff",
       "license": "MIT",
       "created_at": "2022-08-09T17:17:44Z",
-      "pushed_at": "2026-11-06T21:48:53Z",
-      "rank": 18,
+      "pushed_at": "2026-11-06T23:52:47Z",
+      "rank": 17,
       "language_color": "#dea584",
-      "description_zh": "一款极快的 Python 代码检查器和格式化器，使用 Rust 编写。"
+      "description_zh": "一个用 Rust 编写的极速 Python 代码检查器和代码格式化工具"
     }
   ],
   "developers": [
