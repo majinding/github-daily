@@ -1,0 +1,434 @@
+{
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09 04:55:49 (UTC+8)",
+  "source": "https://github.com/trending?since=daily",
+  "repo_count": 9,
+  "repos": [
+    {
+      "full_name": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "description_source": "github",
+      "language": "Python",
+      "stars": 103121,
+      "stars_today": 2372,
+      "forks": 12098,
+      "built_by": 5,
+      "open_issues": 377,
+      "topics": [
+        "cli",
+        "cti",
+        "cybersecurity",
+        "forensics",
+        "hacktoberfest",
+        "information-gathering",
+        "infosec",
+        "linux",
+        "osint",
+        "pentesting",
+        "python",
+        "python3",
+        "reconnaissance",
+        "redteam",
+        "sherlock",
+        "tools"
+      ],
+      "homepage": "https://sherlockproject.xyz",
+      "license": "MIT",
+      "created_at": "2018-12-24T14:30:48Z",
+      "pushed_at": "2026-11-08T05:13:22Z",
+      "rank": 1,
+      "language_color": "#3572A5",
+      "description_zh": "通过用户名跨社交网络追踪社交媒体账号"
+    },
+    {
+      "full_name": "dsx-ai-factory/nvke",
+      "url": "https://github.com/dsx-ai-factory/nvke",
+      "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+      "description_source": "github",
+      "language": "Go",
+      "stars": 802,
+      "stars_today": 345,
+      "forks": 109,
+      "built_by": 5,
+      "open_issues": 187,
+      "topics": [
+        "bare-metal",
+        "cluster-api",
+        "gpu",
+        "kubernetes",
+        "nvidia"
+      ],
+      "homepage": "https://docs.nvidia.com/nvke/",
+      "license": "Apache-2.0",
+      "created_at": "2026-08-04T15:42:58Z",
+      "pushed_at": "2026-11-07T02:09:56Z",
+      "rank": 2,
+      "language_color": "#00ADD8",
+      "description_zh": "NVIDIA Kubernetes Engine (NVKE)。裸机 GPU Kubernetes 的管理平面"
+    },
+    {
+      "full_name": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "description_source": "github",
+      "language": "TypeScript",
+      "stars": 18099,
+      "stars_today": 1437,
+      "forks": 2526,
+      "built_by": 5,
+      "open_issues": 842,
+      "topics": [
+        "ai-agents",
+        "claude-code",
+        "codex",
+        "computer-use",
+        "docker",
+        "electron",
+        "grok",
+        "grok-bot",
+        "grok-bot-alternative",
+        "self-hosted",
+        "typescript"
+      ],
+      "homepage": "https://www.mausbot.com/",
+      "license": "Apache-2.0",
+      "created_at": "2026-08-11T18:58:55Z",
+      "pushed_at": "2026-11-08T20:51:13Z",
+      "rank": 3,
+      "language_color": "#3178c6",
+      "description_zh": "开源 Grok Bot 替代品，支持机器人使用的虚拟机"
+    },
+    {
+      "full_name": "anthropics/claude-quickstarts",
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "description_source": "github",
+      "language": "Python",
+      "stars": 19354,
+      "stars_today": 28,
+      "forks": 3277,
+      "built_by": 5,
+      "open_issues": 234,
+      "topics": [],
+      "homepage": "",
+      "license": "MIT",
+      "created_at": "2024-08-29T19:52:32Z",
+      "pushed_at": "2026-11-06T19:37:57Z",
+      "rank": 4,
+      "language_color": "#3572A5",
+      "description_zh": "一系列旨在帮助开发者使用 Claude API 快速构建可部署应用程序的项目集合"
+    },
+    {
+      "full_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "description_source": "github",
+      "language": "Rust",
+      "stars": 47499,
+      "stars_today": 812,
+      "forks": 3253,
+      "built_by": 4,
+      "open_issues": 525,
+      "topics": [],
+      "homepage": "https://agent-browser.dev",
+      "license": "Apache-2.0",
+      "created_at": "2026-01-11T05:38:15Z",
+      "pushed_at": "2026-11-08T10:03:53Z",
+      "rank": 5,
+      "language_color": "#dea584",
+      "description_zh": "面向 AI 智能体的浏览器自动化 CLI"
+    },
+    {
+      "full_name": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "description_source": "github",
+      "language": "TypeScript",
+      "stars": 16332,
+      "stars_today": 863,
+      "forks": 1298,
+      "built_by": 4,
+      "open_issues": 658,
+      "topics": [],
+      "homepage": "http://astryx.atmeta.com",
+      "license": "MIT",
+      "created_at": "2026-01-09T16:20:32Z",
+      "pushed_at": "2026-11-08T20:50:52Z",
+      "rank": 6,
+      "language_color": "#3178c6",
+      "description_zh": "一个完全可定制且支持智能体的开源设计系统"
+    },
+    {
+      "full_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "description_source": "github",
+      "language": "Python",
+      "stars": 189499,
+      "stars_today": 793,
+      "forks": 22337,
+      "built_by": 5,
+      "open_issues": 1499,
+      "topics": [
+        "agent-skills"
+      ],
+      "homepage": "",
+      "license": "",
+      "created_at": "2025-09-22T15:53:31Z",
+      "pushed_at": "2026-11-06T22:32:32Z",
+      "rank": 7,
+      "language_color": "#3572A5",
+      "description_zh": "Agent Skills 公共仓库"
+    },
+    {
+      "full_name": "google-deepmind/mujoco",
+      "url": "https://github.com/google-deepmind/mujoco",
+      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "description_source": "github",
+      "language": "C++",
+      "stars": 16335,
+      "stars_today": 26,
+      "forks": 1950,
+      "built_by": 5,
+      "open_issues": 309,
+      "topics": [
+        "mujoco",
+        "physics",
+        "robotics"
+      ],
+      "homepage": "https://mujoco.org",
+      "license": "Apache-2.0",
+      "created_at": "2021-08-27T12:25:48Z",
+      "pushed_at": "2026-11-07T17:07:40Z",
+      "rank": 8,
+      "language_color": "#f34b7d",
+      "description_zh": "Multi-Joint dynamics with Contact。通用物理模拟器"
+    },
+    {
+      "full_name": "ranxianglei/billion-context",
+      "url": "https://github.com/ranxianglei/billion-context",
+      "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+      "description_source": "github",
+      "language": "TypeScript",
+      "stars": 5059,
+      "stars_today": 460,
+      "forks": 402,
+      "built_by": 4,
+      "open_issues": 930,
+      "topics": [
+        "dsh-plugin"
+      ],
+      "homepage": "",
+      "license": "",
+      "created_at": "2026-08-06T08:27:34Z",
+      "pushed_at": "2026-11-08T19:18:19Z",
+      "rank": 9,
+      "language_color": "#3178c6",
+      "description_zh": "面向月级长会话的上下文压缩插件（适用于十亿级 token），支持小上下文窗口（100K 上下文即可满足）并实现 token 节省（减少 5 倍 token）. 上下文压缩插件，支持月级长会话，兼顾小窗口（100k 上下文足矣）和节省 token（省 5 倍 token）. billion-context 就是你所需的一切"
+    }
+  ],
+  "developers": [
+    {
+      "rank": 1,
+      "username": "pl4nty",
+      "name": "Tom Plant",
+      "avatar": "https://avatars.githubusercontent.com/u/21111317?s=96&v=4",
+      "repo": "pl4nty/winget-extras",
+      "repo_desc": ""
+    },
+    {
+      "rank": 2,
+      "username": "ranxianglei",
+      "name": "ranxianglei",
+      "avatar": "https://avatars.githubusercontent.com/u/12445698?s=96&v=4",
+      "repo": "ranxianglei/billion-context",
+      "repo_desc": ""
+    },
+    {
+      "rank": 3,
+      "username": "mantrakp04",
+      "name": "Mantra",
+      "avatar": "https://avatars.githubusercontent.com/u/87142457?s=96&v=4",
+      "repo": "mantrakp04/ardia",
+      "repo_desc": ""
+    },
+    {
+      "rank": 4,
+      "username": "Gaurav-Gosain",
+      "name": "Gaurav Gosain",
+      "avatar": "https://avatars.githubusercontent.com/u/55647468?s=96&v=4",
+      "repo": "Gaurav-Gosain/tuios",
+      "repo_desc": ""
+    },
+    {
+      "rank": 5,
+      "username": "derekross",
+      "name": "Derek Ross",
+      "avatar": "https://avatars.githubusercontent.com/u/755144?s=96&v=4",
+      "repo": "derekross/omarchy-mobile",
+      "repo_desc": ""
+    },
+    {
+      "rank": 6,
+      "username": "tanish2k09",
+      "name": "Tanish Manku",
+      "avatar": "https://avatars.githubusercontent.com/u/13985398?s=96&v=4",
+      "repo": "tanish2k09/KLapse-Livedisplay",
+      "repo_desc": ""
+    },
+    {
+      "rank": 7,
+      "username": "fzn0x",
+      "name": "f (x)",
+      "avatar": "https://avatars.githubusercontent.com/u/50759463?s=96&v=4",
+      "repo": "fzn0x/mixmusic",
+      "repo_desc": ""
+    },
+    {
+      "rank": 8,
+      "username": "morluto",
+      "name": "morluto",
+      "avatar": "https://avatars.githubusercontent.com/u/76467478?s=96&v=4",
+      "repo": "morluto/rea",
+      "repo_desc": ""
+    },
+    {
+      "rank": 9,
+      "username": "xXJSONDeruloXx",
+      "name": "Kurt Himebauch",
+      "avatar": "https://avatars.githubusercontent.com/u/136133082?s=96&v=4",
+      "repo": "xXJSONDeruloXx/Decky-Framegen",
+      "repo_desc": ""
+    },
+    {
+      "rank": 10,
+      "username": "maziyarpanahi",
+      "name": "Maziyar Panahi",
+      "avatar": "https://avatars.githubusercontent.com/u/5762953?s=96&v=4",
+      "repo": "maziyarpanahi/openmed",
+      "repo_desc": ""
+    },
+    {
+      "rank": 11,
+      "username": "amir20",
+      "name": "Amir Raminfar",
+      "avatar": "https://avatars.githubusercontent.com/u/260667?s=96&v=4",
+      "repo": "amir20/dozzle",
+      "repo_desc": ""
+    },
+    {
+      "rank": 12,
+      "username": "zts212653",
+      "name": "Lysander Su",
+      "avatar": "https://avatars.githubusercontent.com/u/26771442?s=96&v=4",
+      "repo": "zts212653/clowder-ai",
+      "repo_desc": ""
+    },
+    {
+      "rank": 13,
+      "username": "cixzhang",
+      "name": "Cindy Zhang",
+      "avatar": "https://avatars.githubusercontent.com/u/2781099?s=96&v=4",
+      "repo": "",
+      "repo_desc": ""
+    },
+    {
+      "rank": 14,
+      "username": "koala73",
+      "name": "Elie Habib",
+      "avatar": "https://avatars.githubusercontent.com/u/996596?s=96&v=4",
+      "repo": "koala73/worldmonitor",
+      "repo_desc": ""
+    },
+    {
+      "rank": 15,
+      "username": "kixelated",
+      "name": "Luke Curley",
+      "avatar": "https://avatars.githubusercontent.com/u/432854?s=96&v=4",
+      "repo": "",
+      "repo_desc": ""
+    },
+    {
+      "rank": 16,
+      "username": "LIghtJUNction",
+      "name": "LIghtJUNction",
+      "avatar": "https://avatars.githubusercontent.com/u/106986785?s=96&v=4",
+      "repo": "LIghtJUNction/MagicNet",
+      "repo_desc": ""
+    },
+    {
+      "rank": 17,
+      "username": "joshka",
+      "name": "Josh McKinney",
+      "avatar": "https://avatars.githubusercontent.com/u/381361?s=96&v=4",
+      "repo": "joshka/ratatui-github-badge",
+      "repo_desc": ""
+    },
+    {
+      "rank": 18,
+      "username": "RobinMalfait",
+      "name": "Robin Malfait",
+      "avatar": "https://avatars.githubusercontent.com/u/1834413?s=96&v=4",
+      "repo": "RobinMalfait/RobinMalfait",
+      "repo_desc": ""
+    },
+    {
+      "rank": 19,
+      "username": "wuwentao",
+      "name": "Hello World",
+      "avatar": "https://avatars.githubusercontent.com/u/3353263?s=96&v=4",
+      "repo": "wuwentao/midea_ac_lan",
+      "repo_desc": ""
+    },
+    {
+      "rank": 20,
+      "username": "cramforce",
+      "name": "Malte Ubl",
+      "avatar": "https://avatars.githubusercontent.com/u/89679?s=96&v=4",
+      "repo": "",
+      "repo_desc": ""
+    },
+    {
+      "rank": 21,
+      "username": "jamiepine",
+      "name": "Jamie Pine",
+      "avatar": "https://avatars.githubusercontent.com/u/32987599?s=96&v=4",
+      "repo": "jamiepine/voicebox",
+      "repo_desc": ""
+    },
+    {
+      "rank": 22,
+      "username": "Cassiiopeia",
+      "name": "SUH SAECHAN",
+      "avatar": "https://avatars.githubusercontent.com/u/83532821?s=96&v=4",
+      "repo": "",
+      "repo_desc": ""
+    },
+    {
+      "rank": 23,
+      "username": "garrytan",
+      "name": "Garry Tan",
+      "avatar": "https://avatars.githubusercontent.com/u/19957?s=96&v=4",
+      "repo": "garrytan/gstack",
+      "repo_desc": ""
+    },
+    {
+      "rank": 24,
+      "username": "muellerberndt",
+      "name": "Bernhard Mueller",
+      "avatar": "https://avatars.githubusercontent.com/u/5194767?s=96&v=4",
+      "repo": "muellerberndt/cadence",
+      "repo_desc": ""
+    },
+    {
+      "rank": 25,
+      "username": "EliSchleifer",
+      "name": "Eli Schleifer",
+      "avatar": "https://avatars.githubusercontent.com/u/1265982?s=96&v=4",
+      "repo": "",
+      "repo_desc": ""
+    }
+  ],
+  "developer_count": 25
+}
