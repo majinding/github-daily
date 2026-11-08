@@ -1,6 +1,6 @@
 {
   "date": "2026-11-08",
-  "generated_at": "2026-11-08 04:38:19 (UTC+8)",
+  "generated_at": "2026-11-08 08:00:23 (UTC+8)",
   "source": "https://github.com/trending?since=daily",
   "repo_count": 15,
   "repos": [
@@ -10,19 +10,19 @@
       "description": "Browser automation CLI for AI agents",
       "description_source": "github",
       "language": "Rust",
-      "stars": 46720,
-      "stars_today": 180,
-      "forks": 3202,
+      "stars": 46808,
+      "stars_today": 190,
+      "forks": 3208,
       "built_by": 4,
-      "open_issues": 499,
+      "open_issues": 500,
       "topics": [],
       "homepage": "https://agent-browser.dev",
       "license": "Apache-2.0",
       "created_at": "2026-01-11T05:38:15Z",
-      "pushed_at": "2026-11-07T19:56:49Z",
+      "pushed_at": "2026-11-07T21:49:34Z",
       "rank": 1,
       "language_color": "#dea584",
-      "description_zh": "面向 AI Agent 的浏览器自动化 CLI 工具"
+      "description_zh": "面向 AI 智能体的浏览器自动化 CLI"
     },
     {
       "full_name": "cloudflare/security-audit-skill",
@@ -30,11 +30,11 @@
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "description_source": "github",
       "language": "JavaScript",
-      "stars": 65471,
-      "stars_today": 2088,
-      "forks": 4257,
+      "stars": 65683,
+      "stars_today": 2085,
+      "forks": 4263,
       "built_by": 3,
-      "open_issues": 117,
+      "open_issues": 118,
       "topics": [],
       "homepage": "",
       "license": "MIT",
@@ -42,7 +42,7 @@
       "pushed_at": "2026-09-14T19:29:02Z",
       "rank": 2,
       "language_color": "#f1e05a",
-      "description_zh": "用于多阶段安全审计的编码 Agent 技能，提供经过独立验证且机器可读的发现结果"
+      "description_zh": "一种编码智能体技能，支持多阶段安全审计，提供独立验证的机器可读发现"
     },
     {
       "full_name": "google/skills",
@@ -50,9 +50,9 @@
       "description": "Agent Skills for Google products and technologies",
       "description_source": "github",
       "language": "Python",
-      "stars": 23294,
-      "stars_today": 449,
-      "forks": 1948,
+      "stars": 23382,
+      "stars_today": 443,
+      "forks": 1953,
       "built_by": 5,
       "open_issues": 26,
       "topics": [
@@ -66,7 +66,7 @@
       "pushed_at": "2026-11-07T14:41:39Z",
       "rank": 3,
       "language_color": "#3572A5",
-      "description_zh": "针对 Google 产品和技术的 Agent 技能"
+      "description_zh": "针对 Google 产品和技术的智能体技能"
     },
     {
       "full_name": "mattpocock/skills",
@@ -74,9 +74,9 @@
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "description_source": "github",
       "language": "Shell",
-      "stars": 317558,
-      "stars_today": 1111,
-      "forks": 26569,
+      "stars": 317686,
+      "stars_today": 1100,
+      "forks": 26578,
       "built_by": 3,
       "open_issues": 219,
       "topics": [],
@@ -86,7 +86,7 @@
       "pushed_at": "2026-11-05T10:40:01Z",
       "rank": 4,
       "language_color": "#89e051",
-      "description_zh": "专为实战工程师打造的技能。直接取自我的 .agents 目录。"
+      "description_zh": "专为真实工程师打造的技能。直接源自我的 .agents 目录。"
     },
     {
       "full_name": "anthropics/skills",
@@ -94,11 +94,11 @@
       "description": "Public repository for Agent Skills",
       "description_source": "github",
       "language": "Python",
-      "stars": 188659,
-      "stars_today": 386,
-      "forks": 22240,
+      "stars": 188770,
+      "stars_today": 390,
+      "forks": 22249,
       "built_by": 5,
-      "open_issues": 1493,
+      "open_issues": 1492,
       "topics": [
         "agent-skills"
       ],
@@ -108,7 +108,7 @@
       "pushed_at": "2026-11-06T22:32:32Z",
       "rank": 5,
       "language_color": "#3572A5",
-      "description_zh": "Agent 技能的公开仓库"
+      "description_zh": "智能体技能的公开仓库"
     },
     {
       "full_name": "meta/astryx",
@@ -116,19 +116,19 @@
       "description": "An open source design system that's fully customizable and agent ready",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 14368,
-      "stars_today": 185,
-      "forks": 1179,
+      "stars": 14487,
+      "stars_today": 96,
+      "forks": 1184,
       "built_by": 4,
-      "open_issues": 735,
+      "open_issues": 727,
       "topics": [],
       "homepage": "http://astryx.atmeta.com",
       "license": "MIT",
       "created_at": "2026-01-09T16:20:32Z",
-      "pushed_at": "2026-11-07T20:37:29Z",
+      "pushed_at": "2026-11-07T23:58:13Z",
       "rank": 6,
       "language_color": "#3178c6",
-      "description_zh": "一个完全可定制且支持 Agent 的开源设计系统"
+      "description_zh": "一个完全可定制且支持智能体的开源设计系统"
     },
     {
       "full_name": "prometheus/prometheus",
@@ -136,9 +136,9 @@
       "description": "The Prometheus monitoring system and time series database.",
       "description_source": "github",
       "language": "Go",
-      "stars": 67396,
-      "stars_today": 325,
-      "forks": 11001,
+      "stars": 67442,
+      "stars_today": 322,
+      "forks": 11002,
       "built_by": 4,
       "open_issues": 1096,
       "topics": [
@@ -153,10 +153,10 @@
       "homepage": "https://prometheus.io/",
       "license": "Apache-2.0",
       "created_at": "2012-11-24T11:14:12Z",
-      "pushed_at": "2026-11-07T11:31:25Z",
+      "pushed_at": "2026-11-07T22:52:23Z",
       "rank": 7,
       "language_color": "#00ADD8",
-      "description_zh": "Prometheus 监控系统及时序数据库"
+      "description_zh": "Prometheus 监控系统与时序数据库"
     },
     {
       "full_name": "sherlock-project/sherlock",
@@ -164,11 +164,11 @@
       "description": "Hunt down social media accounts by username across social networks",
       "description_source": "github",
       "language": "Python",
-      "stars": 100238,
-      "stars_today": 1819,
-      "forks": 11852,
+      "stars": 100411,
+      "stars_today": 1766,
+      "forks": 11862,
       "built_by": 5,
-      "open_issues": 362,
+      "open_issues": 363,
       "topics": [
         "cli",
         "cti",
@@ -193,7 +193,7 @@
       "pushed_at": "2026-11-07T05:13:07Z",
       "rank": 8,
       "language_color": "#3572A5",
-      "description_zh": "通过用户名在多个社交网络中搜索社交媒体账号"
+      "description_zh": "跨社交网络通过用户名查找社交媒体账户"
     },
     {
       "full_name": "milind-soni/OpenMausBot",
@@ -201,11 +201,11 @@
       "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 16830,
-      "stars_today": 1986,
-      "forks": 2387,
+      "stars": 16948,
+      "stars_today": 1955,
+      "forks": 2399,
       "built_by": 5,
-      "open_issues": 811,
+      "open_issues": 821,
       "topics": [
         "ai-agents",
         "claude-code",
@@ -223,10 +223,10 @@
       "homepage": "https://www.openmausbot.com/",
       "license": "Apache-2.0",
       "created_at": "2026-08-11T18:58:55Z",
-      "pushed_at": "2026-11-07T20:37:51Z",
+      "pushed_at": "2026-11-07T23:59:40Z",
       "rank": 9,
       "language_color": "#3178c6",
-      "description_zh": "Grok Bot 的开源替代方案，包含 Bot 可使用的虚拟机"
+      "description_zh": "开源 Grok Bot 替代品，提供智能体可用的虚拟机"
     },
     {
       "full_name": "astral-sh/ruff",
@@ -234,11 +234,11 @@
       "description": "An extremely fast Python linter and code formatter, written in Rust.",
       "description_source": "github",
       "language": "Rust",
-      "stars": 50937,
+      "stars": 50968,
       "stars_today": 350,
       "forks": 2629,
       "built_by": 4,
-      "open_issues": 2282,
+      "open_issues": 2283,
       "topics": [
         "linter",
         "pep8",
@@ -255,10 +255,10 @@
       "homepage": "https://docs.astral.sh/ruff",
       "license": "MIT",
       "created_at": "2022-08-09T17:17:44Z",
-      "pushed_at": "2026-11-07T19:50:24Z",
+      "pushed_at": "2026-11-07T20:47:39Z",
       "rank": 10,
       "language_color": "#dea584",
-      "description_zh": "用 Rust 编写的极快速 Python 代码检查器兼格式化器"
+      "description_zh": "一款极快的 Python 代码检查器和格式化器，使用 Rust 编写"
     },
     {
       "full_name": "tailwindlabs/tailwindcss",
@@ -266,9 +266,9 @@
       "description": "A utility-first CSS framework for rapid UI development.",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 98392,
-      "stars_today": 181,
-      "forks": 7102,
+      "stars": 98455,
+      "stars_today": 122,
+      "forks": 7107,
       "built_by": 4,
       "open_issues": 113,
       "topics": [
@@ -286,7 +286,7 @@
       "pushed_at": "2026-11-06T14:50:08Z",
       "rank": 11,
       "language_color": "#3178c6",
-      "description_zh": "面向快速 UI 开发的首选实用型 CSS 框架。"
+      "description_zh": "一种面向实用优先的 CSS 框架，用于快速开发 UI。"
     },
     {
       "full_name": "mbillow/localthings",
@@ -294,11 +294,11 @@
       "description": "Control your Samsung appliances from Home Assistant over your home network, with no cloud account.",
       "description_source": "github",
       "language": "Python",
-      "stars": 1020,
-      "stars_today": 184,
-      "forks": 109,
+      "stars": 1051,
+      "stars_today": 186,
+      "forks": 112,
       "built_by": 5,
-      "open_issues": 91,
+      "open_issues": 95,
       "topics": [
         "coap-protocol",
         "coap-server",
@@ -317,7 +317,7 @@
       "pushed_at": "2026-11-07T06:48:26Z",
       "rank": 12,
       "language_color": "#3572A5",
-      "description_zh": "通过家庭网络在 Home Assistant 中控制您的三星家电，无需云账户。"
+      "description_zh": "通过家庭网络在 Home Assistant 上控制三星家电，无需云账户。"
     },
     {
       "full_name": "zed-industries/zed",
@@ -325,9 +325,9 @@
       "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
       "description_source": "github",
       "language": "Rust",
-      "stars": 94214,
-      "stars_today": 1119,
-      "forks": 11548,
+      "stars": 94262,
+      "stars_today": 1114,
+      "forks": 11550,
       "built_by": 5,
       "open_issues": 3053,
       "topics": [
@@ -339,10 +339,10 @@
       "homepage": "https://zed.dev",
       "license": "",
       "created_at": "2021-02-20T03:01:06Z",
-      "pushed_at": "2026-11-07T20:32:31Z",
+      "pushed_at": "2026-11-07T22:34:09Z",
       "rank": 13,
       "language_color": "#dea584",
-      "description_zh": "思想的速度进行编码 – Zed 是由 Atom 和 Tree-sitter 创造者开发的高性能多人协作代码编辑器。"
+      "description_zh": "以思维速度编码——Zed 是由 Atom 和 Tree-sitter 的创造者开发的高性能多人协作代码编辑器。"
     },
     {
       "full_name": "ranxianglei/billion-context",
@@ -350,21 +350,21 @@
       "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 4561,
-      "stars_today": 185,
-      "forks": 365,
+      "stars": 4595,
+      "stars_today": 191,
+      "forks": 369,
       "built_by": 4,
-      "open_issues": 911,
+      "open_issues": 909,
       "topics": [
         "dsh-plugin"
       ],
       "homepage": "",
       "license": "",
       "created_at": "2026-08-06T08:27:34Z",
-      "pushed_at": "2026-11-07T19:34:27Z",
+      "pushed_at": "2026-11-07T23:53:39Z",
       "rank": 14,
       "language_color": "#3178c6",
-      "description_zh": "适用于月度级长单次会话（数十亿 token）、小上下文窗口（100K 上下文已足够）以及节省 token（减少 5 倍 token）的上下文压缩插件。billion-context 便是你所需要的一切。"
+      "description_zh": "一个用于月级超长单会话（数十亿 token）的上下文压缩插件，适用于小上下文窗口（100K 上下文足够）并节省 token（减少 5 倍 token）。billion-context 是你所需的一切。"
     },
     {
       "full_name": "dsx-ai-factory/nvke",
@@ -372,9 +372,9 @@
       "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
       "description_source": "github",
       "language": "Go",
-      "stars": 510,
-      "stars_today": 125,
-      "forks": 85,
+      "stars": 547,
+      "stars_today": 123,
+      "forks": 88,
       "built_by": 5,
       "open_issues": 182,
       "topics": [
@@ -390,7 +390,7 @@
       "pushed_at": "2026-11-07T02:09:56Z",
       "rank": 15,
       "language_color": "#00ADD8",
-      "description_zh": "NVIDIA Kubernetes 引擎 (NVKE)。用于裸机 GPU Kubernetes 的管理平面。"
+      "description_zh": "NVIDIA Kubernetes Engine (NVKE)。裸机环境下 GPU Kubernetes 的管理平面。"
     }
   ],
   "developers": [
