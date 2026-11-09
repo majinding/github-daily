@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""把每日报告摘要推送到企业微信 / 钉钉 / 飞书群机器人。
+"""把每日报告摘要推送到微信插件（企微兼容）/ 钉钉 / 飞书群机器人。
 
 环境变量:
-  WECOM_WEBHOOK    企业微信群机器人 Webhook 完整地址
+  WECOM_WEBHOOK    微信插件 / 企微兼容 Webhook 完整地址
+  WECOM_MSG_TYPE   企微通道消息格式：text（默认，纯文本）或 markdown
   DINGTALK_WEBHOOK 钉钉自定义机器人 Webhook 完整地址
   DINGTALK_SECRET  钉钉机器人加签密钥（安全设置选择「加签」时必填，可选）
   FEISHU_WEBHOOK   飞书自定义机器人 Webhook 完整地址
@@ -72,14 +73,35 @@ def build_markdown(data: dict, report_url: str) -> tuple[str, str]:
     return title, "\n".join(lines)
 
 
-def send_wecom(webhook: str, text: str) -> bool:
-    resp = requests.post(
-        webhook,
-        json={"msgtype": "markdown", "markdown": {"content": text}},
-        timeout=TIMEOUT,
+def to_plain_text(text: str) -> str:
+    """把 Markdown 摘要降级为纯文本（微信插件不支持 Markdown）。"""
+    lines = []
+    for line in text.splitlines():
+        if line.startswith("> "):
+            line = re.sub(r"^>\s*\[(.+?)\]\((.+?)\)$", r"\1: \2", line)
+        else:
+            line = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", line)
+        lines.append(re.sub(r"\*\*(.+?)\*\*", r"\1", line))
+    return "\n".join(lines)
+
+
+def send_wecom(webhook: str, text: str, msg_type: str = "text") -> bool:
+    if msg_type == "markdown":
+        payload = {"msgtype": "markdown", "markdown": {"content": text}}
+    else:
+        payload = {"msgtype": "text", "text": {"content": to_plain_text(text)}}
+    resp = requests.post(webhook, json=payload, timeout=TIMEOUT)
+    try:
+        body = resp.json()
+    except ValueError:
+        body = {}
+    ok = resp.status_code == 200 and (
+        body.get("errcode") == 0
+        or body.get("code") == 0
+        or body.get("StatusCode") == 0
+        or not body
     )
-    ok = resp.status_code == 200 and resp.json().get("errcode") == 0
-    print(f"企业微信推送: {'成功' if ok else '失败 -> ' + resp.text[:200]}")
+    print(f"微信插件推送: {'成功' if ok else '失败 -> ' + resp.text[:200]}")
     return ok
 
 
@@ -148,6 +170,7 @@ def send_feishu(webhook: str, title: str, text: str, secret: str = "") -> bool:
 
 def main() -> int:
     wecom = os.environ.get("WECOM_WEBHOOK", "").strip()
+    wecom_msg_type = os.environ.get("WECOM_MSG_TYPE", "text").strip().lower()
     dingtalk = os.environ.get("DINGTALK_WEBHOOK", "").strip()
     dingtalk_secret = os.environ.get("DINGTALK_SECRET", "").strip()
     feishu = os.environ.get("FEISHU_WEBHOOK", "").strip()
@@ -164,7 +187,7 @@ def main() -> int:
 
     results = []
     if wecom:
-        results.append(send_wecom(wecom, text))
+        results.append(send_wecom(wecom, text, wecom_msg_type))
     if dingtalk:
         results.append(send_dingtalk(dingtalk, title, text, dingtalk_secret))
     if feishu:

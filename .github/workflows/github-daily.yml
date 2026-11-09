@@ -58,6 +58,7 @@ jobs:
       - name: 推送群机器人
         env:
           WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
+          WECOM_MSG_TYPE: ${{ vars.WECOM_MSG_TYPE }}
           DINGTALK_WEBHOOK: ${{ secrets.DINGTALK_WEBHOOK }}
           DINGTALK_SECRET: ${{ secrets.DINGTALK_SECRET }}
           FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
