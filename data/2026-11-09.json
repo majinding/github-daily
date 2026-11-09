@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "generated_at": "2026-11-09 04:55:49 (UTC+8)",
+  "generated_at": "2026-11-09 08:00:22 (UTC+8)",
   "source": "https://github.com/trending?since=daily",
   "repo_count": 9,
   "repos": [
@@ -10,11 +10,11 @@
       "description": "Hunt down social media accounts by username across social networks",
       "description_source": "github",
       "language": "Python",
-      "stars": 103121,
-      "stars_today": 2372,
-      "forks": 12098,
+      "stars": 103406,
+      "stars_today": 2373,
+      "forks": 12119,
       "built_by": 5,
-      "open_issues": 377,
+      "open_issues": 382,
       "topics": [
         "cli",
         "cti",
@@ -39,7 +39,7 @@
       "pushed_at": "2026-11-08T05:13:22Z",
       "rank": 1,
       "language_color": "#3572A5",
-      "description_zh": "通过用户名跨社交网络追踪社交媒体账号"
+      "description_zh": "通过用户名在各大社交网络上追踪社交媒体账号。"
     },
     {
       "full_name": "dsx-ai-factory/nvke",
@@ -47,11 +47,11 @@
       "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
       "description_source": "github",
       "language": "Go",
-      "stars": 802,
+      "stars": 834,
       "stars_today": 345,
-      "forks": 109,
+      "forks": 110,
       "built_by": 5,
-      "open_issues": 187,
+      "open_issues": 188,
       "topics": [
         "bare-metal",
         "cluster-api",
@@ -65,7 +65,7 @@
       "pushed_at": "2026-11-07T02:09:56Z",
       "rank": 2,
       "language_color": "#00ADD8",
-      "description_zh": "NVIDIA Kubernetes Engine (NVKE)。裸机 GPU Kubernetes 的管理平面"
+      "description_zh": "NVIDIA Kubernetes Engine (NVKE)。用于裸金属 GPU Kubernetes 的管理平面。"
     },
     {
       "full_name": "milind-soni/OpenMausBot",
@@ -73,11 +73,11 @@
       "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 18099,
-      "stars_today": 1437,
-      "forks": 2526,
+      "stars": 18215,
+      "stars_today": 1439,
+      "forks": 2532,
       "built_by": 5,
-      "open_issues": 842,
+      "open_issues": 827,
       "topics": [
         "ai-agents",
         "claude-code",
@@ -94,10 +94,10 @@
       "homepage": "https://www.mausbot.com/",
       "license": "Apache-2.0",
       "created_at": "2026-08-11T18:58:55Z",
-      "pushed_at": "2026-11-08T20:51:13Z",
+      "pushed_at": "2026-11-08T21:59:04Z",
       "rank": 3,
       "language_color": "#3178c6",
-      "description_zh": "开源 Grok Bot 替代品，支持机器人使用的虚拟机"
+      "description_zh": "开源的 Grok Bot 替代品，提供可供机器人使用的虚拟机。"
     },
     {
       "full_name": "anthropics/claude-quickstarts",
@@ -105,9 +105,9 @@
       "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
       "description_source": "github",
       "language": "Python",
-      "stars": 19354,
-      "stars_today": 28,
-      "forks": 3277,
+      "stars": 19401,
+      "stars_today": 32,
+      "forks": 3281,
       "built_by": 5,
       "open_issues": 234,
       "topics": [],
@@ -117,7 +117,7 @@
       "pushed_at": "2026-11-06T19:37:57Z",
       "rank": 4,
       "language_color": "#3572A5",
-      "description_zh": "一系列旨在帮助开发者使用 Claude API 快速构建可部署应用程序的项目集合"
+      "description_zh": "一个旨在帮助开发者快速上手构建基于 Claude API 的可部署应用程序的项目集合。"
     },
     {
       "full_name": "vercel-labs/agent-browser",
@@ -125,9 +125,9 @@
       "description": "Browser automation CLI for AI agents",
       "description_source": "github",
       "language": "Rust",
-      "stars": 47499,
-      "stars_today": 812,
-      "forks": 3253,
+      "stars": 47559,
+      "stars_today": 815,
+      "forks": 3257,
       "built_by": 4,
       "open_issues": 525,
       "topics": [],
@@ -137,7 +137,7 @@
       "pushed_at": "2026-11-08T10:03:53Z",
       "rank": 5,
       "language_color": "#dea584",
-      "description_zh": "面向 AI 智能体的浏览器自动化 CLI"
+      "description_zh": "面向 AI 智能体的浏览器自动化命令行工具。"
     },
     {
       "full_name": "meta/astryx",
@@ -145,19 +145,19 @@
       "description": "An open source design system that's fully customizable and agent ready",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 16332,
-      "stars_today": 863,
-      "forks": 1298,
+      "stars": 16659,
+      "stars_today": 875,
+      "forks": 1317,
       "built_by": 4,
       "open_issues": 658,
       "topics": [],
       "homepage": "http://astryx.atmeta.com",
       "license": "MIT",
       "created_at": "2026-01-09T16:20:32Z",
-      "pushed_at": "2026-11-08T20:50:52Z",
+      "pushed_at": "2026-11-08T23:53:28Z",
       "rank": 6,
       "language_color": "#3178c6",
-      "description_zh": "一个完全可定制且支持智能体的开源设计系统"
+      "description_zh": "一个完全可定制且支持智能体的开源设计系统。"
     },
     {
       "full_name": "anthropics/skills",
@@ -165,11 +165,11 @@
       "description": "Public repository for Agent Skills",
       "description_source": "github",
       "language": "Python",
-      "stars": 189499,
-      "stars_today": 793,
-      "forks": 22337,
+      "stars": 189604,
+      "stars_today": 792,
+      "forks": 22346,
       "built_by": 5,
-      "open_issues": 1499,
+      "open_issues": 1500,
       "topics": [
         "agent-skills"
       ],
@@ -179,7 +179,7 @@
       "pushed_at": "2026-11-06T22:32:32Z",
       "rank": 7,
       "language_color": "#3572A5",
-      "description_zh": "Agent Skills 公共仓库"
+      "description_zh": "Agent Skills 的公共仓库。"
     },
     {
       "full_name": "google-deepmind/mujoco",
@@ -187,11 +187,11 @@
       "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
       "description_source": "github",
       "language": "C++",
-      "stars": 16335,
-      "stars_today": 26,
-      "forks": 1950,
+      "stars": 16392,
+      "stars_today": 41,
+      "forks": 1952,
       "built_by": 5,
-      "open_issues": 309,
+      "open_issues": 310,
       "topics": [
         "mujoco",
         "physics",
@@ -200,10 +200,10 @@
       "homepage": "https://mujoco.org",
       "license": "Apache-2.0",
       "created_at": "2021-08-27T12:25:48Z",
-      "pushed_at": "2026-11-07T17:07:40Z",
+      "pushed_at": "2026-11-08T23:35:03Z",
       "rank": 8,
       "language_color": "#f34b7d",
-      "description_zh": "Multi-Joint dynamics with Contact。通用物理模拟器"
+      "description_zh": "带接触的多关节动力学。一个通用物理模拟器。"
     },
     {
       "full_name": "ranxianglei/billion-context",
@@ -211,21 +211,21 @@
       "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 5059,
+      "stars": 5121,
       "stars_today": 460,
-      "forks": 402,
+      "forks": 404,
       "built_by": 4,
-      "open_issues": 930,
+      "open_issues": 932,
       "topics": [
         "dsh-plugin"
       ],
       "homepage": "",
       "license": "",
       "created_at": "2026-08-06T08:27:34Z",
-      "pushed_at": "2026-11-08T19:18:19Z",
+      "pushed_at": "2026-11-08T23:01:30Z",
       "rank": 9,
       "language_color": "#3178c6",
-      "description_zh": "面向月级长会话的上下文压缩插件（适用于十亿级 token），支持小上下文窗口（100K 上下文即可满足）并实现 token 节省（减少 5 倍 token）. 上下文压缩插件，支持月级长会话，兼顾小窗口（100k 上下文足矣）和节省 token（省 5 倍 token）. billion-context 就是你所需的一切"
+      "description_zh": "一种面向数月长会话（数十亿 token）的上下文压缩插件，兼容小上下文窗口（100K 上下文已足够）并节省 token（减少 5 倍 token）。billion-context 是你所需的一切。"
     }
   ],
   "developers": [
