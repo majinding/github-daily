@@ -1,6 +1,6 @@
 # GitHub 每日热榜
 
-每天凌晨 01:00（北京时间）自动抓取 [GitHub Trending](https://github.com/trending?since=daily) 每日热榜，生成中文界面的 HTML 报告并部署到 GitHub Pages，同时推送到企业微信 / 钉钉群机器人。
+每天凌晨 01:00（北京时间）自动抓取 [GitHub Trending](https://github.com/trending?since=daily) 每日热榜，生成中文界面的 HTML 报告并部署到 GitHub Pages，同时推送到企业微信 / 钉钉 / 飞书群机器人。
 
 **报告地址：<https://majinding.github.io/github-daily/>**
 
@@ -19,7 +19,7 @@
 .github/workflows/github-daily.yml   定时工作流（UTC 17:00 = 北京 01:00，支持手动触发）
 scripts/fetch_trending.py            抓取 Trending + GitHub API 补详情
 scripts/render_report.py             渲染 HTML（今日页 / 归档页 / 归档索引）
-scripts/notify.py                    企微 / 钉钉 Webhook 推送
+scripts/notify.py                    企微 / 钉钉 / 飞书 Webhook 推送
 templates/                           Jinja2 模板
 github-daily/                        Pages 发布目录（index.html + archive/）
 data/                                每日 JSON 原始数据
@@ -43,8 +43,11 @@ REPORT_URL=http://localhost/python scripts/notify.py   # 可选
 |---|---|
 | `WECOM_WEBHOOK` | 企业微信群机器人 Webhook 完整地址（不配则跳过企微推送） |
 | `DINGTALK_WEBHOOK` | 钉钉自定义机器人 Webhook 完整地址（不配则跳过钉钉推送） |
+| `DINGTALK_SECRET` | 钉钉机器人的加签密钥（`SEC` 开头），仅当安全设置选择了「加签」时必填 |
+| `FEISHU_WEBHOOK` | 飞书自定义机器人 Webhook 完整地址（不配则跳过飞书推送） |
+| `FEISHU_SECRET` | 飞书机器人的签名密钥，仅当机器人开启了「签名校验」时必填 |
 
-机器人消息为 Top 10 摘要 + 完整报告链接。
+机器人消息为 Top 10 摘要 + 完整报告链接，飞书以交互式卡片（`lark_md`）发送。钉钉与飞书的加签均为可选，密钥与 Webhook 一起从 Secret 注入，明文不入库。三个渠道相互独立，配置哪个就推哪个；全部未配置则跳过推送，不影响工作流。
 
 ## 配置中文翻译（可选）
 

@@ -8,7 +8,7 @@
   </div>
   <p class="head-note">
     数据窗口：约过去 24 小时（来源 <a href="{{ source_url }}">GitHub Trending · Daily</a>） ·
-    项目描述保留英文原文，附 Agnes 3.0 Flash 自动中文翻译 · 生成时间：{{ generated_at }}
+    项目描述保留英文原文，附自动中文翻译 · 生成时间：{{ generated_at }}
   </p>
 </header>
 
@@ -137,11 +137,5 @@
 
 <footer class="site-foot">
   <div>由 GitHub Actions 每日 01:00（北京时间）自动生成 · 榜单数量以 GitHub Trending 实际返回为准</div>
-  {% if archive %}
-  <div class="archive">更多往期：
-    {% for item in archive %}<a href="{{ base_path }}/{{ item.href }}">{{ item.date }}</a>{% endfor %}
-    <a href="{{ base_path }}/archive/">全部归档</a>
-  </div>
-  {% endif %}
 </footer>
 {% endblock %}

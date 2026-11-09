@@ -59,6 +59,9 @@ jobs:
         env:
           WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
           DINGTALK_WEBHOOK: ${{ secrets.DINGTALK_WEBHOOK }}
+          DINGTALK_SECRET: ${{ secrets.DINGTALK_SECRET }}
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+          FEISHU_SECRET: ${{ secrets.FEISHU_SECRET }}
           REPORT_URL: ${{ steps.deployment.outputs.page_url }}
         run: python scripts/notify.py
 
