@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "generated_at": "2026-11-11 06:06:47 (UTC+8)",
+  "generated_at": "2026-11-11 08:00:23 (UTC+8)",
   "source": "https://github.com/trending?since=daily",
   "repo_count": 12,
   "repos": [
@@ -10,19 +10,19 @@
       "description": "An open source design system that's fully customizable and agent ready",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 22587,
-      "stars_today": 3111,
-      "forks": 1803,
+      "stars": 22730,
+      "stars_today": 3108,
+      "forks": 1814,
       "built_by": 4,
-      "open_issues": 677,
+      "open_issues": 682,
       "topics": [],
       "homepage": "http://astryx.atmeta.com",
       "license": "MIT",
       "created_at": "2026-01-09T16:20:32Z",
-      "pushed_at": "2026-11-10T22:04:39Z",
+      "pushed_at": "2026-11-10T23:55:11Z",
       "rank": 1,
       "language_color": "#3178c6",
-      "description_zh": "一个完全可定制且支持 AI Agent 的开源设计系统"
+      "description_zh": "一个完全可定制且支持 AI 代理的开源设计系统"
     },
     {
       "full_name": "anthropics/skills",
@@ -30,9 +30,9 @@
       "description": "Public repository for Agent Skills",
       "description_source": "github",
       "language": "Python",
-      "stars": 192226,
-      "stars_today": 1676,
-      "forks": 22631,
+      "stars": 192284,
+      "stars_today": 1679,
+      "forks": 22641,
       "built_by": 5,
       "open_issues": 1517,
       "topics": [
@@ -44,7 +44,7 @@
       "pushed_at": "2026-11-06T22:32:32Z",
       "rank": 2,
       "language_color": "#3572A5",
-      "description_zh": "Agent Skills 公开仓库"
+      "description_zh": "Agent Skills（代理技能）公共仓库"
     },
     {
       "full_name": "addyosmani/agent-skills",
@@ -52,9 +52,9 @@
       "description": "Production-grade engineering skills for AI coding agents.",
       "description_source": "github",
       "language": "JavaScript",
-      "stars": 115087,
+      "stars": 115135,
       "stars_today": 465,
-      "forks": 12093,
+      "forks": 12094,
       "built_by": 5,
       "open_issues": 133,
       "topics": [
@@ -71,7 +71,7 @@
       "pushed_at": "2026-11-01T19:24:49Z",
       "rank": 3,
       "language_color": "#f1e05a",
-      "description_zh": "面向 AI 编码代理的生产级工程技能"
+      "description_zh": "面向 AI 编码代理的生产级工程技能。"
     },
     {
       "full_name": "anthropics/claude-quickstarts",
@@ -79,11 +79,11 @@
       "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
       "description_source": "github",
       "language": "Python",
-      "stars": 20451,
-      "stars_today": 530,
+      "stars": 20477,
+      "stars_today": 531,
       "forks": 3468,
       "built_by": 5,
-      "open_issues": 241,
+      "open_issues": 242,
       "topics": [],
       "homepage": "",
       "license": "MIT",
@@ -91,7 +91,7 @@
       "pushed_at": "2026-11-06T19:37:57Z",
       "rank": 4,
       "language_color": "#3572A5",
-      "description_zh": "一个项目集合，旨在帮助开发者快速使用 Claude API 构建可部署的应用程序"
+      "description_zh": "一系列项目合集，旨在帮助开发者快速上手构建基于 Claude API 的可部署应用"
     },
     {
       "full_name": "google-deepmind/mujoco",
@@ -99,11 +99,11 @@
       "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
       "description_source": "github",
       "language": "C++",
-      "stars": 17313,
-      "stars_today": 453,
-      "forks": 2143,
+      "stars": 17338,
+      "stars_today": 456,
+      "forks": 2146,
       "built_by": 5,
-      "open_issues": 332,
+      "open_issues": 333,
       "topics": [
         "mujoco",
         "physics",
@@ -115,7 +115,7 @@
       "pushed_at": "2026-11-10T20:50:33Z",
       "rank": 5,
       "language_color": "#f34b7d",
-      "description_zh": "带有多关节动力学与接触检测功能。一款通用物理模拟器。"
+      "description_zh": "支持接触的多关节动力学。一款通用物理模拟器。"
     },
     {
       "full_name": "we-promise/sure",
@@ -123,19 +123,19 @@
       "description": "The personal finance app for everyone (by everyone)",
       "description_source": "github",
       "language": "Ruby",
-      "stars": 11848,
-      "stars_today": 184,
-      "forks": 882,
+      "stars": 11907,
+      "stars_today": 159,
+      "forks": 888,
       "built_by": 4,
-      "open_issues": 883,
+      "open_issues": 896,
       "topics": [],
       "homepage": "https://sure.am",
       "license": "AGPL-3.0",
       "created_at": "2025-07-23T04:13:55Z",
-      "pushed_at": "2026-11-10T22:03:07Z",
+      "pushed_at": "2026-11-10T23:55:29Z",
       "rank": 6,
       "language_color": "#701516",
-      "description_zh": "由每个人打造的，适合每个人的个人理财应用"
+      "description_zh": "全民（由所有人）打造的个人理财应用"
     },
     {
       "full_name": "homeassistant-ai/ha-mcp",
@@ -143,9 +143,9 @@
       "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
       "description_source": "github",
       "language": "Python",
-      "stars": 6580,
-      "stars_today": 792,
-      "forks": 427,
+      "stars": 6626,
+      "stars_today": 790,
+      "forks": 429,
       "built_by": 3,
       "open_issues": 18,
       "topics": [
@@ -161,10 +161,10 @@
       "homepage": "https://homeassistant-ai.github.io/ha-mcp/",
       "license": "MIT",
       "created_at": "2025-09-14T13:23:45Z",
-      "pushed_at": "2026-11-10T22:04:11Z",
+      "pushed_at": "2026-11-10T23:49:50Z",
       "rank": 7,
       "language_color": "#3572A5",
-      "description_zh": "使用 Claude、ChatGPT 及其他 AI 助手配置和自动化 Home Assistant。"
+      "description_zh": "通过 Claude、ChatGPT 及其他 AI 助手配置并自动化 Home Assistant。"
     },
     {
       "full_name": "vercel-labs/agent-browser",
@@ -172,19 +172,19 @@
       "description": "Browser automation CLI for AI agents",
       "description_source": "github",
       "language": "Rust",
-      "stars": 49145,
-      "stars_today": 775,
-      "forks": 3446,
+      "stars": 49185,
+      "stars_today": 780,
+      "forks": 3447,
       "built_by": 4,
       "open_issues": 558,
       "topics": [],
       "homepage": "https://agent-browser.dev",
       "license": "Apache-2.0",
       "created_at": "2026-01-11T05:38:15Z",
-      "pushed_at": "2026-11-10T19:56:18Z",
+      "pushed_at": "2026-11-10T23:59:06Z",
       "rank": 8,
       "language_color": "#dea584",
-      "description_zh": "面向 AI Agent 的浏览器自动化 CLI 工具"
+      "description_zh": "面向 AI 代理的浏览器自动化 CLI"
     },
     {
       "full_name": "sherlock-project/sherlock",
@@ -192,9 +192,9 @@
       "description": "Hunt down social media accounts by username across social networks",
       "description_source": "github",
       "language": "Python",
-      "stars": 108844,
-      "stars_today": 2387,
-      "forks": 12653,
+      "stars": 108922,
+      "stars_today": 2393,
+      "forks": 12654,
       "built_by": 5,
       "open_issues": 409,
       "topics": [
@@ -221,7 +221,7 @@
       "pushed_at": "2026-11-10T05:13:55Z",
       "rank": 9,
       "language_color": "#3572A5",
-      "description_zh": "通过用户名在社交网络上追踪社交媒体账号"
+      "description_zh": "通过用户名在多个社交网络中追踪社交媒体账号"
     },
     {
       "full_name": "tokio-rs/topcoat",
@@ -229,11 +229,11 @@
       "description": "A batteries-included framework for building web apps",
       "description_source": "github",
       "language": "Rust",
-      "stars": 6757,
+      "stars": 6792,
       "stars_today": 192,
-      "forks": 297,
+      "forks": 300,
       "built_by": 4,
-      "open_issues": 57,
+      "open_issues": 58,
       "topics": [],
       "homepage": "",
       "license": "MIT",
@@ -241,7 +241,7 @@
       "pushed_at": "2026-11-10T18:32:12Z",
       "rank": 10,
       "language_color": "#dea584",
-      "description_zh": "一个功能齐全的 Web 应用开发框架"
+      "description_zh": "一个开箱即用的 Web 应用开发框架"
     },
     {
       "full_name": "ranxianglei/billion-context",
@@ -249,8 +249,8 @@
       "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 6258,
-      "stars_today": 374,
+      "stars": 6294,
+      "stars_today": 375,
       "forks": 527,
       "built_by": 4,
       "open_issues": 961,
@@ -260,10 +260,10 @@
       "homepage": "",
       "license": "",
       "created_at": "2026-08-06T08:27:34Z",
-      "pushed_at": "2026-11-10T22:00:58Z",
+      "pushed_at": "2026-11-10T23:57:52Z",
       "rank": 11,
       "language_color": "#3178c6",
-      "description_zh": "面向月级长会话（数十亿 token）、小上下文窗口（100K 上下文即足）及 token 节省（用量降低 5 倍）的上下文压缩插件。billion-context 足矣"
+      "description_zh": "面向月级长会话（数十亿 Token）的上下文压缩插件，支持小上下文窗口（100K 上下文已足够），实现 Token 节省（降低 5 倍）。billion-context 是您所需的一切。"
     },
     {
       "full_name": "mattpocock/skills",
@@ -271,9 +271,9 @@
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "description_source": "github",
       "language": "Shell",
-      "stars": 320824,
-      "stars_today": 1223,
-      "forks": 26904,
+      "stars": 320880,
+      "stars_today": 1225,
+      "forks": 26907,
       "built_by": 3,
       "open_issues": 233,
       "topics": [],
@@ -283,7 +283,7 @@
       "pushed_at": "2026-11-09T14:03:07Z",
       "rank": 12,
       "language_color": "#89e051",
-      "description_zh": "专为实战工程师打造的 Skills。直接来自我的 .agents 目录"
+      "description_zh": "专为实际工程师打造的 Skills。直接源自我的 .agents 目录。"
     }
   ],
   "developers": [
