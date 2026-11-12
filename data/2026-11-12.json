@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "generated_at": "2026-11-12 07:15:19 (UTC+8)",
+  "generated_at": "2026-11-12 08:00:26 (UTC+8)",
   "source": "https://github.com/trending?since=daily",
   "repo_count": 10,
   "repos": [
@@ -10,19 +10,19 @@
       "description": "An open source design system that's fully customizable and agent ready",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 24877,
-      "stars_today": 2842,
-      "forks": 1943,
+      "stars": 24922,
+      "stars_today": 2776,
+      "forks": 1948,
       "built_by": 4,
-      "open_issues": 680,
+      "open_issues": 679,
       "topics": [],
       "homepage": "http://astryx.atmeta.com",
       "license": "MIT",
       "created_at": "2026-01-09T16:20:32Z",
-      "pushed_at": "2026-11-11T23:13:39Z",
+      "pushed_at": "2026-11-12T00:00:14Z",
       "rank": 1,
       "language_color": "#3178c6",
-      "description_zh": "一个完全可定制且支持 Agent 的开源设计系统"
+      "description_zh": "一款完全可定制且支持 Agent 的开源设计系统"
     },
     {
       "full_name": "ZhuLinsen/daily_stock_analysis",
@@ -30,9 +30,9 @@
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "description_source": "github",
       "language": "Python",
-      "stars": 70167,
-      "stars_today": 429,
-      "forks": 56824,
+      "stars": 70194,
+      "stars_today": 278,
+      "forks": 56833,
       "built_by": 5,
       "open_issues": 48,
       "topics": [
@@ -58,19 +58,19 @@
       "description": "This repo is the source repository for GoogleChrome/modern-web-guidance and includes the code and documentation for authoring, calibrating, and evaluating its contents. Modern Web Guidance is a set of skills that embed web platform expertise, best practices, and browser compatibility data directly ...",
       "description_source": "readme",
       "language": "TypeScript",
-      "stars": 1712,
-      "stars_today": 133,
+      "stars": 1725,
+      "stars_today": 159,
       "forks": 138,
       "built_by": 4,
-      "open_issues": 366,
+      "open_issues": 361,
       "topics": [],
       "homepage": "https://goo.gle/modern-web-guidance",
       "license": "Apache-2.0",
       "created_at": "2026-01-27T20:22:24Z",
-      "pushed_at": "2026-11-11T19:45:41Z",
+      "pushed_at": "2026-11-11T23:48:18Z",
       "rank": 3,
       "language_color": "#3178c6",
-      "description_zh": "此仓库是 GoogleChrome/modern-web-guidance 的源仓库，包含其内容创作、校准及评估的代码与文档。Modern Web Guidance 是一套嵌入 Web 平台专业知识、最佳实践及浏览器兼容性数据的技能集……"
+      "description_zh": "此仓库是 GoogleChrome/modern-web-guidance 的源代码库，包含编写、校准和评估其内容的代码与文档。Modern Web Guidance 是一套嵌入 Web 平台专业知识、最佳实践及浏览器兼容性数据的功能……"
     },
     {
       "full_name": "shadcn/improve",
@@ -78,9 +78,9 @@
       "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
       "description_source": "github",
       "language": "",
-      "stars": 10818,
-      "stars_today": 333,
-      "forks": 441,
+      "stars": 10845,
+      "stars_today": 361,
+      "forks": 442,
       "built_by": 5,
       "open_issues": 18,
       "topics": [],
@@ -90,7 +90,7 @@
       "pushed_at": "2026-09-12T11:29:28Z",
       "rank": 4,
       "language_color": "#8b949e",
-      "description_zh": "使用最强大的模型审计你的代码库，并编写计划让成本更低的模型来执行。"
+      "description_zh": "使用你最强大的模型审计代码库，并为成本更低的模型编写执行计划。"
     },
     {
       "full_name": "addyosmani/agent-skills",
@@ -98,9 +98,9 @@
       "description": "Production-grade engineering skills for AI coding agents.",
       "description_source": "github",
       "language": "JavaScript",
-      "stars": 115896,
-      "stars_today": 788,
-      "forks": 12157,
+      "stars": 115918,
+      "stars_today": 787,
+      "forks": 12158,
       "built_by": 5,
       "open_issues": 136,
       "topics": [
@@ -117,7 +117,7 @@
       "pushed_at": "2026-11-01T19:24:49Z",
       "rank": 5,
       "language_color": "#f1e05a",
-      "description_zh": "面向 AI 编码 Agent 的生产级工程技能。"
+      "description_zh": "面向 AI 编码代理的生产级工程技能。"
     },
     {
       "full_name": "vercel-labs/agent-browser",
@@ -125,9 +125,9 @@
       "description": "Browser automation CLI for AI agents",
       "description_source": "github",
       "language": "Rust",
-      "stars": 49831,
-      "stars_today": 712,
-      "forks": 3485,
+      "stars": 49846,
+      "stars_today": 708,
+      "forks": 3487,
       "built_by": 4,
       "open_issues": 588,
       "topics": [],
@@ -137,7 +137,7 @@
       "pushed_at": "2026-11-11T22:13:48Z",
       "rank": 6,
       "language_color": "#dea584",
-      "description_zh": "面向 AI Agent 的浏览器自动化 CLI。"
+      "description_zh": "面向 AI 代理的浏览器自动化 CLI。"
     },
     {
       "full_name": "we-promise/sure",
@@ -145,11 +145,11 @@
       "description": "The personal finance app for everyone (by everyone)",
       "description_source": "github",
       "language": "Ruby",
-      "stars": 12907,
-      "stars_today": 1079,
-      "forks": 954,
+      "stars": 12935,
+      "stars_today": 1078,
+      "forks": 957,
       "built_by": 4,
-      "open_issues": 897,
+      "open_issues": 902,
       "topics": [],
       "homepage": "https://sure.am",
       "license": "AGPL-3.0",
@@ -157,7 +157,7 @@
       "pushed_at": "2026-11-11T22:32:40Z",
       "rank": 7,
       "language_color": "#701516",
-      "description_zh": "为所有人打造的个人理财应用（由所有人共同构建）。"
+      "description_zh": "属于每个人的个人理财应用（由每个人共同创建）。"
     },
     {
       "full_name": "homeassistant-ai/ha-mcp",
@@ -165,9 +165,9 @@
       "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
       "description_source": "github",
       "language": "Python",
-      "stars": 7322,
-      "stars_today": 640,
-      "forks": 452,
+      "stars": 7345,
+      "stars_today": 645,
+      "forks": 454,
       "built_by": 3,
       "open_issues": 17,
       "topics": [
@@ -186,7 +186,7 @@
       "pushed_at": "2026-11-11T22:58:32Z",
       "rank": 8,
       "language_color": "#3572A5",
-      "description_zh": "使用 Claude、ChatGPT 及其他 AI 助手配置和自动化 Home Assistant。"
+      "description_zh": "配置并自动化 Home Assistant，支持 Claude、ChatGPT 及其他 AI 助手。"
     },
     {
       "full_name": "openai/codex-security",
@@ -194,11 +194,11 @@
       "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 11683,
-      "stars_today": 20,
-      "forks": 933,
+      "stars": 11695,
+      "stars_today": 52,
+      "forks": 936,
       "built_by": 4,
-      "open_issues": 137,
+      "open_issues": 139,
       "topics": [
         "ai-security",
         "application-security",
@@ -219,7 +219,7 @@
       "homepage": "https://developers.openai.com/codex/security",
       "license": "Apache-2.0",
       "created_at": "2026-07-13T22:00:13Z",
-      "pushed_at": "2026-11-11T23:11:31Z",
+      "pushed_at": "2026-11-11T23:57:22Z",
       "rank": 9,
       "language_color": "#3178c6",
       "description_zh": "OpenAI 的 Codex Security CLI 和 TypeScript SDK，用于发现、验证和修复安全漏洞。npm: https://www.npmjs.com/package/@openai/codex-security"
@@ -230,9 +230,9 @@
       "description": "All Algorithms implemented in Java",
       "description_source": "github",
       "language": "Java",
-      "stars": 66997,
-      "stars_today": 108,
-      "forks": 21504,
+      "stars": 67006,
+      "stars_today": 51,
+      "forks": 21505,
       "built_by": 4,
       "open_issues": 29,
       "topics": [
