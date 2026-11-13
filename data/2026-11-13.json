@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "generated_at": "2026-11-13 06:31:53 (UTC+8)",
+  "generated_at": "2026-11-13 08:00:21 (UTC+8)",
   "source": "https://github.com/trending?since=daily",
   "repo_count": 13,
   "repos": [
@@ -10,19 +10,19 @@
       "description": "Keep your coding agent up to date with the latest web best practices",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 2789,
-      "stars_today": 799,
-      "forks": 190,
+      "stars": 2872,
+      "stars_today": 739,
+      "forks": 194,
       "built_by": 4,
-      "open_issues": 384,
+      "open_issues": 385,
       "topics": [],
       "homepage": "https://goo.gle/modern-web-guidance",
       "license": "Apache-2.0",
       "created_at": "2026-01-27T20:22:24Z",
-      "pushed_at": "2026-11-12T22:22:49Z",
+      "pushed_at": "2026-11-12T22:54:00Z",
       "rank": 1,
       "language_color": "#3178c6",
-      "description_zh": "让你的编码代理保持最新，掌握最新的 Web 最佳实践。"
+      "description_zh": "让你的编码智能体始终保持最新的 Web 最佳实践。"
     },
     {
       "full_name": "openai/codex-security",
@@ -30,11 +30,11 @@
       "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 12360,
-      "stars_today": 663,
-      "forks": 974,
+      "stars": 12398,
+      "stars_today": 643,
+      "forks": 976,
       "built_by": 4,
-      "open_issues": 142,
+      "open_issues": 143,
       "topics": [
         "ai-security",
         "application-security",
@@ -58,7 +58,7 @@
       "pushed_at": "2026-11-12T21:10:11Z",
       "rank": 2,
       "language_color": "#3178c6",
-      "description_zh": "OpenAI 的 Codex Security CLI 和 TypeScript SDK，用于发现、验证和修复安全漏洞。npm: https://www.npmjs.com/package/@openai/codex-security"
+      "description_zh": "OpenAI 的 Codex 安全 CLI 和 TypeScript SDK，用于发现、验证和修复安全漏洞。npm 链接：https://www.npmjs.com/package/@openai/codex-security"
     },
     {
       "full_name": "nvm-sh/nvm",
@@ -66,9 +66,9 @@
       "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
       "description_source": "github",
       "language": "Shell",
-      "stars": 95995,
-      "stars_today": 107,
-      "forks": 10757,
+      "stars": 96005,
+      "stars_today": 63,
+      "forks": 10758,
       "built_by": 5,
       "open_issues": 374,
       "topics": [
@@ -92,7 +92,7 @@
       "pushed_at": "2026-11-12T05:50:45Z",
       "rank": 3,
       "language_color": "#89e051",
-      "description_zh": "Node 版本管理器 —— 一个符合 POSIX 标准的 bash 脚本，用于管理多个活跃的 node.js 版本。"
+      "description_zh": "Node 版本管理器——符合 POSIX 标准的 bash 脚本，用于管理多个活动的 node.js 版本。"
     },
     {
       "full_name": "pookjw/HermesEnabler",
@@ -100,11 +100,11 @@
       "description": "Enable Hermès Watch Faces on any Apple Watch devices",
       "description_source": "github",
       "language": "Objective-C",
-      "stars": 1506,
-      "stars_today": 300,
-      "forks": 138,
+      "stars": 1520,
+      "stars_today": 218,
+      "forks": 139,
       "built_by": 5,
-      "open_issues": 54,
+      "open_issues": 55,
       "topics": [],
       "homepage": "",
       "license": "MIT",
@@ -112,7 +112,7 @@
       "pushed_at": "2026-11-12T14:49:08Z",
       "rank": 4,
       "language_color": "#438eff",
-      "description_zh": "在任意 Apple Watch 设备上启用 Hermès 表盘。"
+      "description_zh": "允许在任何 Apple Watch 设备上启用 Hermès 表盘。"
     },
     {
       "full_name": "we-promise/sure",
@@ -120,19 +120,19 @@
       "description": "The personal finance app for everyone (by everyone)",
       "description_source": "github",
       "language": "Ruby",
-      "stars": 13847,
-      "stars_today": 974,
-      "forks": 1028,
+      "stars": 13889,
+      "stars_today": 967,
+      "forks": 1037,
       "built_by": 4,
-      "open_issues": 891,
+      "open_issues": 904,
       "topics": [],
       "homepage": "https://sure.am",
       "license": "AGPL-3.0",
       "created_at": "2025-07-23T04:13:55Z",
-      "pushed_at": "2026-11-12T21:54:49Z",
+      "pushed_at": "2026-11-12T23:09:43Z",
       "rank": 5,
       "language_color": "#701516",
-      "description_zh": "属于所有人的个人理财应用（由所有人共同开发）。"
+      "description_zh": "面向所有人（并由所有人打造）的个人理财应用。"
     },
     {
       "full_name": "QwenLM/qwen-code",
@@ -140,11 +140,11 @@
       "description": "An open-source AI coding agent that lives in your terminal.",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 29766,
+      "stars": 29787,
       "stars_today": 151,
       "forks": 3392,
       "built_by": 5,
-      "open_issues": 2225,
+      "open_issues": 2227,
       "topics": [
         "agentic",
         "ai",
@@ -162,10 +162,10 @@
       "homepage": "https://qwenlm.github.io/qwen-code-docs/en/users/overview",
       "license": "Apache-2.0",
       "created_at": "2025-06-26T01:37:46Z",
-      "pushed_at": "2026-11-12T22:29:24Z",
+      "pushed_at": "2026-11-12T23:55:57Z",
       "rank": 6,
       "language_color": "#3178c6",
-      "description_zh": "一个驻留在你终端中的开源 AI 编码代理。"
+      "description_zh": "一个运行在终端中的开源 AI 编码智能体。"
     },
     {
       "full_name": "ashhart/TensorFold",
@@ -173,11 +173,11 @@
       "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
       "description_source": "github",
       "language": "Zig",
-      "stars": 1919,
-      "stars_today": 94,
+      "stars": 1928,
+      "stars_today": 54,
       "forks": 391,
       "built_by": 5,
-      "open_issues": 522,
+      "open_issues": 521,
       "topics": [
         "ai",
         "ai-tools",
@@ -188,10 +188,10 @@
       "homepage": "https://tensorfold.dev",
       "license": "Apache-2.0",
       "created_at": "2026-06-19T20:27:39Z",
-      "pushed_at": "2026-11-12T17:49:33Z",
+      "pushed_at": "2026-11-12T23:57:13Z",
       "rank": 7,
       "language_color": "#ec915c",
-      "description_zh": "基于 Metal、CUDA 和 Vulkan 的大语言模型推理引擎。"
+      "description_zh": "适用于 Metal、CUDA 和 Vulkan 的 LLM 推理引擎。"
     },
     {
       "full_name": "nodejs/node",
@@ -199,11 +199,11 @@
       "description": "Node.js JavaScript runtime ✨🐢🚀✨",
       "description_source": "github",
       "language": "JavaScript",
-      "stars": 123582,
-      "stars_today": 133,
-      "forks": 38053,
+      "stars": 123592,
+      "stars_today": 62,
+      "forks": 38054,
       "built_by": 5,
-      "open_issues": 1336,
+      "open_issues": 1337,
       "topics": [
         "javascript",
         "js",
@@ -229,9 +229,9 @@
       "description": "Production-grade engineering skills for AI coding agents.",
       "description_source": "github",
       "language": "JavaScript",
-      "stars": 116623,
-      "stars_today": 812,
-      "forks": 12205,
+      "stars": 116656,
+      "stars_today": 816,
+      "forks": 12209,
       "built_by": 5,
       "open_issues": 137,
       "topics": [
@@ -248,7 +248,7 @@
       "pushed_at": "2026-11-01T19:24:49Z",
       "rank": 9,
       "language_color": "#f1e05a",
-      "description_zh": "面向 AI 编码代理的生产级工程技能。"
+      "description_zh": "为 AI 编码智能体提供生产级工程技能。"
     },
     {
       "full_name": "meta/astryx",
@@ -256,19 +256,19 @@
       "description": "An open source design system that's fully customizable and agent ready",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 26437,
-      "stars_today": 1789,
-      "forks": 2047,
+      "stars": 26494,
+      "stars_today": 1830,
+      "forks": 2055,
       "built_by": 4,
-      "open_issues": 623,
+      "open_issues": 620,
       "topics": [],
       "homepage": "http://astryx.atmeta.com",
       "license": "MIT",
       "created_at": "2026-01-09T16:20:32Z",
-      "pushed_at": "2026-11-12T22:30:08Z",
+      "pushed_at": "2026-11-12T23:55:25Z",
       "rank": 10,
       "language_color": "#3178c6",
-      "description_zh": "一个完全可定制且支持代理的开源设计系统。"
+      "description_zh": "一个完全可定制且支持智能体交互的开源设计系统。"
     },
     {
       "full_name": "CopilotKit/OpenBot",
@@ -276,9 +276,9 @@
       "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 11534,
-      "stars_today": 291,
-      "forks": 1428,
+      "stars": 11582,
+      "stars_today": 298,
+      "forks": 1430,
       "built_by": 5,
       "open_issues": 83,
       "topics": [
@@ -293,10 +293,10 @@
       "homepage": "open.bot",
       "license": "MIT",
       "created_at": "2026-08-17T00:44:59Z",
-      "pushed_at": "2026-11-12T22:30:32Z",
+      "pushed_at": "2026-11-12T23:55:15Z",
       "rank": 11,
       "language_color": "#3178c6",
-      "description_zh": "开源的 AI 同事，每个同事都拥有独立的计算机环境：包括浏览器、文件和工具，所有操作均在发生前决策并在事后记录。支持接入任意 AG-UI 智能体。"
+      "description_zh": "开源 AI 同事，每位都配备独立的计算机环境：包含浏览器、文件和工具，所有操作在执行前均经决策，执行后会被记录。支持接入任意 AG-UI agent。"
     },
     {
       "full_name": "Alishahryar1/free-claude-code",
@@ -304,11 +304,11 @@
       "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
       "description_source": "github",
       "language": "Python",
-      "stars": 69223,
-      "stars_today": 461,
-      "forks": 10751,
+      "stars": 69269,
+      "stars_today": 415,
+      "forks": 10755,
       "built_by": 4,
-      "open_issues": 389,
+      "open_issues": 392,
       "topics": [],
       "homepage": "",
       "license": "",
@@ -316,7 +316,7 @@
       "pushed_at": "2026-11-12T19:36:16Z",
       "rank": 12,
       "language_color": "#3572A5",
-      "description_zh": "免费使用 Claude Code、Codex、Antigravity、VSCode、Pi 和 OpenCode（以及其他 6 种执行框架），可从终端、应用、IDE 或手机访问，现也支持通过具备原生浏览器会话（多框架 + 多模型）的浏览器访问，体验类似 OpenClaw（支持语音且符合服务条款）。提供免费 1.3B+ tokens。"
+      "description_zh": "通过终端、应用、IDE 或手机免费使用 Claude Code、Codex、Antigravity、VSCode、Pi 和 OpenCode（以及另外 6 个 harness）（1.3B+ 免费 tokens），现已支持带有原生浏览器会话（多 harness + 多模型）的浏览器访问，功能类似 OpenClaw（支持语音 + 符合服务条款）。"
     },
     {
       "full_name": "ggml-org/llama.cpp",
@@ -324,21 +324,21 @@
       "description": "LLM inference in C/C++",
       "description_source": "github",
       "language": "C++",
-      "stars": 134508,
-      "stars_today": 287,
-      "forks": 25505,
+      "stars": 134539,
+      "stars_today": 176,
+      "forks": 25507,
       "built_by": 5,
-      "open_issues": 2583,
+      "open_issues": 2581,
       "topics": [
         "ggml"
       ],
       "homepage": "https://llama.app",
       "license": "MIT",
       "created_at": "2023-03-10T18:58:00Z",
-      "pushed_at": "2026-11-12T22:22:49Z",
+      "pushed_at": "2026-11-12T23:52:14Z",
       "rank": 13,
       "language_color": "#f34b7d",
-      "description_zh": "C/C++ 中的 LLM 推理。"
+      "description_zh": "C/C++ LLM 推理"
     }
   ],
   "developers": [
