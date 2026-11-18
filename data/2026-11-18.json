@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "generated_at": "2026-11-18 07:42:40 (UTC+8)",
+  "generated_at": "2026-11-18 08:00:26 (UTC+8)",
   "source": "https://github.com/trending?since=daily",
   "repo_count": 15,
   "repos": [
@@ -10,9 +10,9 @@
       "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "description_source": "github",
       "language": "Python",
-      "stars": 9204,
-      "stars_today": 1007,
-      "forks": 1353,
+      "stars": 9223,
+      "stars_today": 1005,
+      "forks": 1357,
       "built_by": 4,
       "open_issues": 11,
       "topics": [
@@ -39,7 +39,7 @@
       "pushed_at": "2026-11-17T13:33:22Z",
       "rank": 1,
       "language_color": "#3572A5",
-      "description_zh": "用于漏洞挖掘和外部红队工作的 Claude Code 技能包 - 82 项技能，15 个斜杠命令，24 个核心漏洞类别下整理的 681 个已披露报告模式，以及企业身份与基础设施攻击矩阵。"
+      "description_zh": "一个用于漏洞挖掘和外部红队测试的 Claude Code 技能包——包含 82 项技能、15 个斜杠命令，跨 24 个核心漏洞类别整理出的 681 个披露报告模式，以及企业身份与基础设施攻击矩阵。"
     },
     {
       "full_name": "mvanhorn/last30days-skill",
@@ -47,8 +47,8 @@
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "description_source": "github",
       "language": "Python",
-      "stars": 69012,
-      "stars_today": 772,
+      "stars": 69028,
+      "stars_today": 696,
       "forks": 6145,
       "built_by": 4,
       "open_issues": 21,
@@ -80,7 +80,7 @@
       "pushed_at": "2026-11-17T22:37:11Z",
       "rank": 2,
       "language_color": "#3572A5",
-      "description_zh": "一种 AI 智能体技能，可在 Reddit、X、YouTube、HN、Polymarket 及全网范围内研究任何主题 - 随后综合生成基于事实的摘要。"
+      "description_zh": "一款 AI 代理技能，可跨 Reddit、X、YouTube、HN、Polymarket 及全网研究任意主题——随后生成有依据的综合摘要。"
     },
     {
       "full_name": "alibaba/open-code-review",
@@ -88,11 +88,11 @@
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "description_source": "github",
       "language": "Go",
-      "stars": 53708,
-      "stars_today": 764,
+      "stars": 53710,
+      "stars_today": 763,
       "forks": 4429,
       "built_by": 5,
-      "open_issues": 358,
+      "open_issues": 357,
       "topics": [
         "agent",
         "agent-skills",
@@ -107,7 +107,7 @@
       "pushed_at": "2026-11-17T12:46:22Z",
       "rank": 3,
       "language_color": "#00ADD8",
-      "description_zh": "安全、快速、高效，经过阿里巴巴规模验证。混合架构代码审查工具：确定性流水线 + LLM 智能体，精确的行级评论，内置多语言规则集（NPE、线程安全、XSS、SQL 注入），兼容 OpenAI 和 Anthropic。"
+      "description_zh": "在阿里巴巴规模下经过实战验证，安全、快速、高效。采用混合架构的代码审查工具：确定性流水线 + LLM 代理，提供精确的行级评论，内置多语言规则集（NPE、线程安全、XSS、SQL 注入），兼容 OpenAI 与 Anthropic。"
     },
     {
       "full_name": "Tencent/LoopForge",
@@ -115,8 +115,8 @@
       "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
       "description_source": "github",
       "language": "Go",
-      "stars": 3100,
-      "stars_today": 590,
+      "stars": 3107,
+      "stars_today": 591,
       "forks": 436,
       "built_by": 4,
       "open_issues": 184,
@@ -148,7 +148,7 @@
       "pushed_at": "2026-11-17T17:57:53Z",
       "rank": 4,
       "language_color": "#00ADD8",
-      "description_zh": "用于编码智能体交付的自托管工作流。通过脚本和人工审批门禁编排 CodeBuddy、Codex 和 Claude Code。包含编码助手的本地工作流。"
+      "description_zh": "用于编码代理交付的自托管工作流。通过脚本和人工审批门禁编排 CodeBuddy、Codex 和 Claude Code。包含用于编码助手的本地工作流。"
     },
     {
       "full_name": "dream-num/univer",
@@ -156,8 +156,8 @@
       "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 28885,
-      "stars_today": 1776,
+      "stars": 28887,
+      "stars_today": 1774,
       "forks": 2616,
       "built_by": 5,
       "open_issues": 206,
@@ -189,7 +189,7 @@
       "pushed_at": "2026-11-17T18:24:56Z",
       "rank": 5,
       "language_color": "#3178c6",
-      "description_zh": "使用 Univer Office SDK 构建你自己的 AI 办公室。将编辑、计算、协作和文件处理功能引入你的产品，服务于人类和 AI 智能体。基于可扩展的开源核心构建。"
+      "description_zh": "使用 Univer Office SDK 构建您的 AI 办公室。将编辑、计算、协作和文件处理功能引入您的产品，服务于人类和 AI 代理。基于可扩展的开源核心构建。"
     },
     {
       "full_name": "getarcaneapp/arcane",
@@ -197,11 +197,11 @@
       "description": "Modern Docker Management, Designed for Everyone",
       "description_source": "github",
       "language": "Go",
-      "stars": 9305,
-      "stars_today": 654,
+      "stars": 9306,
+      "stars_today": 618,
       "forks": 513,
       "built_by": 4,
-      "open_issues": 8,
+      "open_issues": 10,
       "topics": [
         "compose",
         "container-management",
@@ -218,10 +218,10 @@
       "homepage": "https://getarcane.app",
       "license": "BSD-3-Clause",
       "created_at": "2025-04-19T00:43:29Z",
-      "pushed_at": "2026-11-17T23:30:14Z",
+      "pushed_at": "2026-11-17T23:59:36Z",
       "rank": 6,
       "language_color": "#00ADD8",
-      "description_zh": "现代化的 Docker 管理，为每个人设计。"
+      "description_zh": "面向所有人的现代化 Docker 管理工具。"
     },
     {
       "full_name": "google-labs-code/stitch-skills",
@@ -229,7 +229,7 @@
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 10084,
+      "stars": 10087,
       "stars_today": 350,
       "forks": 1328,
       "built_by": 5,
@@ -241,7 +241,7 @@
       "pushed_at": "2026-08-17T20:20:23Z",
       "rank": 7,
       "language_color": "#3178c6",
-      "description_zh": "一个为配合 Stitch MCP 服务器而设计的智能体技能库。每项技能遵循 Agent Skills 开放标准，以兼容 Antigravity、Gemini CLI、Claude Code、Cursor 等编码智能体。"
+      "description_zh": "一个专为配合 Stitch MCP 服务器工作的代理技能库。每项技能均遵循 Agent Skills 开放标准，以兼容 Antigravity、Gemini CLI、Claude Code、Cursor 等编码代理。"
     },
     {
       "full_name": "cursor/plugins",
@@ -250,7 +250,7 @@
       "description_source": "github",
       "language": "TypeScript",
       "stars": 16887,
-      "stars_today": 196,
+      "stars_today": 201,
       "forks": 1829,
       "built_by": 5,
       "open_issues": 674,
@@ -261,7 +261,7 @@
       "pushed_at": "2026-11-17T22:49:29Z",
       "rank": 8,
       "language_color": "#3178c6",
-      "description_zh": "Cursor 插件规范及官方插件"
+      "description_zh": "Cursor 插件规范及官方插件。"
     },
     {
       "full_name": "obra/superpowers",
@@ -269,9 +269,9 @@
       "description": "An agentic skills framework & software development methodology that works.",
       "description_source": "github",
       "language": "Shell",
-      "stars": 319308,
-      "stars_today": 598,
-      "forks": 28475,
+      "stars": 319307,
+      "stars_today": 1917,
+      "forks": 28476,
       "built_by": 5,
       "open_issues": 359,
       "topics": [
@@ -290,7 +290,7 @@
       "pushed_at": "2026-11-03T23:24:58Z",
       "rank": 9,
       "language_color": "#89e051",
-      "description_zh": "一套行之有效的智能体技能框架与软件开发方法论。"
+      "description_zh": "一个行之有效的代理技能框架及软件开发方法论。"
     },
     {
       "full_name": "ag-ui-protocol/ag-ui",
@@ -298,8 +298,8 @@
       "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 19978,
-      "stars_today": 1444,
+      "stars": 19981,
+      "stars_today": 1445,
       "forks": 2067,
       "built_by": 5,
       "open_issues": 588,
@@ -316,7 +316,7 @@
       "pushed_at": "2026-11-17T21:27:09Z",
       "rank": 10,
       "language_color": "#3178c6",
-      "description_zh": "AG-UI：智能体-用户交互协议。将智能体引入前端应用程序。"
+      "description_zh": "AG-UI：代理-用户交互协议。将代理引入前端应用。"
     },
     {
       "full_name": "backnotprop/plannotator",
@@ -324,11 +324,11 @@
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 13056,
+      "stars": 13057,
       "stars_today": 691,
       "forks": 1313,
       "built_by": 5,
-      "open_issues": 185,
+      "open_issues": 186,
       "topics": [
         "agents",
         "claude-code",
@@ -343,10 +343,10 @@
       "homepage": "https://plannotator.ai",
       "license": "Apache-2.0",
       "created_at": "2025-12-28T02:09:40Z",
-      "pushed_at": "2026-11-17T23:41:30Z",
+      "pushed_at": "2026-11-17T23:52:31Z",
       "rank": 11,
       "language_color": "#3178c6",
-      "description_zh": "一个用于实时掌握动态并全面管理智能体的工作区——塑造、决策、规划、标注、审查代码、与团队共享，并一键将全部反馈发送给智能体。"
+      "description_zh": "帮助保持对智能体的掌控与同步的工作空间——塑造、决策、规划、标注、审查代码、与团队共享，并一键将全部反馈发送给智能体。"
     },
     {
       "full_name": "sveltejs/svelte",
@@ -354,8 +354,8 @@
       "description": "web development for the rest of us",
       "description_source": "github",
       "language": "JavaScript",
-      "stars": 89578,
-      "stars_today": 533,
+      "stars": 89582,
+      "stars_today": 477,
       "forks": 6251,
       "built_by": 4,
       "open_issues": 1314,
@@ -370,7 +370,7 @@
       "pushed_at": "2026-11-17T21:54:43Z",
       "rank": 12,
       "language_color": "#f1e05a",
-      "description_zh": "面向普通人的 Web 开发"
+      "description_zh": "为大众提供网络开发解决方案"
     },
     {
       "full_name": "affaan-m/ECC",
@@ -378,9 +378,9 @@
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "description_source": "github",
       "language": "JavaScript",
-      "stars": 305475,
-      "stars_today": 902,
-      "forks": 44980,
+      "stars": 305483,
+      "stars_today": 883,
+      "forks": 44979,
       "built_by": 5,
       "open_issues": 153,
       "topics": [
@@ -399,7 +399,7 @@
       "pushed_at": "2026-11-17T06:41:46Z",
       "rank": 13,
       "language_color": "#f1e05a",
-      "description_zh": "智能体运行时性能优化系统。为 Claude Code、Codex、Opencode、Cursor 及更多平台提供技能、直觉、记忆、安全以及研究优先的开发能力。"
+      "description_zh": "智能体框架性能优化系统。为 Claude Code、Codex、Opencode、Cursor 及其他工具提供技能、本能、记忆、安全以及研究优先的开发能力。"
     },
     {
       "full_name": "jingyaogong/minimind",
@@ -407,9 +407,9 @@
       "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
       "description_source": "github",
       "language": "Python",
-      "stars": 65930,
-      "stars_today": 188,
-      "forks": 8654,
+      "stars": 65939,
+      "stars_today": 192,
+      "forks": 8655,
       "built_by": 5,
       "open_issues": 64,
       "topics": [
@@ -422,7 +422,7 @@
       "pushed_at": "2026-10-27T06:57:09Z",
       "rank": 14,
       "language_color": "#3572A5",
-      "description_zh": "🧠 仅需 2 小时，从零训练一个 6400 万参数的大语言模型！"
+      "description_zh": "🧠 仅需 2 小时即可从头训练一个 64M 参数的 LLM！"
     },
     {
       "full_name": "google-research/paper-orchestra",
@@ -430,9 +430,9 @@
       "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
       "description_source": "github",
       "language": "Python",
-      "stars": 2941,
-      "stars_today": 1175,
-      "forks": 410,
+      "stars": 2958,
+      "stars_today": 1072,
+      "forks": 411,
       "built_by": 2,
       "open_issues": 37,
       "topics": [
