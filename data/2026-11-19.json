@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "generated_at": "2026-11-19 07:14:44 (UTC+8)",
+  "generated_at": "2026-11-19 08:00:21 (UTC+8)",
   "source": "https://github.com/trending?since=daily",
   "repo_count": 20,
   "repos": [
@@ -10,11 +10,11 @@
       "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "description_source": "github",
       "language": "Python",
-      "stars": 11302,
-      "stars_today": 2322,
-      "forks": 1506,
+      "stars": 11340,
+      "stars_today": 2313,
+      "forks": 1511,
       "built_by": 4,
-      "open_issues": 15,
+      "open_issues": 5,
       "topics": [
         "ai-security",
         "anthropic",
@@ -36,10 +36,10 @@
       "homepage": "https://elementalsouls.github.io/Claude-BugHunter",
       "license": "MIT",
       "created_at": "2026-05-05T11:22:32Z",
-      "pushed_at": "2026-11-18T13:09:42Z",
+      "pushed_at": "2026-11-18T23:51:01Z",
       "rank": 1,
       "language_color": "#3572A5",
-      "description_zh": "一个用于漏洞挖掘和外部红队测试的 Claude Code 技能包——包含 82 项技能、15 个斜杠命令，以及涵盖 24 类核心漏洞的 681 个已披露报告模式，此外还有企业身份与基础设施攻击矩阵。"
+      "description_zh": "用于漏洞挖掘与外部红队测试的 Claude Code 技能包——涵盖 82 项技能、15 个斜杠命令、基于 24 个核心漏洞类别整理的 681 个已披露报告模式，以及企业身份与基础设施攻击矩阵。"
     },
     {
       "full_name": "cursor/plugins",
@@ -47,9 +47,9 @@
       "description": "Cursor plugin specification and official plugins",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 17175,
-      "stars_today": 315,
-      "forks": 1893,
+      "stars": 17183,
+      "stars_today": 314,
+      "forks": 1894,
       "built_by": 5,
       "open_issues": 680,
       "topics": [],
@@ -67,9 +67,9 @@
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "description_source": "github",
       "language": "Python",
-      "stars": 59700,
-      "stars_today": 384,
-      "forks": 5423,
+      "stars": 59719,
+      "stars_today": 389,
+      "forks": 5424,
       "built_by": 5,
       "open_issues": 245,
       "topics": [],
@@ -79,7 +79,7 @@
       "pushed_at": "2026-09-22T02:01:29Z",
       "rank": 3,
       "language_color": "#3572A5",
-      "description_zh": "“CLI-Anything：让所有软件都支持 Agent 原生”——CLI-Hub: https://clianything.cc/"
+      "description_zh": "“CLI-Anything：让所有软件具备 Agent 原生能力” —— CLI-Hub：https://clianything.cc/"
     },
     {
       "full_name": "mvanhorn/last30days-skill",
@@ -87,9 +87,9 @@
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "description_source": "github",
       "language": "Python",
-      "stars": 69951,
-      "stars_today": 1062,
-      "forks": 6240,
+      "stars": 69974,
+      "stars_today": 1059,
+      "forks": 6241,
       "built_by": 4,
       "open_issues": 22,
       "topics": [
@@ -120,7 +120,7 @@
       "pushed_at": "2026-11-17T22:37:11Z",
       "rank": 4,
       "language_color": "#3572A5",
-      "description_zh": "一种 AI Agent 技能，可跨 Reddit、X、YouTube、HN、Polymarket 及全网研究任意主题——随后生成基于事实的综合摘要"
+      "description_zh": "一款 AI 代理技能，可在 Reddit、X、YouTube、HN、Polymarket 及全网范围内研究任意主题，并综合生成基于事实的摘要"
     },
     {
       "full_name": "getarcaneapp/arcane",
@@ -128,11 +128,11 @@
       "description": "Modern Docker Management, Designed for Everyone",
       "description_source": "github",
       "language": "Go",
-      "stars": 9774,
+      "stars": 9781,
       "stars_today": 547,
       "forks": 561,
       "built_by": 4,
-      "open_issues": 17,
+      "open_issues": 16,
       "topics": [
         "compose",
         "container-management",
@@ -149,10 +149,10 @@
       "homepage": "https://getarcane.app",
       "license": "BSD-3-Clause",
       "created_at": "2025-04-19T00:43:29Z",
-      "pushed_at": "2026-11-18T23:04:14Z",
+      "pushed_at": "2026-11-18T23:54:39Z",
       "rank": 5,
       "language_color": "#00ADD8",
-      "description_zh": "面向所有人的现代 Docker 管理工具"
+      "description_zh": "现代化的 Docker 管理工具，专为所有人设计"
     },
     {
       "full_name": "NVIDIA/SkillEvaluator",
@@ -160,9 +160,9 @@
       "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
       "description_source": "github",
       "language": "Python",
-      "stars": 3694,
-      "stars_today": 323,
-      "forks": 515,
+      "stars": 3706,
+      "stars_today": 312,
+      "forks": 516,
       "built_by": 5,
       "open_issues": 67,
       "topics": [
@@ -191,7 +191,7 @@
       "pushed_at": "2026-11-18T21:04:10Z",
       "rank": 6,
       "language_color": "#3572A5",
-      "description_zh": "一个用于评估 AI Agent 技能和插件的多层级框架，具备质量门禁、语义重叠检测、合成评估数据集生成，以及能够衡量技能如何影响 Agent 行为的实时 Agent 评估功能。"
+      "description_zh": "多层级框架，用于评估 AI 代理技能与插件，具备质量门禁、语义重叠检测、合成评估数据集生成功能，并通过实时代理评估衡量技能对代理行为的影响"
     },
     {
       "full_name": "nvm-sh/nvm",
@@ -199,8 +199,8 @@
       "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
       "description_source": "github",
       "language": "Shell",
-      "stars": 96147,
-      "stars_today": 111,
+      "stars": 96152,
+      "stars_today": 237,
       "forks": 10782,
       "built_by": 5,
       "open_issues": 371,
@@ -225,7 +225,7 @@
       "pushed_at": "2026-11-18T22:19:08Z",
       "rank": 7,
       "language_color": "#89e051",
-      "description_zh": "Node 版本管理器——一个符合 POSIX 标准的 bash 脚本，用于管理多个活动的 node.js 版本。"
+      "description_zh": "Node 版本管理器——符合 POSIX 标准的 bash 脚本，用于管理多个激活的 node.js 版本"
     },
     {
       "full_name": "astral-sh/uv",
@@ -233,8 +233,8 @@
       "description": "An extremely fast Python package and project manager, written in Rust.",
       "description_source": "github",
       "language": "Rust",
-      "stars": 92212,
-      "stars_today": 260,
+      "stars": 92218,
+      "stars_today": 258,
       "forks": 3922,
       "built_by": 3,
       "open_issues": 3078,
@@ -250,7 +250,7 @@
       "pushed_at": "2026-11-18T18:59:26Z",
       "rank": 8,
       "language_color": "#dea584",
-      "description_zh": "一个用 Rust 编写的极速 Python 包和项目管理器。"
+      "description_zh": "一个由 Rust 编写的极速 Python 包与项目管理器"
     },
     {
       "full_name": "google-research/paper-orchestra",
@@ -258,9 +258,9 @@
       "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
       "description_source": "github",
       "language": "Python",
-      "stars": 4230,
-      "stars_today": 1529,
-      "forks": 529,
+      "stars": 4251,
+      "stars_today": 1524,
+      "forks": 531,
       "built_by": 2,
       "open_issues": 41,
       "topics": [
@@ -273,7 +273,7 @@
       "pushed_at": "2026-11-15T18:08:08Z",
       "rank": 9,
       "language_color": "#3572A5",
-      "description_zh": "PaperOrchestra 是一个用于自动化 AI 研究论文写作的多智能体框架。"
+      "description_zh": "PaperOrchestra 是一个用于自动化 AI 研究论文撰写的多代理框架"
     },
     {
       "full_name": "google-labs-code/stitch-skills",
@@ -281,9 +281,9 @@
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 10381,
-      "stars_today": 369,
-      "forks": 1365,
+      "stars": 10390,
+      "stars_today": 365,
+      "forks": 1366,
       "built_by": 5,
       "open_issues": 21,
       "topics": [],
@@ -293,7 +293,7 @@
       "pushed_at": "2026-11-18T05:00:25Z",
       "rank": 10,
       "language_color": "#3178c6",
-      "description_zh": "一组专为配合 Stitch MCP 服务器设计的 Agent 技能库。每个技能均遵循 Agent Skills 开放标准，以兼容 Antigravity、Gemini CLI、Claude Code、Cursor 等编码 Agent。"
+      "description_zh": "专为 Stitch MCP 服务器设计的 Agent Skills 库。每项技能均遵循 Agent Skills 开放标准，以兼容 Antigravity、Gemini CLI、Claude Code、Cursor 等编程代理"
     },
     {
       "full_name": "sveltejs/svelte",
@@ -301,11 +301,11 @@
       "description": "web development for the rest of us",
       "description_source": "github",
       "language": "JavaScript",
-      "stars": 89633,
-      "stars_today": 694,
-      "forks": 6214,
+      "stars": 89626,
+      "stars_today": 692,
+      "forks": 6210,
       "built_by": 4,
-      "open_issues": 1304,
+      "open_issues": 1307,
       "topics": [
         "compiler",
         "template",
@@ -314,10 +314,10 @@
       "homepage": "https://svelte.dev",
       "license": "MIT",
       "created_at": "2016-11-20T18:13:05Z",
-      "pushed_at": "2026-11-18T22:50:11Z",
+      "pushed_at": "2026-11-18T23:17:50Z",
       "rank": 11,
       "language_color": "#f1e05a",
-      "description_zh": "为大众打造的 web 开发工具"
+      "description_zh": "为大众而生的 Web 开发"
     },
     {
       "full_name": "jquery/jquery",
@@ -325,9 +325,9 @@
       "description": "jQuery JavaScript Library",
       "description_source": "github",
       "language": "JavaScript",
-      "stars": 60006,
-      "stars_today": 268,
-      "forks": 20714,
+      "stars": 60007,
+      "stars_today": 266,
+      "forks": 20713,
       "built_by": 5,
       "open_issues": 95,
       "topics": [
@@ -347,11 +347,11 @@
       "description": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 58220,
-      "stars_today": 239,
+      "stars": 58229,
+      "stars_today": 232,
       "forks": 5888,
       "built_by": 5,
-      "open_issues": 732,
+      "open_issues": 733,
       "topics": [
         "android",
         "appwrite",
@@ -377,10 +377,10 @@
       "homepage": "https://appwrite.io",
       "license": "BSD-3-Clause",
       "created_at": "2019-04-08T16:36:25Z",
-      "pushed_at": "2026-11-18T22:47:32Z",
+      "pushed_at": "2026-11-18T23:45:09Z",
       "rank": 13,
       "language_color": "#3178c6",
-      "description_zh": "面向智能体（Agents）和开发者的开源云平台。包含 Auth、Databases、Storage、Functions、Messaging、Hosting、Realtime、WAF 等功能"
+      "description_zh": "面向智能体与开发者的开源云平台。包含 Auth、Databases、Storage、Functions、Messaging、Hosting、Realtime、WAF 等功能"
     },
     {
       "full_name": "openvinotoolkit/openvino",
@@ -388,11 +388,11 @@
       "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
       "description_source": "github",
       "language": "C++",
-      "stars": 11309,
-      "stars_today": 18,
-      "forks": 3601,
+      "stars": 11317,
+      "stars_today": 24,
+      "forks": 3602,
       "built_by": 4,
-      "open_issues": 1159,
+      "open_issues": 1160,
       "topics": [
         "ai",
         "computer-vision",
@@ -417,7 +417,7 @@
       "homepage": "https://docs.openvino.ai",
       "license": "Apache-2.0",
       "created_at": "2018-10-15T10:54:40Z",
-      "pushed_at": "2026-11-18T22:45:20Z",
+      "pushed_at": "2026-11-18T23:21:29Z",
       "rank": 14,
       "language_color": "#f34b7d",
       "description_zh": "OpenVINO™ 是一个用于优化和部署 AI 推理的开源工具包"
@@ -428,9 +428,9 @@
       "description": "An agentic skills framework & software development methodology that works.",
       "description_source": "github",
       "language": "Shell",
-      "stars": 321293,
-      "stars_today": 823,
-      "forks": 28550,
+      "stars": 321304,
+      "stars_today": 822,
+      "forks": 28553,
       "built_by": 5,
       "open_issues": 359,
       "topics": [
@@ -457,11 +457,11 @@
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "description_source": "github",
       "language": "JavaScript",
-      "stars": 306455,
-      "stars_today": 1109,
-      "forks": 45115,
+      "stars": 306478,
+      "stars_today": 1108,
+      "forks": 45117,
       "built_by": 5,
-      "open_issues": 168,
+      "open_issues": 169,
       "topics": [
         "ai-agents",
         "anthropic",
@@ -478,7 +478,7 @@
       "pushed_at": "2026-11-17T06:41:46Z",
       "rank": 16,
       "language_color": "#f1e05a",
-      "description_zh": "智能体测试框架（Agent Harness）性能优化系统。为 Claude Code、Codex、Opencode、Cursor 及其他工具提供技能、本能、记忆、安全及研究优先的开发支持"
+      "description_zh": "智能体性能优化系统。为 Claude Code、Codex、Opencode、Cursor 等提供技能、直觉、记忆、安全及以研究为先的开发支持"
     },
     {
       "full_name": "DeanChensj/jiangshan-map",
@@ -486,8 +486,8 @@
       "description": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
       "description_source": "github",
       "language": "JavaScript",
-      "stars": 7912,
-      "stars_today": 280,
+      "stars": 7916,
+      "stars_today": 218,
       "forks": 968,
       "built_by": 5,
       "open_issues": 16,
@@ -509,7 +509,7 @@
       "pushed_at": "2026-11-18T15:06:58Z",
       "rank": 17,
       "language_color": "#f1e05a",
-      "description_zh": "江山时序 · 中国历史交互地图时间轴 (公元前 403 年 – 至今) | 跨越 18 个朝代、包含 198 个领土快照的中国历史交互地图，涵盖古今地名沿革及古典诗词路线"
+      "description_zh": "江山时序 · 中国历史交互地图时间轴（公元前 403 年 – 至今） | 涵盖 18 个朝代、198 个领土快照、古今地名沿革及古诗文路线的中国历史交互地图"
     },
     {
       "full_name": "n8n-io/n8n",
@@ -517,9 +517,9 @@
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 211042,
-      "stars_today": 315,
-      "forks": 61568,
+      "stars": 211062,
+      "stars_today": 325,
+      "forks": 61572,
       "built_by": 5,
       "open_issues": 1246,
       "topics": [
@@ -547,10 +547,10 @@
       "homepage": "https://n8n.io",
       "license": "",
       "created_at": "2019-06-22T09:24:21Z",
-      "pushed_at": "2026-11-18T23:13:29Z",
+      "pushed_at": "2026-11-18T23:59:53Z",
       "rank": 18,
       "language_color": "#3178c6",
-      "description_zh": "具备原生 AI 能力的公平代码（Fair-code）工作流自动化平台。结合可视化构建与自定义代码，支持自托管或云端部署，拥有 400+ 集成"
+      "description_zh": "具备原生 AI 能力的公平代码工作流自动化平台。结合可视化构建与自定义代码，支持自托管或云端部署，拥有 400+ 集成"
     },
     {
       "full_name": "solidjs/solid",
@@ -558,11 +558,11 @@
       "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 36557,
-      "stars_today": 37,
+      "stars": 36568,
+      "stars_today": 40,
       "forks": 1182,
       "built_by": 4,
-      "open_issues": 38,
+      "open_issues": 32,
       "topics": [
         "declarative",
         "fine-grained",
@@ -576,7 +576,7 @@
       "homepage": "https://solidjs.com",
       "license": "MIT",
       "created_at": "2018-04-24T16:36:27Z",
-      "pushed_at": "2026-11-18T23:14:24Z",
+      "pushed_at": "2026-11-18T23:54:31Z",
       "rank": 19,
       "language_color": "#3178c6",
       "description_zh": "一个用于构建用户界面的声明式、高效且灵活的 JavaScript 库"
@@ -587,9 +587,9 @@
       "description": "A collection of MCP servers.",
       "description_source": "github",
       "language": "",
-      "stars": 98000,
-      "stars_today": 52,
-      "forks": 20349,
+      "stars": 98009,
+      "stars_today": 53,
+      "forks": 20350,
       "built_by": 5,
       "open_issues": 4763,
       "topics": [
@@ -602,7 +602,7 @@
       "pushed_at": "2026-11-17T05:21:40Z",
       "rank": 20,
       "language_color": "#8b949e",
-      "description_zh": "MCP 服务器集合"
+      "description_zh": "一系列 MCP 服务器集合"
     }
   ],
   "developers": [
