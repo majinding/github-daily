@@ -1,6 +1,6 @@
 {
   "date": "2026-11-27",
-  "generated_at": "2026-11-27 08:00:26 (UTC+8)",
+  "generated_at": "2026-11-27 08:54:38 (UTC+8)",
   "source": "https://github.com/trending?since=daily",
   "repo_count": 16,
   "repos": [
@@ -10,11 +10,11 @@
       "description": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "description_source": "github",
       "language": "Python",
-      "stars": 24537,
+      "stars": 24590,
       "stars_today": 1597,
-      "forks": 2499,
+      "forks": 2504,
       "built_by": 4,
-      "open_issues": 31,
+      "open_issues": 12,
       "topics": [
         "ai-security",
         "anthropic",
@@ -36,10 +36,10 @@
       "homepage": "https://elementalsouls.github.io/Claude-BugHunter/",
       "license": "MIT",
       "created_at": "2026-05-05T11:22:32Z",
-      "pushed_at": "2026-11-26T04:27:01Z",
+      "pushed_at": "2026-11-27T00:49:04Z",
       "rank": 1,
       "language_color": "#3572A5",
-      "description_zh": "Claude Code 技能包，用于漏洞挖掘和外部红队测试 —— 包含 85 项技能、16 条斜杠命令，以及横跨 24 个核心漏洞类别的 681 个已披露报告模式，还有企业身份 + 基础设施攻击矩阵。"
+      "description_zh": "专为漏洞挖掘与外部红队测试打造的 Claude Code 技能包——包含 85 项技能、16 个斜杠命令、681 个公开报告模式（覆盖 24 个核心漏洞类别），以及企业身份与基础设施攻击矩阵。"
     },
     {
       "full_name": "obra/superpowers",
@@ -47,9 +47,9 @@
       "description": "An agentic skills framework & software development methodology that works.",
       "description_source": "github",
       "language": "Shell",
-      "stars": 327473,
+      "stars": 327487,
       "stars_today": 854,
-      "forks": 29050,
+      "forks": 29053,
       "built_by": 5,
       "open_issues": 373,
       "topics": [
@@ -68,7 +68,7 @@
       "pushed_at": "2026-11-26T11:33:33Z",
       "rank": 2,
       "language_color": "#89e051",
-      "description_zh": "一套行之有效的智能体技能框架与软件开发方法论。"
+      "description_zh": "一个行之有效的智能体技能框架与软件开发方法论。"
     },
     {
       "full_name": "HKUDS/CLI-Anything",
@@ -76,9 +76,9 @@
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "description_source": "github",
       "language": "Python",
-      "stars": 66343,
+      "stars": 66368,
       "stars_today": 746,
-      "forks": 6036,
+      "forks": 6037,
       "built_by": 5,
       "open_issues": 327,
       "topics": [],
@@ -88,7 +88,7 @@
       "pushed_at": "2026-11-20T10:05:15Z",
       "rank": 3,
       "language_color": "#3572A5",
-      "description_zh": "“CLI-Anything：让所有软件原生适配 Agent” —— CLI-Hub 链接：https://clianything.cc/"
+      "description_zh": "“CLI-Anything：让所有软件具备智能体原生属性”——CLI-Hub 链接：https://clianything.cc/"
     },
     {
       "full_name": "jingyaogong/minimind",
@@ -96,9 +96,9 @@
       "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
       "description_source": "github",
       "language": "Python",
-      "stars": 71614,
+      "stars": 71639,
       "stars_today": 702,
-      "forks": 9298,
+      "forks": 9301,
       "built_by": 5,
       "open_issues": 66,
       "topics": [
@@ -111,7 +111,7 @@
       "pushed_at": "2026-11-26T08:55:11Z",
       "rank": 4,
       "language_color": "#3572A5",
-      "description_zh": "🧠 两小时从零训练你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours."
+      "description_zh": "🧠 两小时从零训练出你的 64M 大模型。"
     },
     {
       "full_name": "cursor/plugins",
@@ -119,9 +119,9 @@
       "description": "Cursor plugin specification and official plugins",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 19779,
+      "stars": 19787,
       "stars_today": 270,
-      "forks": 2141,
+      "forks": 2142,
       "built_by": 5,
       "open_issues": 707,
       "topics": [],
@@ -131,7 +131,7 @@
       "pushed_at": "2026-11-26T09:04:53Z",
       "rank": 5,
       "language_color": "#3178c6",
-      "description_zh": "Cursor 插件规范及官方插件"
+      "description_zh": "Cursor 插件规范与官方插件集合。"
     },
     {
       "full_name": "firecrawl/firecrawl",
@@ -139,7 +139,7 @@
       "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 210921,
+      "stars": 210944,
       "stars_today": 1046,
       "forks": 11050,
       "built_by": 5,
@@ -168,7 +168,7 @@
       "homepage": "https://firecrawl.dev",
       "license": "AGPL-3.0",
       "created_at": "2024-04-15T21:02:29Z",
-      "pushed_at": "2026-11-26T22:08:44Z",
+      "pushed_at": "2026-11-27T00:15:09Z",
       "rank": 6,
       "language_color": "#3178c6",
       "description_zh": "让智能体更聪明的知识基础设施。通过单一 API 搜索、抓取并访问 550+ 数据提供商。"
@@ -179,9 +179,9 @@
       "description": "The official NGINX Open Source repository.",
       "description_source": "github",
       "language": "C",
-      "stars": 33520,
+      "stars": 33523,
       "stars_today": 150,
-      "forks": 8422,
+      "forks": 8423,
       "built_by": 5,
       "open_issues": 495,
       "topics": [
@@ -207,7 +207,7 @@
       "pushed_at": "2026-11-26T16:43:26Z",
       "rank": 7,
       "language_color": "#555555",
-      "description_zh": "NGINX 开源的官方仓库。"
+      "description_zh": "NGINX 开源官方仓库。"
     },
     {
       "full_name": "openvinotoolkit/openvino",
@@ -215,11 +215,11 @@
       "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
       "description_source": "github",
       "language": "C++",
-      "stars": 12815,
+      "stars": 12821,
       "stars_today": 176,
-      "forks": 3736,
+      "forks": 3737,
       "built_by": 4,
-      "open_issues": 1194,
+      "open_issues": 1191,
       "topics": [
         "ai",
         "computer-vision",
@@ -244,10 +244,10 @@
       "homepage": "https://docs.openvino.ai",
       "license": "Apache-2.0",
       "created_at": "2018-10-15T10:54:40Z",
-      "pushed_at": "2026-11-26T23:35:08Z",
+      "pushed_at": "2026-11-27T00:22:55Z",
       "rank": 8,
       "language_color": "#f34b7d",
-      "description_zh": "OpenVINO™ 是一个用于优化和部署 AI 推理的开源工具包"
+      "description_zh": "OpenVINO™ 是一个用于优化和部署 AI 推理的开源工具包。"
     },
     {
       "full_name": "cathrynlavery/diagram-design",
@@ -255,9 +255,9 @@
       "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "description_source": "github",
       "language": "HTML",
-      "stars": 73831,
+      "stars": 73845,
       "stars_today": 955,
-      "forks": 4931,
+      "forks": 4935,
       "built_by": 4,
       "open_issues": 33,
       "topics": [
@@ -276,7 +276,7 @@
       "pushed_at": "2026-11-26T19:48:58Z",
       "rank": 9,
       "language_color": "#e34c26",
-      "description_zh": "适用于 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 和 Pi 的编辑风格图表设计。支持 52 种图表类型。自包含的 HTML + SVG。无阴影。拒绝 Mermaid 劣质生成。"
+      "description_zh": "专为 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 和 Pi 设计的编辑风格图表设计。包含 52 种图表类型。自包含的 HTML + SVG。无阴影。拒绝 Mermaid 风格的杂乱。"
     },
     {
       "full_name": "mvanhorn/last30days-skill",
@@ -284,9 +284,9 @@
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "description_source": "github",
       "language": "Python",
-      "stars": 75736,
+      "stars": 75758,
       "stars_today": 759,
-      "forks": 6678,
+      "forks": 6681,
       "built_by": 4,
       "open_issues": 13,
       "topics": [
@@ -317,7 +317,7 @@
       "pushed_at": "2026-11-26T21:28:08Z",
       "rank": 10,
       "language_color": "#3572A5",
-      "description_zh": "一个 AI 智能体技能，可跨 Reddit、X、YouTube、HN、Polymarket 及全网研究任意主题，并生成基于事实的综合摘要"
+      "description_zh": "一项 AI 智能体技能，可跨 Reddit、X、YouTube、HN、Polymarket 及全网调研任意主题，并生成基于事实的综合摘要。"
     },
     {
       "full_name": "google-labs-code/stitch-skills",
@@ -325,9 +325,9 @@
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 13283,
+      "stars": 13293,
       "stars_today": 309,
-      "forks": 1563,
+      "forks": 1564,
       "built_by": 5,
       "open_issues": 25,
       "topics": [],
@@ -337,7 +337,7 @@
       "pushed_at": "2026-11-24T21:51:04Z",
       "rank": 11,
       "language_color": "#3178c6",
-      "description_zh": "一个专为 Stitch MCP 服务器设计的 Agent Skills 技能库。每个技能均遵循 Agent Skills 开放标准，兼容 Antigravity、Gemini CLI、Claude Code、Cursor 等编程智能体。"
+      "description_zh": "一个专为 Stitch MCP 服务器设计的 Agent Skills 库。每个技能均遵循 Agent Skills 开放标准，以兼容 Antigravity、Gemini CLI、Claude Code、Cursor 等编程智能体。"
     },
     {
       "full_name": "mjmirza/app-store-compliance",
@@ -345,9 +345,9 @@
       "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 125 documented rejection patterns and fixes, privacy manifest and Data safety checks, 117 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
       "description_source": "github",
       "language": "Shell",
-      "stars": 7016,
+      "stars": 7034,
       "stars_today": 562,
-      "forks": 467,
+      "forks": 470,
       "built_by": 4,
       "open_issues": 37,
       "topics": [
@@ -378,7 +378,7 @@
       "pushed_at": "2026-11-26T23:21:53Z",
       "rank": 12,
       "language_color": "#89e051",
-      "description_zh": "规避 App Store 和 Google Play 的常见拒绝原因。提供开放的操作手册和提交前防护工具，涵盖 125 种已记录的拒绝模式及修复方案、隐私清单与数据安全检查、117 项受跟踪的截止日期（如欧盟人工智能法案、数字服务法案、COPPA、年龄相关法律），以及适用于 AI 编程智能体的技能。"
+      "description_zh": "避免 App Store 和 Google Play 的常见拒审情况。提供开放式操作手册及提交前防护机制，涵盖 125 种已记录的拒审模式及修复方案、隐私清单与数据安全检查、117 项跟踪期限（EU AI Act、DSA、COPPA、年龄法），以及一项面向 AI 编程智能体的技能。"
     },
     {
       "full_name": "Tracer-Cloud/opensre",
@@ -386,9 +386,9 @@
       "description": "The open-source agent for CI/CD reliability.",
       "description_source": "github",
       "language": "Python",
-      "stars": 15811,
+      "stars": 15827,
       "stars_today": 327,
-      "forks": 2064,
+      "forks": 2065,
       "built_by": 5,
       "open_issues": 30,
       "topics": [
@@ -414,7 +414,7 @@
       "pushed_at": "2026-11-26T08:18:43Z",
       "rank": 13,
       "language_color": "#3572A5",
-      "description_zh": "专为 CI/CD 可靠性打造的开源智能体。"
+      "description_zh": "用于确保 CI/CD 可靠性的开源智能体。"
     },
     {
       "full_name": "toeverything/AFFiNE",
@@ -422,7 +422,7 @@
       "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 78961,
+      "stars": 78979,
       "stars_today": 525,
       "forks": 5755,
       "built_by": 4,
@@ -450,10 +450,10 @@
       "homepage": "https://affine.pro",
       "license": "",
       "created_at": "2022-07-31T18:45:21Z",
-      "pushed_at": "2026-11-26T23:43:09Z",
+      "pushed_at": "2026-11-27T00:32:21Z",
       "rank": 14,
       "language_color": "#3178c6",
-      "description_zh": "除了 Notion 和 Miro，还可以有更多。AFFiNE（发音为 [ə‘fain]）是一款下一代知识库，将规划、排序与创作融为一体。以隐私为先，开源、可定制且即开即用。"
+      "description_zh": "不仅仅有 Notion 和 Miro。AFFiNE（发音为 [ə‘fain]）是一个下一代知识库，将规划、整理和创作集于一体。隐私优先、开源、可定制且即开即用。"
     },
     {
       "full_name": "XiaoYouChR/Ghost-Downloader-3",
@@ -461,9 +461,9 @@
       "description": "The only downloader you need. 下载器的集大成者。",
       "description_source": "github",
       "language": "Python",
-      "stars": 19088,
+      "stars": 19114,
       "stars_today": 889,
-      "forks": 1151,
+      "forks": 1152,
       "built_by": 4,
       "open_issues": 116,
       "topics": [
@@ -501,9 +501,9 @@
       "description": "AutoClip｜The open-source OpusClip alternative — local-first AI clipping & MCP server, zero subscriptions. 一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。",
       "description_source": "github",
       "language": "Python",
-      "stars": 16917,
+      "stars": 16934,
       "stars_today": 774,
-      "forks": 2382,
+      "forks": 2384,
       "built_by": 5,
       "open_issues": 45,
       "topics": [
@@ -531,10 +531,10 @@
       "homepage": "https://zhouxiaoka.github.io/autoclip_intro/",
       "license": "MIT",
       "created_at": "2025-07-08T04:51:15Z",
-      "pushed_at": "2026-11-26T16:30:07Z",
+      "pushed_at": "2026-11-27T00:10:20Z",
       "rank": 16,
       "language_color": "#3572A5",
-      "description_zh": "AutoClip｜开源的 OpusClip 替代品——本地优先的 AI 剪辑工具及 MCP 服务器，零订阅费用。链接一键成片。这是一款开源的 AI 视频剪辑桌面工具，可将播客、访谈、课程等长视频自动剪辑为短视频，并生成字幕、封面及发布文案，适配抖音、小红书、TikTok、Reels 和 YouTube Shorts。"
+      "description_zh": "AutoClip｜开源的 OpusClip 替代品——本地优先的 AI 剪辑工具及 MCP 服务器，无需订阅。一链接，一键出片。这是一款开源 AI 视频剪辑桌面工具，可将播客、访谈、课程等长视频自动剪辑为短视频，并生成字幕、封面及发布文案，适配抖音、小红书、TikTok、Reels 和 YouTube Shorts。"
     }
   ],
   "developers": [
