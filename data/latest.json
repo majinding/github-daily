@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-27",
-  "generated_at": "2026-11-27 08:54:38 (UTC+8)",
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28 08:00:24 (UTC+8)",
   "source": "https://github.com/trending?since=daily",
   "repo_count": 16,
   "repos": [
@@ -10,11 +10,11 @@
       "description": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "description_source": "github",
       "language": "Python",
-      "stars": 24590,
-      "stars_today": 1597,
-      "forks": 2504,
+      "stars": 26051,
+      "stars_today": 1608,
+      "forks": 2682,
       "built_by": 4,
-      "open_issues": 12,
+      "open_issues": 23,
       "topics": [
         "ai-security",
         "anthropic",
@@ -36,7 +36,7 @@
       "homepage": "https://elementalsouls.github.io/Claude-BugHunter/",
       "license": "MIT",
       "created_at": "2026-05-05T11:22:32Z",
-      "pushed_at": "2026-11-27T00:49:04Z",
+      "pushed_at": "2026-11-27T04:27:28Z",
       "rank": 1,
       "language_color": "#3572A5"
     },
@@ -46,11 +46,11 @@
       "description": "An agentic skills framework & software development methodology that works.",
       "description_source": "github",
       "language": "Shell",
-      "stars": 327487,
-      "stars_today": 854,
-      "forks": 29053,
+      "stars": 328291,
+      "stars_today": 922,
+      "forks": 29178,
       "built_by": 5,
-      "open_issues": 373,
+      "open_issues": 374,
       "topics": [
         "ai",
         "brainstorming",
@@ -74,11 +74,11 @@
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "description_source": "github",
       "language": "Python",
-      "stars": 66368,
-      "stars_today": 746,
-      "forks": 6037,
+      "stars": 66990,
+      "stars_today": 666,
+      "forks": 6161,
       "built_by": 5,
-      "open_issues": 327,
+      "open_issues": 342,
       "topics": [],
       "homepage": "https://clianything.cc/",
       "license": "Apache-2.0",
@@ -93,11 +93,11 @@
       "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
       "description_source": "github",
       "language": "Python",
-      "stars": 71639,
-      "stars_today": 702,
-      "forks": 9301,
+      "stars": 72202,
+      "stars_today": 660,
+      "forks": 9439,
       "built_by": 5,
-      "open_issues": 66,
+      "open_issues": 68,
       "topics": [
         "artificial-intelligence",
         "large-language-model"
@@ -115,11 +115,11 @@
       "description": "Cursor plugin specification and official plugins",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 19787,
-      "stars_today": 270,
-      "forks": 2142,
+      "stars": 20010,
+      "stars_today": 243,
+      "forks": 2238,
       "built_by": 5,
-      "open_issues": 707,
+      "open_issues": 712,
       "topics": [],
       "homepage": "",
       "license": "",
@@ -134,11 +134,11 @@
       "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 210944,
-      "stars_today": 1046,
-      "forks": 11050,
+      "stars": 211671,
+      "stars_today": 822,
+      "forks": 11142,
       "built_by": 5,
-      "open_issues": 930,
+      "open_issues": 834,
       "topics": [
         "ai",
         "ai-agents",
@@ -163,7 +163,7 @@
       "homepage": "https://firecrawl.dev",
       "license": "AGPL-3.0",
       "created_at": "2024-04-15T21:02:29Z",
-      "pushed_at": "2026-11-27T00:15:09Z",
+      "pushed_at": "2026-11-27T21:29:58Z",
       "rank": 6,
       "language_color": "#3178c6"
     },
@@ -173,11 +173,11 @@
       "description": "The official NGINX Open Source repository.",
       "description_source": "github",
       "language": "C",
-      "stars": 33523,
-      "stars_today": 150,
-      "forks": 8423,
+      "stars": 33662,
+      "stars_today": 146,
+      "forks": 8487,
       "built_by": 5,
-      "open_issues": 495,
+      "open_issues": 496,
       "topics": [
         "content-cache",
         "http",
@@ -198,7 +198,7 @@
       "homepage": "https://nginx.org/",
       "license": "BSD-2-Clause",
       "created_at": "2015-06-23T10:26:27Z",
-      "pushed_at": "2026-11-26T16:43:26Z",
+      "pushed_at": "2026-11-27T15:22:15Z",
       "rank": 7,
       "language_color": "#555555"
     },
@@ -208,11 +208,11 @@
       "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
       "description_source": "github",
       "language": "C++",
-      "stars": 12821,
-      "stars_today": 176,
-      "forks": 3737,
+      "stars": 12949,
+      "stars_today": 151,
+      "forks": 3810,
       "built_by": 4,
-      "open_issues": 1191,
+      "open_issues": 1201,
       "topics": [
         "ai",
         "computer-vision",
@@ -237,7 +237,7 @@
       "homepage": "https://docs.openvino.ai",
       "license": "Apache-2.0",
       "created_at": "2018-10-15T10:54:40Z",
-      "pushed_at": "2026-11-27T00:22:55Z",
+      "pushed_at": "2026-11-27T23:17:52Z",
       "rank": 8,
       "language_color": "#f34b7d"
     },
@@ -247,11 +247,11 @@
       "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "description_source": "github",
       "language": "HTML",
-      "stars": 73845,
-      "stars_today": 955,
-      "forks": 4935,
+      "stars": 74447,
+      "stars_today": 725,
+      "forks": 5025,
       "built_by": 4,
-      "open_issues": 33,
+      "open_issues": 36,
       "topics": [
         "agent-skills",
         "claude-code",
@@ -275,11 +275,11 @@
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "description_source": "github",
       "language": "Python",
-      "stars": 75758,
-      "stars_today": 759,
-      "forks": 6681,
+      "stars": 76353,
+      "stars_today": 675,
+      "forks": 6795,
       "built_by": 4,
-      "open_issues": 13,
+      "open_issues": 22,
       "topics": [
         "agent-skills",
         "artificial-intelligence",
@@ -305,7 +305,7 @@
       "homepage": "",
       "license": "MIT",
       "created_at": "2026-01-23T20:37:37Z",
-      "pushed_at": "2026-11-26T21:28:08Z",
+      "pushed_at": "2026-11-27T06:30:50Z",
       "rank": 10,
       "language_color": "#3572A5"
     },
@@ -315,11 +315,11 @@
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 13293,
-      "stars_today": 309,
-      "forks": 1564,
+      "stars": 13585,
+      "stars_today": 311,
+      "forks": 1627,
       "built_by": 5,
-      "open_issues": 25,
+      "open_issues": 26,
       "topics": [],
       "homepage": "https://stitch.withgoogle.com/docs/mcp/setup",
       "license": "Apache-2.0",
@@ -334,11 +334,11 @@
       "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 125 documented rejection patterns and fixes, privacy manifest and Data safety checks, 117 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
       "description_source": "github",
       "language": "Shell",
-      "stars": 7034,
-      "stars_today": 562,
-      "forks": 470,
+      "stars": 7889,
+      "stars_today": 530,
+      "forks": 596,
       "built_by": 4,
-      "open_issues": 37,
+      "open_issues": 38,
       "topics": [
         "accessibility",
         "ai-agents",
@@ -364,7 +364,7 @@
       "homepage": "https://mjmirza.github.io/app-store-compliance/",
       "license": "",
       "created_at": "2026-06-06T11:29:45Z",
-      "pushed_at": "2026-11-26T23:21:53Z",
+      "pushed_at": "2026-11-27T23:54:16Z",
       "rank": 12,
       "language_color": "#89e051"
     },
@@ -374,11 +374,11 @@
       "description": "The open-source agent for CI/CD reliability.",
       "description_source": "github",
       "language": "Python",
-      "stars": 15827,
-      "stars_today": 327,
-      "forks": 2065,
+      "stars": 16121,
+      "stars_today": 328,
+      "forks": 2159,
       "built_by": 5,
-      "open_issues": 30,
+      "open_issues": 35,
       "topics": [
         "alerting",
         "ci-cd",
@@ -399,7 +399,7 @@
       "homepage": "https://opensre.com",
       "license": "Apache-2.0",
       "created_at": "2026-01-13T00:04:47Z",
-      "pushed_at": "2026-11-26T08:18:43Z",
+      "pushed_at": "2026-11-27T00:57:58Z",
       "rank": 13,
       "language_color": "#3572A5"
     },
@@ -409,9 +409,9 @@
       "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
       "description_source": "github",
       "language": "TypeScript",
-      "stars": 78979,
-      "stars_today": 525,
-      "forks": 5755,
+      "stars": 79447,
+      "stars_today": 474,
+      "forks": 5837,
       "built_by": 4,
       "open_issues": 658,
       "topics": [
@@ -437,7 +437,7 @@
       "homepage": "https://affine.pro",
       "license": "",
       "created_at": "2022-07-31T18:45:21Z",
-      "pushed_at": "2026-11-27T00:32:21Z",
+      "pushed_at": "2026-11-27T23:55:47Z",
       "rank": 14,
       "language_color": "#3178c6"
     },
@@ -447,11 +447,11 @@
       "description": "The only downloader you need. 下载器的集大成者。",
       "description_source": "github",
       "language": "Python",
-      "stars": 19114,
-      "stars_today": 889,
-      "forks": 1152,
+      "stars": 19834,
+      "stars_today": 836,
+      "forks": 1257,
       "built_by": 4,
-      "open_issues": 116,
+      "open_issues": 120,
       "topics": [
         "async",
         "asyncio",
@@ -486,11 +486,11 @@
       "description": "AutoClip｜The open-source OpusClip alternative — local-first AI clipping & MCP server, zero subscriptions. 一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。",
       "description_source": "github",
       "language": "Python",
-      "stars": 16934,
-      "stars_today": 774,
-      "forks": 2384,
+      "stars": 17578,
+      "stars_today": 718,
+      "forks": 2494,
       "built_by": 5,
-      "open_issues": 45,
+      "open_issues": 34,
       "topics": [
         "ai-agent",
         "ai-video-editor",
@@ -516,7 +516,7 @@
       "homepage": "https://zhouxiaoka.github.io/autoclip_intro/",
       "license": "MIT",
       "created_at": "2025-07-08T04:51:15Z",
-      "pushed_at": "2026-11-27T00:10:20Z",
+      "pushed_at": "2026-11-27T16:59:46Z",
       "rank": 16,
       "language_color": "#3572A5"
     }
@@ -524,22 +524,6 @@
   "developers": [
     {
       "rank": 1,
-      "username": "lalalune",
-      "name": "Shaw",
-      "avatar": "https://avatars.githubusercontent.com/u/18633264?s=96&v=4",
-      "repo": "lalalune/vibestack",
-      "repo_desc": ""
-    },
-    {
-      "rank": 2,
-      "username": "yairm210",
-      "name": "Yair Morgenstern",
-      "avatar": "https://avatars.githubusercontent.com/u/8366208?s=96&v=4",
-      "repo": "yairm210/Unciv",
-      "repo_desc": ""
-    },
-    {
-      "rank": 3,
       "username": "wey-gu",
       "name": "Wey Gu",
       "avatar": "https://avatars.githubusercontent.com/u/1651790?s=96&v=4",
@@ -547,7 +531,15 @@
       "repo_desc": ""
     },
     {
-      "rank": 4,
+      "rank": 2,
+      "username": "lalalune",
+      "name": "Shaw",
+      "avatar": "https://avatars.githubusercontent.com/u/18633264?s=96&v=4",
+      "repo": "lalalune/vibestack",
+      "repo_desc": ""
+    },
+    {
+      "rank": 3,
       "username": "1337isnot1337",
       "name": "Cinna Davis",
       "avatar": "https://avatars.githubusercontent.com/u/164028474?s=96&v=4",
@@ -555,143 +547,7 @@
       "repo_desc": ""
     },
     {
-      "rank": 5,
-      "username": "cryppadotta",
-      "name": "Dotta",
-      "avatar": "https://avatars.githubusercontent.com/u/34892728?s=96&v=4",
-      "repo": "cryppadotta/dotta-license",
-      "repo_desc": ""
-    },
-    {
-      "rank": 6,
-      "username": "DouweM",
-      "name": "Douwe Maan",
-      "avatar": "https://avatars.githubusercontent.com/u/159434?s=96&v=4",
-      "repo": "",
-      "repo_desc": ""
-    },
-    {
-      "rank": 7,
-      "username": "DeusData",
-      "name": "Martin Vogel",
-      "avatar": "https://avatars.githubusercontent.com/u/81762164?s=96&v=4",
-      "repo": "DeusData/codebase-memory-mcp",
-      "repo_desc": ""
-    },
-    {
-      "rank": 8,
-      "username": "tmchow",
-      "name": "Trevin Chow",
-      "avatar": "https://avatars.githubusercontent.com/u/517103?s=96&v=4",
-      "repo": "tmchow/illo-skill",
-      "repo_desc": ""
-    },
-    {
-      "rank": 9,
-      "username": "saiemgilani",
-      "name": "Saiem Gilani",
-      "avatar": "https://avatars.githubusercontent.com/u/25425933?s=96&v=4",
-      "repo": "saiemgilani/game-on-paper-app",
-      "repo_desc": ""
-    },
-    {
-      "rank": 10,
-      "username": "igorlukanin",
-      "name": "Igor Lukanin",
-      "avatar": "https://avatars.githubusercontent.com/u/3852894?s=96&v=4",
-      "repo": "igorlukanin/atrisk",
-      "repo_desc": ""
-    },
-    {
-      "rank": 11,
-      "username": "koala73",
-      "name": "Elie Habib",
-      "avatar": "https://avatars.githubusercontent.com/u/996596?s=96&v=4",
-      "repo": "koala73/worldmonitor",
-      "repo_desc": ""
-    },
-    {
-      "rank": 12,
-      "username": "code-yeongyu",
-      "name": "YeonGyu-Kim",
-      "avatar": "https://avatars.githubusercontent.com/u/11153873?s=96&v=4",
-      "repo": "code-yeongyu/oh-my-openagent",
-      "repo_desc": ""
-    },
-    {
-      "rank": 13,
-      "username": "andimarafioti",
-      "name": "Andrés Marafioti",
-      "avatar": "https://avatars.githubusercontent.com/u/9143109?s=96&v=4",
-      "repo": "andimarafioti/faster-qwen3-tts",
-      "repo_desc": ""
-    },
-    {
-      "rank": 14,
-      "username": "777genius",
-      "name": "Илия",
-      "avatar": "https://avatars.githubusercontent.com/u/13103045?s=96&v=4",
-      "repo": "777genius/agent-teams-ai",
-      "repo_desc": ""
-    },
-    {
-      "rank": 15,
-      "username": "bdraco",
-      "name": "J. Nick Koston",
-      "avatar": "https://avatars.githubusercontent.com/u/663432?s=96&v=4",
-      "repo": "bdraco/discovery30303",
-      "repo_desc": ""
-    },
-    {
-      "rank": 16,
-      "username": "mwbrooks",
-      "name": "Michael Brooks",
-      "avatar": "https://avatars.githubusercontent.com/u/21328?s=96&v=4",
-      "repo": "mwbrooks/claude-plugins-official",
-      "repo_desc": ""
-    },
-    {
-      "rank": 17,
-      "username": "mogery",
-      "name": "Gergő Móricz",
-      "avatar": "https://avatars.githubusercontent.com/u/66118807?s=96&v=4",
-      "repo": "",
-      "repo_desc": ""
-    },
-    {
-      "rank": 18,
-      "username": "punkpeye",
-      "name": "Frank Fiegel",
-      "avatar": "https://avatars.githubusercontent.com/u/108313943?s=96&v=4",
-      "repo": "punkpeye/awesome-remote-mcp-servers",
-      "repo_desc": ""
-    },
-    {
-      "rank": 19,
-      "username": "jmanico",
-      "name": "Jim Manico",
-      "avatar": "https://avatars.githubusercontent.com/u/531465?s=96&v=4",
-      "repo": "jmanico/grim-prompter",
-      "repo_desc": ""
-    },
-    {
-      "rank": 20,
-      "username": "ruvnet",
-      "name": "rUv",
-      "avatar": "https://avatars.githubusercontent.com/u/2934394?s=96&v=4",
-      "repo": "ruvnet/RuView",
-      "repo_desc": ""
-    },
-    {
-      "rank": 21,
-      "username": "chthollyphile",
-      "name": "冬霧",
-      "avatar": "https://avatars.githubusercontent.com/u/30263107?s=96&v=4",
-      "repo": "chthollyphile/folia-major",
-      "repo_desc": ""
-    },
-    {
-      "rank": 22,
+      "rank": 4,
       "username": "mvanhorn",
       "name": "Matt Van Horn",
       "avatar": "https://avatars.githubusercontent.com/u/455140?s=96&v=4",
@@ -699,15 +555,87 @@
       "repo_desc": ""
     },
     {
-      "rank": 23,
-      "username": "tt-a1i",
-      "name": "tt-a1i",
-      "avatar": "https://avatars.githubusercontent.com/u/53142663?s=96&v=4",
-      "repo": "tt-a1i/archify",
+      "rank": 5,
+      "username": "saiemgilani",
+      "name": "Saiem Gilani",
+      "avatar": "https://avatars.githubusercontent.com/u/25425933?s=96&v=4",
+      "repo": "saiemgilani/game-on-paper-app",
       "repo_desc": ""
     },
     {
-      "rank": 24,
+      "rank": 6,
+      "username": "runkids",
+      "name": "Willie",
+      "avatar": "https://avatars.githubusercontent.com/u/15520254?s=96&v=4",
+      "repo": "runkids/skillshare",
+      "repo_desc": ""
+    },
+    {
+      "rank": 7,
+      "username": "SaladDay",
+      "name": "SaladDay",
+      "avatar": "https://avatars.githubusercontent.com/u/92240037?s=96&v=4",
+      "repo": "SaladDay/cc-switch-cli",
+      "repo_desc": ""
+    },
+    {
+      "rank": 8,
+      "username": "chthollyphile",
+      "name": "冬霧",
+      "avatar": "https://avatars.githubusercontent.com/u/30263107?s=96&v=4",
+      "repo": "chthollyphile/folia-major",
+      "repo_desc": ""
+    },
+    {
+      "rank": 9,
+      "username": "mwbrooks",
+      "name": "Michael Brooks",
+      "avatar": "https://avatars.githubusercontent.com/u/21328?s=96&v=4",
+      "repo": "mwbrooks/claude-plugins-official",
+      "repo_desc": ""
+    },
+    {
+      "rank": 10,
+      "username": "DeusData",
+      "name": "Martin Vogel",
+      "avatar": "https://avatars.githubusercontent.com/u/81762164?s=96&v=4",
+      "repo": "DeusData/codebase-memory-mcp",
+      "repo_desc": ""
+    },
+    {
+      "rank": 11,
+      "username": "Git-on-my-level",
+      "name": "David Zhang",
+      "avatar": "https://avatars.githubusercontent.com/u/9387252?s=96&v=4",
+      "repo": "Git-on-my-level/zk-relay",
+      "repo_desc": ""
+    },
+    {
+      "rank": 12,
+      "username": "colbymchenry",
+      "name": "Colby Mchenry",
+      "avatar": "https://avatars.githubusercontent.com/u/18431132?s=96&v=4",
+      "repo": "colbymchenry/codegraph",
+      "repo_desc": ""
+    },
+    {
+      "rank": 13,
+      "username": "unbraind",
+      "name": "Steve Preu",
+      "avatar": "https://avatars.githubusercontent.com/u/1153461?s=96&v=4",
+      "repo": "",
+      "repo_desc": ""
+    },
+    {
+      "rank": 14,
+      "username": "DouweM",
+      "name": "Douwe Maan",
+      "avatar": "https://avatars.githubusercontent.com/u/159434?s=96&v=4",
+      "repo": "",
+      "repo_desc": ""
+    },
+    {
+      "rank": 15,
       "username": "alexechoi",
       "name": "Alex Choi",
       "avatar": "https://avatars.githubusercontent.com/u/64334999?s=96&v=4",
@@ -715,11 +643,83 @@
       "repo_desc": ""
     },
     {
+      "rank": 16,
+      "username": "yairm210",
+      "name": "Yair Morgenstern",
+      "avatar": "https://avatars.githubusercontent.com/u/8366208?s=96&v=4",
+      "repo": "yairm210/Unciv",
+      "repo_desc": ""
+    },
+    {
+      "rank": 17,
+      "username": "Pratham-Mishra04",
+      "name": "Pratham Mishra",
+      "avatar": "https://avatars.githubusercontent.com/u/99235987?s=96&v=4",
+      "repo": "",
+      "repo_desc": ""
+    },
+    {
+      "rank": 18,
+      "username": "777genius",
+      "name": "Илия",
+      "avatar": "https://avatars.githubusercontent.com/u/13103045?s=96&v=4",
+      "repo": "777genius/agent-teams-ai",
+      "repo_desc": ""
+    },
+    {
+      "rank": 19,
+      "username": "sv",
+      "name": "Sergey Vidyuk",
+      "avatar": "https://avatars.githubusercontent.com/u/14086?s=96&v=4",
+      "repo": "",
+      "repo_desc": ""
+    },
+    {
+      "rank": 20,
+      "username": "tobi",
+      "name": "Tobias Lütke",
+      "avatar": "https://avatars.githubusercontent.com/u/347?s=96&v=4",
+      "repo": "tobi/qmd",
+      "repo_desc": ""
+    },
+    {
+      "rank": 21,
+      "username": "ruvnet",
+      "name": "rUv",
+      "avatar": "https://avatars.githubusercontent.com/u/2934394?s=96&v=4",
+      "repo": "ruvnet/RuView",
+      "repo_desc": ""
+    },
+    {
+      "rank": 22,
+      "username": "agalwood",
+      "name": "Dr_rOot",
+      "avatar": "https://avatars.githubusercontent.com/u/1032175?s=96&v=4",
+      "repo": "agalwood/Motrix",
+      "repo_desc": ""
+    },
+    {
+      "rank": 23,
+      "username": "vastsa",
+      "name": "Lan",
+      "avatar": "https://avatars.githubusercontent.com/u/48862574?s=96&v=4",
+      "repo": "vastsa/PI-Desktop",
+      "repo_desc": ""
+    },
+    {
+      "rank": 24,
+      "username": "tt-a1i",
+      "name": "tt-a1i",
+      "avatar": "https://avatars.githubusercontent.com/u/53142663?s=96&v=4",
+      "repo": "tt-a1i/archify",
+      "repo_desc": ""
+    },
+    {
       "rank": 25,
-      "username": "cbcoutinho",
-      "name": "Chris Coutinho",
-      "avatar": "https://avatars.githubusercontent.com/u/12901868?s=96&v=4",
-      "repo": "cbcoutinho/nextcloud-mcp-server",
+      "username": "code-yeongyu",
+      "name": "YeonGyu-Kim",
+      "avatar": "https://avatars.githubusercontent.com/u/11153873?s=96&v=4",
+      "repo": "code-yeongyu/oh-my-openagent",
       "repo_desc": ""
     }
   ],
